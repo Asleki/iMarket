@@ -1,0 +1,3766 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Fielder",
+    "year": 2017,
+    "color": "Silver",
+    "price": 1850000,
+    "engine_type": "1.5L Petrol",
+    "features": [
+      "Automatic Transmission",
+      "Air Conditioning",
+      "Power Windows",
+      "ABS",
+      "Dual Airbags",
+      "Reverse Camera",
+      "Bluetooth Connectivity"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 16.0,
+      "highway_km_per_liter": 20.0
+    },
+    "shipping_fee": 0,
+    "imported": false,
+    "vat_included": true,
+    "waiting_period_days": 7,
+    "car_display_image": "https://example.com/images/toyota_fielder_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_fielder_exterior_1.jpg",
+      "https://example.com/images/toyota_fielder_exterior_2.jpg",
+      "https://example.com/images/toyota_fielder_exterior_3.jpg",
+      "https://example.com/images/toyota_fielder_exterior_4.jpg",
+      "https://example.com/images/toyota_fielder_exterior_5.jpg",
+      "https://example.com/images/toyota_fielder_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_fielder_interior_1.jpg",
+      "https://example.com/images/toyota_fielder_interior_2.jpg",
+      "https://example.com/images/toyota_fielder_interior_3.jpg",
+      "https://example.com/images/toyota_fielder_interior_4.jpg",
+      "https://example.com/images/toyota_fielder_interior_5.jpg",
+      "https://example.com/images/toyota_fielder_interior_6.jpg",
+      "https://example.com/images/toyota_fielder_interior_7.jpg",
+      "https://example.com/images/toyota_fielder_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "David Ochieng",
+      "tel": "0701123456",
+      "location": "Ngong Road, Nairobi"
+    }
+  },
+  {
+    "make": "Mazda",
+    "model": "Demio",
+    "year": 2018,
+    "color": "Red",
+    "price": 1200000,
+    "engine_type": "1.3L SkyActiv Petrol",
+    "features": [
+      "i-Stop System",
+      "Touchscreen Display",
+      "Keyless Entry",
+      "Lane Departure Warning",
+      "City Brake Support",
+      "Automatic Climate Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 20.0,
+      "highway_km_per_liter": 24.0
+    },
+    "shipping_fee": 100000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 30,
+    "car_display_image": "https://example.com/images/mazda_demio_display.jpg",
+    "images": [
+      "https://example.com/images/mazda_demio_exterior_1.jpg",
+      "https://example.com/images/mazda_demio_exterior_2.jpg",
+      "https://example.com/images/mazda_demio_exterior_3.jpg",
+      "https://example.com/images/mazda_demio_exterior_4.jpg",
+      "https://example.com/images/mazda_demio_exterior_5.jpg",
+      "https://example.com/images/mazda_demio_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mazda_demio_interior_1.jpg",
+      "https://example.com/images/mazda_demio_interior_2.jpg",
+      "https://example.com/images/mazda_demio_interior_3.jpg",
+      "https://example.com/images/mazda_demio_interior_4.jpg",
+      "https://example.com/images/mazda_demio_interior_5.jpg",
+      "https://example.com/images/mazda_demio_interior_6.jpg",
+      "https://example.com/images/mazda_demio_interior_7.jpg",
+      "https://example.com/images/mazda_demio_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Sarah Njeri",
+      "tel": "0712345678",
+      "location": "Kilimani, Nairobi"
+    }
+  },
+  {
+    "make": "Subaru",
+    "model": "Forester",
+    "year": 2019,
+    "color": "Dark Blue",
+    "price": 3200000,
+    "engine_type": "2.0L Boxer Petrol",
+    "features": [
+      "Symmetrical All-Wheel Drive",
+      "EyeSight Driver Assist",
+      "X-Mode",
+      "Sunroof",
+      "Leather Interior",
+      "Heated Seats",
+      "Power Liftgate",
+      "Adaptive Cruise Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 16.0
+    },
+    "shipping_fee": 0,
+    "imported": false,
+    "vat_included": true,
+    "waiting_period_days": 10,
+    "car_display_image": "https://example.com/images/subaru_forester_display.jpg",
+    "images": [
+      "https://example.com/images/subaru_forester_exterior_1.jpg",
+      "https://example.com/images/subaru_forester_exterior_2.jpg",
+      "https://example.com/images/subaru_forester_exterior_3.jpg",
+      "https://example.com/images/subaru_forester_exterior_4.jpg",
+      "https://example.com/images/subaru_forester_exterior_5.jpg",
+      "https://example.com/images/subaru_forester_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/subaru_forester_interior_1.jpg",
+      "https://example.com/images/subaru_forester_interior_2.jpg",
+      "https://example.com/images/subaru_forester_interior_3.jpg",
+      "https://example.com/images/subaru_forester_interior_4.jpg",
+      "https://example.com/images/subaru_forester_interior_5.jpg",
+      "https://example.com/images/subaru_forester_interior_6.jpg",
+      "https://example.com/images/subaru_forester_interior_7.jpg",
+      "https://example.com/images/subaru_forester_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "James Kamau",
+      "tel": "0722987654",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Nissan",
+    "model": "Note e-POWER",
+    "year": 2020,
+    "color": "White",
+    "price": 2100000,
+    "engine_type": "1.2L Hybrid Electric (e-POWER)",
+    "features": [
+      "Electric Motor Drive",
+      "ProPILOT Assist",
+      "Intelligent Around View Monitor",
+      "Emergency Braking",
+      "Push Button Start",
+      "Eco Mode"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 28.0,
+      "highway_km_per_liter": 30.0
+    },
+    "shipping_fee": 120000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/nissan_note_epower_display.jpg",
+    "images": [
+      "https://example.com/images/nissan_note_epower_exterior_1.jpg",
+      "https://example.com/images/nissan_note_epower_exterior_2.jpg",
+      "https://example.com/images/nissan_note_epower_exterior_3.jpg",
+      "https://example.com/images/nissan_note_epower_exterior_4.jpg",
+      "https://example.com/images/nissan_note_epower_exterior_5.jpg",
+      "https://example.com/images/nissan_note_epower_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/nissan_note_epower_interior_1.jpg",
+      "https://example.com/images/nissan_note_epower_interior_2.jpg",
+      "https://example.com/images/nissan_note_epower_interior_3.jpg",
+      "https://example.com/images/nissan_note_epower_interior_4.jpg",
+      "https://example.com/images/nissan_note_epower_interior_5.jpg",
+      "https://example.com/images/nissan_note_epower_interior_6.jpg",
+      "https://example.com/images/nissan_note_epower_interior_7.jpg",
+      "https://example.com/images/nissan_note_epower_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Grace Mumbi",
+      "tel": "0733876543",
+      "location": "Lang'ata, Nairobi"
+    }
+  },
+  {
+    "make": "Isuzu",
+    "model": "D-Max",
+    "year": 2022,
+    "color": "Metallic Grey",
+    "price": 4500000,
+    "engine_type": "3.0L Turbo Diesel",
+    "features": [
+      "4x4 Drivetrain",
+      "Off-road Capabilities",
+      "Tough Suspension",
+      "Touchscreen Infotainment",
+      "Rearview Camera",
+      "Tow Bar",
+      "Bed Liner"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 0,
+    "imported": false,
+    "vat_included": true,
+    "waiting_period_days": 14,
+    "car_display_image": "https://example.com/images/isuzu_dmax_display.jpg",
+    "images": [
+      "https://example.com/images/isuzu_dmax_exterior_1.jpg",
+      "https://example.com/images/isuzu_dmax_exterior_2.jpg",
+      "https://example.com/images/isuzu_dmax_exterior_3.jpg",
+      "https://example.com/images/isuzu_dmax_exterior_4.jpg",
+      "https://example.com/images/isuzu_dmax_exterior_5.jpg",
+      "https://example.com/images/isuzu_dmax_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/isuzu_dmax_interior_1.jpg",
+      "https://example.com/images/isuzu_dmax_interior_2.jpg",
+      "https://example.com/images/isuzu_dmax_interior_3.jpg",
+      "https://example.com/images/isuzu_dmax_interior_4.jpg",
+      "https://example.com/images/isuzu_dmax_interior_5.jpg",
+      "https://example.com/images/isuzu_dmax_interior_6.jpg",
+      "https://example.com/images/isuzu_dmax_interior_7.jpg",
+      "https://example.com/images/isuzu_dmax_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Peter Kimani",
+      "tel": "0720112233",
+      "location": "Industrial Area, Nairobi"
+    }
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C63 AMG",
+    "year": 2020,
+    "color": "Obsidian Black",
+    "price": 9800000,
+    "engine_type": "4.0L Bi-Turbo V8 Petrol",
+    "features": [
+      "AMG Performance Exhaust",
+      "Sports Suspension",
+      "AMG Dynamic Select",
+      "Burmester Sound System",
+      "Leather Sport Seats",
+      "Panoramic Roof",
+      "Advanced Driver Assist Systems"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 7.0,
+      "highway_km_per_liter": 10.0
+    },
+    "shipping_fee": 250000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/mercedes_c63amg_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_c63amg_exterior_1.jpg",
+      "https://example.com/images/mercedes_c63amg_exterior_2.jpg",
+      "https://example.com/images/mercedes_c63amg_exterior_3.jpg",
+      "https://example.com/images/mercedes_c63amg_exterior_4.jpg",
+      "https://example.com/images/mercedes_c63amg_exterior_5.jpg",
+      "https://example.com/images/mercedes_c63amg_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_c63amg_interior_1.jpg",
+      "https://example.com/images/mercedes_c63amg_interior_2.jpg",
+      "https://example.com/images/mercedes_c63amg_interior_3.jpg",
+      "https://example.com/images/mercedes_c63amg_interior_4.jpg",
+      "https://example.com/images/mercedes_c63amg_interior_5.jpg",
+      "https://example.com/images/mercedes_c63amg_interior_6.jpg",
+      "https://example.com/images/mercedes_c63amg_interior_7.jpg",
+      "https://example.com/images/mercedes_c63amg_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Alex Mwaura",
+      "tel": "0790112233",
+      "location": "Upper Hill, Nairobi"
+    }
+  },
+  {
+    "make": "BMW",
+    "model": "M4 Competition",
+    "year": 2021,
+    "color": "Yas Marina Blue",
+    "price": 12500000,
+    "engine_type": "3.0L TwinPower Turbo I6 Petrol",
+    "features": [
+      "M Sport Differential",
+      "Adaptive M Suspension",
+      "Carbon Fiber Roof",
+      "Harman Kardon Sound System",
+      "M Sport Seats",
+      "Head-Up Display",
+      "Parking Assistant Plus"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.5,
+      "highway_km_per_liter": 9.0
+    },
+    "shipping_fee": 300000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 70,
+    "car_display_image": "https://example.com/images/bmw_m4_competition_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_m4_competition_exterior_1.jpg",
+      "https://example.com/images/bmw_m4_competition_exterior_2.jpg",
+      "https://example.com/images/bmw_m4_competition_exterior_3.jpg",
+      "https://example.com/images/bmw_m4_competition_exterior_4.jpg",
+      "https://example.com/images/bmw_m4_competition_exterior_5.jpg",
+      "https://example.com/images/bmw_m4_competition_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_m4_competition_interior_1.jpg",
+      "https://example.com/images/bmw_m4_competition_interior_2.jpg",
+      "https://example.com/images/bmw_m4_competition_interior_3.jpg",
+      "https://example.com/images/bmw_m4_competition_interior_4.jpg",
+      "https://example.com/images/bmw_m4_competition_interior_5.jpg",
+      "https://example.com/images/bmw_m4_competition_interior_6.jpg",
+      "https://example.com/images/bmw_m4_competition_interior_7.jpg",
+      "https://example.com/images/bmw_m4_competition_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Faith Adhiambo",
+      "tel": "0745678901",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Porsche",
+    "model": "911 Carrera S",
+    "year": 2022,
+    "color": "Guards Red",
+    "price": 28000000,
+    "engine_type": "3.0L Twin-Turbo Flat-6 Petrol",
+    "features": [
+      "Sport Chrono Package",
+      "Porsche Active Suspension Management (PASM)",
+      "Bose Surround Sound System",
+      "Adaptive Sport Seats",
+      "Rear-Axle Steering",
+      "Carbon Ceramic Brakes (optional)"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.0,
+      "highway_km_per_liter": 8.5
+    },
+    "shipping_fee": 500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "https://example.com/images/porsche_911_carrera_s_display.jpg",
+    "images": [
+      "https://example.com/images/porsche_911_carrera_s_exterior_1.jpg",
+      "https://example.com/images/porsche_911_carrera_s_exterior_2.jpg",
+      "https://example.com/images/porsche_911_carrera_s_exterior_3.jpg",
+      "https://example.com/images/porsche_911_carrera_s_exterior_4.jpg",
+      "https://example.com/images/porsche_911_carrera_s_exterior_5.jpg",
+      "https://example.com/images/porsche_911_carrera_s_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/porsche_911_carrera_s_interior_1.jpg",
+      "https://example.com/images/porsche_911_carrera_s_interior_2.jpg",
+      "https://example.com/images/porsche_911_carrera_s_interior_3.jpg",
+      "https://example.com/images/porsche_911_carrera_s_interior_4.jpg",
+      "https://example.com/images/porsche_911_carrera_s_interior_5.jpg",
+      "https://example.com/images/porsche_911_carrera_s_interior_6.jpg",
+      "https://example.com/images/porsche_911_carrera_s_interior_7.jpg",
+      "https://example.com/images/porsche_911_carrera_s_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mark Odhiambo",
+      "tel": "0780234567",
+      "location": "Kitisuru, Nairobi"
+    }
+  },
+  {
+    "make": "Ferrari",
+    "model": "Portofino",
+    "year": 2021,
+    "color": "Rosso Corsa",
+    "price": 45000000,
+    "engine_type": "3.9L Twin-Turbo V8 Petrol",
+    "features": [
+      "Retractable Hardtop",
+      "Magnetic Ride Control",
+      "Carbon Fiber Interior Trim",
+      "Premium Leather Upholstery",
+      "Scuderia Ferrari Shields",
+      "Advanced Infotainment System"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 5.0,
+      "highway_km_per_liter": 7.0
+    },
+    "shipping_fee": 1000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 180,
+    "car_display_image": "https://example.com/images/ferrari_portofino_display.jpg",
+    "images": [
+      "https://example.com/images/ferrari_portofino_exterior_1.jpg",
+      "https://example.com/images/ferrari_portofino_exterior_2.jpg",
+      "https://example.com/images/ferrari_portofino_exterior_3.jpg",
+      "https://example.com/images/ferrari_portofino_exterior_4.jpg",
+      "https://example.com/images/ferrari_portofino_exterior_5.jpg",
+      "https://example.com/images/ferrari_portofino_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/ferrari_portofino_interior_1.jpg",
+      "https://example.com/images/ferrari_portofino_interior_2.jpg",
+      "https://example.com/images/ferrari_portofino_interior_3.jpg",
+      "https://example.com/images/ferrari_portofino_interior_4.jpg",
+      "https://example.com/images/ferrari_portofino_interior_5.jpg",
+      "https://example.com/images/ferrari_portofino_interior_6.jpg",
+      "https://example.com/images/ferrari_portofino_interior_7.jpg",
+      "https://example.com/images/ferrari_portofino_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Sophia Hassan",
+      "tel": "0798765432",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Huracán EVO",
+    "year": 2023,
+    "color": "Verde Mantis (Green)",
+    "price": 60000000,
+    "engine_type": "5.2L Naturally Aspirated V10 Petrol",
+    "features": [
+      "LDVI (Lamborghini Dinamica Veicolo Integrata)",
+      "Adaptive Steering",
+      "Carbon Fiber Monocoque",
+      "Alcantara Interior",
+      "Performance Exhaust",
+      "Carbon Ceramic Brakes"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+      "city_km_per_liter": 4.5,
+      "highway_km_per_liter": 6.5
+    },
+    "shipping_fee": 1500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 240,
+    "car_display_image": "https://example.com/images/lamborghini_huracan_evo_display.jpg",
+    "images": [
+      "https://example.com/images/lamborghini_huracan_evo_exterior_1.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_2.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_3.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_4.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_5.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/lamborghini_huracan_evo_interior_1.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_2.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_3.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_4.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_5.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_6.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_7.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Benjamin Njoroge",
+      "tel": "0791234567",
+      "location": "Gigiri, Nairobi"
+    }
+  },
+  {
+    "make": "Bugatti",
+    "model": "Chiron Super Sport",
+    "year": 2024,
+    "color": "French Racing Blue & Carbon",
+    "price": 280000000,
+    "engine_type": "8.0L Quad-Turbo W16 Petrol",
+    "features": [
+      "Limitless Top Speed",
+      "Full Carbon Fiber Body",
+      "Exclusive Interior Customization",
+      "Advanced Aerodynamics",
+      "Quad-Turbocharged Engine",
+      "Unique Exhaust System"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+      "city_km_per_liter": 2.0,
+      "highway_km_per_liter": 3.5
+    },
+    "shipping_fee": 5000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 365,
+    "car_display_image": "https://example.com/images/bugatti_chiron_supersport_display.jpg",
+    "images": [
+      "https://example.com/images/bugatti_chiron_supersport_exterior_1.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_exterior_2.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_exterior_3.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_exterior_4.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_exterior_5.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bugatti_chiron_supersport_interior_1.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_interior_2.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_interior_3.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_interior_4.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_interior_5.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_interior_6.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_interior_7.jpg",
+      "https://example.com/images/bugatti_chiron_supersport_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Exclusive Auto Broker",
+      "tel": "0700000007",
+      "location": "Muthaiga, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Probox",
+    "year": 2015,
+    "color": "White",
+    "price": 950000,
+    "engine_type": "1.3L Petrol",
+    "features": [
+      "Manual Windows",
+      "Basic Stereo",
+      "Utility Interior",
+      "Cargo Space",
+      "Rear Bench Seat"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 15.0,
+      "highway_km_per_liter": 18.0
+    },
+    "shipping_fee": 80000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_probox_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_probox_exterior_1.jpg",
+      "https://example.com/images/toyota_probox_exterior_2.jpg",
+      "https://example.com/images/toyota_probox_exterior_3.jpg",
+      "https://example.com/images/toyota_probox_exterior_4.jpg",
+      "https://example.com/images/toyota_probox_exterior_5.jpg",
+      "https://example.com/images/toyota_probox_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_probox_interior_1.jpg",
+      "https://example.com/images/toyota_probox_interior_2.jpg",
+      "https://example.com/images/toyota_probox_interior_3.jpg",
+      "https://example.com/images/toyota_probox_interior_4.jpg",
+      "https://example.com/images/toyota_probox_interior_5.jpg",
+      "https://example.com/images/toyota_probox_interior_6.jpg",
+      "https://example.com/images/toyota_probox_interior_7.jpg",
+      "https://example.com/images/toyota_probox_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Jane Muthoni",
+      "tel": "0702345678",
+      "location": "Mombasa Road, Nairobi"
+    }
+  },
+  {
+    "make": "Honda",
+    "model": "Fit",
+    "year": 2019,
+    "color": "Sky Blue",
+    "price": 1400000,
+    "engine_type": "1.5L Petrol (Hybrid Available)",
+    "features": [
+      "Magic Seats",
+      "Touchscreen Infotainment",
+      "Reverse Camera",
+      "Keyless Entry",
+      "Push Start",
+      "LED Headlights"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 18.0,
+      "highway_km_per_liter": 22.0
+    },
+    "shipping_fee": 90000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 35,
+    "car_display_image": "https://example.com/images/honda_fit_display.jpg",
+    "images": [
+      "https://example.com/images/honda_fit_exterior_1.jpg",
+      "https://example.com/images/honda_fit_exterior_2.jpg",
+      "https://example.com/images/honda_fit_exterior_3.jpg",
+      "https://example.com/images/honda_fit_exterior_4.jpg",
+      "https://example.com/images/honda_fit_exterior_5.jpg",
+      "https://example.com/images/honda_fit_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/honda_fit_interior_1.jpg",
+      "https://example.com/images/honda_fit_interior_2.jpg",
+      "https://example.com/images/honda_fit_interior_3.jpg",
+      "https://example.com/images/honda_fit_interior_4.jpg",
+      "https://example.com/images/honda_fit_interior_5.jpg",
+      "https://example.com/images/honda_fit_interior_6.jpg",
+      "https://example.com/images/honda_fit_interior_7.jpg",
+      "https://example.com/images/honda_fit_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Robert Maina",
+      "tel": "0717890123",
+      "location": "Ruaraka, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Prado TX",
+    "year": 2016,
+    "color": "Black",
+    "price": 4800000,
+    "engine_type": "2.7L Petrol",
+    "features": [
+      "4x4",
+      "7 Seater",
+      "Touchscreen Display",
+      "Rearview Camera",
+      "Roof Rails",
+      "Side Steps"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 8.0,
+      "highway_km_per_liter": 11.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/toyota_prado_tx_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_prado_tx_exterior_1.jpg",
+      "https://example.com/images/toyota_prado_tx_exterior_2.jpg",
+      "https://example.com/images/toyota_prado_tx_exterior_3.jpg",
+      "https://example.com/images/toyota_prado_tx_exterior_4.jpg",
+      "https://example.com/images/toyota_prado_tx_exterior_5.jpg",
+      "https://example.com/images/toyota_prado_tx_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_prado_tx_interior_1.jpg",
+      "https://example.com/images/toyota_prado_tx_interior_2.jpg",
+      "https://example.com/images/toyota_prado_tx_interior_3.jpg",
+      "https://example.com/images/toyota_prado_tx_interior_4.jpg",
+      "https://example.com/images/toyota_prado_tx_interior_5.jpg",
+      "https://example.com/images/toyota_prado_tx_interior_6.jpg",
+      "https://example.com/images/toyota_prado_tx_interior_7.jpg",
+      "https://example.com/images/toyota_prado_tx_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mercy Wanjiku",
+      "tel": "0722123456",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Vitz",
+    "year": 2018,
+    "color": "Yellow",
+    "price": 1100000,
+    "engine_type": "1.0L Petrol",
+    "features": [
+      "Compact Size",
+      "Fuel Efficient",
+      "Power Steering",
+      "ABS",
+      "Airbags"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 20.0,
+      "highway_km_per_liter": 25.0
+    },
+    "shipping_fee": 70000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 30,
+    "car_display_image": "https://example.com/images/toyota_vitz_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_vitz_exterior_1.jpg",
+      "https://example.com/images/toyota_vitz_exterior_2.jpg",
+      "https://example.com/images/toyota_vitz_exterior_3.jpg",
+      "https://example.com/images/toyota_vitz_exterior_4.jpg",
+      "https://example.com/images/toyota_vitz_exterior_5.jpg",
+      "https://example.com/images/toyota_vitz_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_vitz_interior_1.jpg",
+      "https://example.com/images/toyota_vitz_interior_2.jpg",
+      "https://example.com/images/toyota_vitz_interior_3.jpg",
+      "https://example.com/images/toyota_vitz_interior_4.jpg",
+      "https://example.com/images/toyota_vitz_interior_5.jpg",
+      "https://example.com/images/toyota_vitz_interior_6.jpg",
+      "https://example.com/images/toyota_vitz_interior_7.jpg",
+      "https://example.com/images/toyota_vitz_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "John Gitau",
+      "tel": "0700987654",
+      "location": "Thika Road, Nairobi"
+    }
+  },
+  {
+    "make": "Honda",
+    "model": "Vezel",
+    "year": 2017,
+    "color": "Burgundy",
+    "price": 2300000,
+    "engine_type": "1.5L Hybrid Petrol",
+    "features": [
+      "Hybrid System",
+      "Paddle Shifters",
+      "Electric Parking Brake",
+      "Cruise Control",
+      "LED Daytime Running Lights",
+      "Touchscreen Infotainment"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 22.0,
+      "highway_km_per_liter": 26.0
+    },
+    "shipping_fee": 100000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/honda_vezel_display.jpg",
+    "images": [
+      "https://example.com/images/honda_vezel_exterior_1.jpg",
+      "https://example.com/images/honda_vezel_exterior_2.jpg",
+      "https://example.com/images/honda_vezel_exterior_3.jpg",
+      "https://example.com/images/honda_vezel_exterior_4.jpg",
+      "https://example.com/images/honda_vezel_exterior_5.jpg",
+      "https://example.com/images/honda_vezel_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/honda_vezel_interior_1.jpg",
+      "https://example.com/images/honda_vezel_interior_2.jpg",
+      "https://example.com/images/honda_vezel_interior_3.jpg",
+      "https://example.com/images/honda_vezel_interior_4.jpg",
+      "https://example.com/images/honda_vezel_interior_5.jpg",
+      "https://example.com/images/honda_vezel_interior_6.jpg",
+      "https://example.com/images/honda_vezel_interior_7.jpg",
+      "https://example.com/images/honda_vezel_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Fatuma Ali",
+      "tel": "0703456789",
+      "location": "Upper Hill, Nairobi"
+    }
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "year": 2019,
+    "color": "Deep Black Pearl",
+    "price": 3800000,
+    "engine_type": "2.0L Turbocharged Petrol",
+    "features": [
+      "Sport Suspension",
+      "Sport Seats",
+      "LED Headlights",
+      "Digital Cockpit",
+      "Apple CarPlay/Android Auto",
+      "Performance Monitor"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 14.0
+    },
+    "shipping_fee": 180000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 55,
+    "car_display_image": "https://example.com/images/vw_golf_gti_display.jpg",
+    "images": [
+      "https://example.com/images/vw_golf_gti_exterior_1.jpg",
+      "https://example.com/images/vw_golf_gti_exterior_2.jpg",
+      "https://example.com/images/vw_golf_gti_exterior_3.jpg",
+      "https://example.com/images/vw_golf_gti_exterior_4.jpg",
+      "https://example.com/images/vw_golf_gti_exterior_5.jpg",
+      "https://example.com/images/vw_golf_gti_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/vw_golf_gti_interior_1.jpg",
+      "https://example.com/images/vw_golf_gti_interior_2.jpg",
+      "https://example.com/images/vw_golf_gti_interior_3.jpg",
+      "https://example.com/images/vw_golf_gti_interior_4.jpg",
+      "https://example.com/images/vw_golf_gti_interior_5.jpg",
+      "https://example.com/images/vw_golf_gti_interior_6.jpg",
+      "https://example.com/images/vw_golf_gti_interior_7.jpg",
+      "https://example.com/images/vw_golf_gti_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Paul Chege",
+      "tel": "0708901234",
+      "location": "Gigiri, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Hilux Double Cab",
+    "year": 2020,
+    "color": "Super White",
+    "price": 4200000,
+    "engine_type": "2.4L Diesel",
+    "features": [
+      "4x4",
+      "Differential Lock",
+      "Utility Bed",
+      "Touchscreen Infotainment",
+      "Reverse Camera",
+      "Heavy Duty Suspension"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.0,
+      "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 100000,
+    "imported": false,
+    "vat_included": true,
+    "waiting_period_days": 20,
+    "car_display_image": "https://example.com/images/toyota_hilux_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_hilux_exterior_1.jpg",
+      "https://example.com/images/toyota_hilux_exterior_2.jpg",
+      "https://example.com/images/toyota_hilux_exterior_3.jpg",
+      "https://example.com/images/toyota_hilux_exterior_4.jpg",
+      "https://example.com/images/toyota_hilux_exterior_5.jpg",
+      "https://example.com/images/toyota_hilux_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_hilux_interior_1.jpg",
+      "https://example.com/images/toyota_hilux_interior_2.jpg",
+      "https://example.com/images/toyota_hilux_interior_3.jpg",
+      "https://example.com/images/toyota_hilux_interior_4.jpg",
+      "https://example.com/images/toyota_hilux_interior_5.jpg",
+      "https://example.com/images/toyota_hilux_interior_6.jpg",
+      "https://example.com/images/toyota_hilux_interior_7.jpg",
+      "https://example.com/images/toyota_hilux_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Samson Kariuki",
+      "tel": "0726789012",
+      "location": "Industrial Area, Nairobi"
+    }
+  },
+  {
+    "make": "Lexus",
+    "model": "RX 450h",
+    "year": 2019,
+    "color": "Atomic Silver",
+    "price": 6800000,
+    "engine_type": "3.5L V6 Hybrid Petrol",
+    "features": [
+      "Lexus Safety System+",
+      "Mark Levinson Audio System",
+      "Heated & Ventilated Seats",
+      "Panoramic View Monitor",
+      "Power Liftgate",
+      "Leather Interior"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 15.0,
+      "highway_km_per_liter": 18.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/lexus_rx450h_display.jpg",
+    "images": [
+      "https://example.com/images/lexus_rx450h_exterior_1.jpg",
+      "https://example.com/images/lexus_rx450h_exterior_2.jpg",
+      "https://example.com/images/lexus_rx450h_exterior_3.jpg",
+      "https://example.com/images/lexus_rx450h_exterior_4.jpg",
+      "https://example.com/images/lexus_rx450h_exterior_5.jpg",
+      "https://example.com/images/lexus_rx450h_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/lexus_rx450h_interior_1.jpg",
+      "https://example.com/images/lexus_rx450h_interior_2.jpg",
+      "https://example.com/images/lexus_rx450h_interior_3.jpg",
+      "https://example.com/images/lexus_rx450h_interior_4.jpg",
+      "https://example.com/images/lexus_rx450h_interior_5.jpg",
+      "https://example.com/images/lexus_rx450h_interior_6.jpg",
+      "https://example.com/images/lexus_rx450h_interior_7.jpg",
+      "https://example.com/images/lexus_rx450h_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Christine Chebet",
+      "tel": "0704567890",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Harrier",
+    "year": 2020,
+    "color": "Black",
+    "price": 4000000,
+    "engine_type": "2.0L Petrol",
+    "features": [
+      "Panoramic Sunroof",
+      "Power Seats",
+      "Touchscreen Display",
+      "Adaptive Cruise Control",
+      "Lane Departure Alert",
+      "JBL Audio System"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 13.0,
+      "highway_km_per_liter": 16.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/toyota_harrier_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_harrier_exterior_1.jpg",
+      "https://example.com/images/toyota_harrier_exterior_2.jpg",
+      "https://example.com/images/toyota_harrier_exterior_3.jpg",
+      "https://example.com/images/toyota_harrier_exterior_4.jpg",
+      "https://example.com/images/toyota_harrier_exterior_5.jpg",
+      "https://example.com/images/toyota_harrier_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_harrier_interior_1.jpg",
+      "https://example.com/images/toyota_harrier_interior_2.jpg",
+      "https://example.com/images/toyota_harrier_interior_3.jpg",
+      "https://example.com/images/toyota_harrier_interior_4.jpg",
+      "https://example.com/images/toyota_harrier_interior_5.jpg",
+      "https://example.com/images/toyota_harrier_interior_6.jpg",
+      "https://example.com/images/toyota_harrier_interior_7.jpg",
+      "https://example.com/images/toyota_harrier_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Daniel Waweru",
+      "tel": "0711223344",
+      "location": "Kilimani, Nairobi"
+    }
+  },
+  {
+    "make": "BMW",
+    "model": "X5",
+    "year": 2021,
+    "color": "Mineral White Metallic",
+    "price": 9500000,
+    "engine_type": "3.0L Turbocharged I6 Diesel",
+    "features": [
+      "xDrive All-Wheel Drive",
+      "M Sport Package",
+      "Adaptive LED Headlights",
+      "Panoramic Glass Roof",
+      "Harman Kardon Surround Sound System",
+      "Wireless Charging"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 11.0,
+      "highway_km_per_liter": 14.0
+    },
+    "shipping_fee": 250000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/bmw_x5_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_x5_exterior_1.jpg",
+      "https://example.com/images/bmw_x5_exterior_2.jpg",
+      "https://example.com/images/bmw_x5_exterior_3.jpg",
+      "https://example.com/images/bmw_x5_exterior_4.jpg",
+      "https://example.com/images/bmw_x5_exterior_5.jpg",
+      "https://example.com/images/bmw_x5_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_x5_interior_1.jpg",
+      "https://example.com/images/bmw_x5_interior_2.jpg",
+      "https://example.com/images/bmw_x5_interior_3.jpg",
+      "https://example.com/images/bmw_x5_interior_4.jpg",
+      "https://example.com/images/bmw_x5_interior_5.jpg",
+      "https://example.com/images/bmw_x5_interior_6.jpg",
+      "https://example.com/images/bmw_x5_interior_7.jpg",
+      "https://example.com/images/bmw_x5_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Jane Kimani",
+      "tel": "0729123456",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Rush",
+    "year": 2018,
+    "color": "Bronze Metallic",
+    "price": 2400000,
+    "engine_type": "1.5L Petrol",
+    "features": [
+      "7 Seater (Compact SUV)",
+      "LED Headlights",
+      "Push Start",
+      "Touchscreen Infotainment",
+      "Rear Parking Sensors",
+      "Stability Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 14.0,
+      "highway_km_per_liter": 18.0
+    },
+    "shipping_fee": 120000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_rush_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_rush_exterior_1.jpg",
+      "https://example.com/images/toyota_rush_exterior_2.jpg",
+      "https://example.com/images/toyota_rush_exterior_3.jpg",
+      "https://example.com/images/toyota_rush_exterior_4.jpg",
+      "https://example.com/images/toyota_rush_exterior_5.jpg",
+      "https://example.com/images/toyota_rush_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_rush_interior_1.jpg",
+      "https://example.com/images/toyota_rush_interior_2.jpg",
+      "https://example.com/images/toyota_rush_interior_3.jpg",
+      "https://example.com/images/toyota_rush_interior_4.jpg",
+      "https://example.com/images/toyota_rush_interior_5.jpg",
+      "https://example.com/images/toyota_rush_interior_6.jpg",
+      "https://example.com/images/toyota_rush_interior_7.jpg",
+      "https://example.com/images/toyota_rush_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Kevin Otieno",
+      "tel": "0706789012",
+      "location": "South C, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "CHR",
+    "year": 2019,
+    "color": "White Pearl",
+    "price": 2800000,
+    "engine_type": "1.8L Hybrid Petrol",
+    "features": [
+      "Distinctive Styling",
+      "Toyota Safety Sense",
+      "Touchscreen Infotainment",
+      "Diamond Pattern Interior",
+      "LED Headlights",
+      "Hybrid Synergy Drive"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 20.0,
+      "highway_km_per_liter": 24.0
+    },
+    "shipping_fee": 130000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_chr_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_chr_exterior_1.jpg",
+      "https://example.com/images/toyota_chr_exterior_2.jpg",
+      "https://example.com/images/toyota_chr_exterior_3.jpg",
+      "https://example.com/images/toyota_chr_exterior_4.jpg",
+      "https://example.com/images/toyota_chr_exterior_5.jpg",
+      "https://example.com/images/toyota_chr_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_chr_interior_1.jpg",
+      "https://example.com/images/toyota_chr_interior_2.jpg",
+      "https://example.com/images/toyota_chr_interior_3.jpg",
+      "https://example.com/images/toyota_chr_interior_4.jpg",
+      "https://example.com/images/toyota_chr_interior_5.jpg",
+      "https://example.com/images/toyota_chr_interior_6.jpg",
+      "https://example.com/images/toyota_chr_interior_7.jpg",
+      "https://example.com/images/toyota_chr_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Susan Wambui",
+      "tel": "0727123456",
+      "location": "Kilimani, Nairobi"
+    }
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "GLE 350d",
+    "year": 2018,
+    "color": "Diamond White Metallic",
+    "price": 7500000,
+    "engine_type": "3.0L V6 Diesel",
+    "features": [
+      "4MATIC All-Wheel Drive",
+      "Panoramic Sunroof",
+      "Leather Interior",
+      "Ambient Lighting",
+      "COMMAND Infotainment System",
+      "Active Parking Assist"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 55,
+    "car_display_image": "https://example.com/images/mercedes_gle350d_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_gle350d_exterior_1.jpg",
+      "https://example.com/images/mercedes_gle350d_exterior_2.jpg",
+      "https://example.com/images/mercedes_gle350d_exterior_3.jpg",
+      "https://example.com/images/mercedes_gle350d_exterior_4.jpg",
+      "https://example.com/images/mercedes_gle350d_exterior_5.jpg",
+      "https://example.com/images/mercedes_gle350d_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_gle350d_interior_1.jpg",
+      "https://example.com/images/mercedes_gle350d_interior_2.jpg",
+      "https://example.com/images/mercedes_gle350d_interior_3.jpg",
+      "https://example.com/images/mercedes_gle350d_interior_4.jpg",
+      "https://example.com/images/mercedes_gle350d_interior_5.jpg",
+      "https://example.com/images/mercedes_gle350d_interior_6.jpg",
+      "https://example.com/images/mercedes_gle350d_interior_7.jpg",
+      "https://example.com/images/mercedes_gle350d_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Charles Odongo",
+      "tel": "0705678901",
+      "location": "Upper Hill, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Land Cruiser V8",
+    "year": 2017,
+    "color": "White Pearl",
+    "price": 9500000,
+    "engine_type": "4.5L Twin-Turbo Diesel V8",
+    "features": [
+      "Full-time 4WD",
+      "Multi-terrain Select",
+      "Crawl Control",
+      "Cool Box",
+      "Leather Interior",
+      "JBL Sound System",
+      "Sunroof"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 7.0,
+      "highway_km_per_liter": 10.0
+    },
+    "shipping_fee": 300000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 70,
+    "car_display_image": "https://example.com/images/toyota_landcruiser_v8_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_landcruiser_v8_exterior_1.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_exterior_2.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_exterior_3.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_exterior_4.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_exterior_5.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_landcruiser_v8_interior_1.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_interior_2.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_interior_3.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_interior_4.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_interior_5.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_interior_6.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_interior_7.jpg",
+      "https://example.com/images/toyota_landcruiser_v8_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "George Kamau",
+      "tel": "0718765432",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Ford",
+    "model": "Ranger Wildtrak",
+    "year": 2021,
+    "color": "Absolute Black",
+    "price": 5000000,
+    "engine_type": "3.2L Diesel",
+    "features": [
+      "4x4 Shift-on-the-fly",
+      "SYNC 3 Infotainment",
+      "Leather Seats",
+      "Power Roller Shutter",
+      "Lane Keeping Aid",
+      "Adaptive Cruise Control"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 8.5,
+      "highway_km_per_liter": 11.5
+    },
+    "shipping_fee": 0,
+    "imported": false,
+    "vat_included": true,
+    "waiting_period_days": 18,
+    "car_display_image": "https://example.com/images/ford_ranger_wildtrak_display.jpg",
+    "images": [
+      "https://example.com/images/ford_ranger_wildtrak_exterior_1.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_exterior_2.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_exterior_3.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_exterior_4.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_exterior_5.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/ford_ranger_wildtrak_interior_1.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_interior_2.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_interior_3.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_interior_4.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_interior_5.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_interior_6.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_interior_7.jpg",
+      "https://example.com/images/ford_ranger_wildtrak_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Cynthia Wambua",
+      "tel": "0734567890",
+      "location": "Mombasa Road, Nairobi"
+    }
+  },
+  {
+    "make": "Nissan",
+    "model": "X-Trail",
+    "year": 2017,
+    "color": "Brilliant Silver",
+    "price": 2700000,
+    "engine_type": "2.0L Petrol",
+    "features": [
+      "Around View Monitor",
+      "Intelligent Ride Control",
+      "Panoramic Moonroof",
+      "Leather Seats (optional)",
+      "Roof Rails",
+      "Hill Start Assist"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 15.0
+    },
+    "shipping_fee": 130000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/nissan_xtrail_display.jpg",
+    "images": [
+      "https://example.com/images/nissan_xtrail_exterior_1.jpg",
+      "https://example.com/images/nissan_xtrail_exterior_2.jpg",
+      "https://example.com/images/nissan_xtrail_exterior_3.jpg",
+      "https://example.com/images/nissan_xtrail_exterior_4.jpg",
+      "https://example.com/images/nissan_xtrail_exterior_5.jpg",
+      "https://example.com/images/nissan_xtrail_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/nissan_xtrail_interior_1.jpg",
+      "https://example.com/images/nissan_xtrail_interior_2.jpg",
+      "https://example.com/images/nissan_xtrail_interior_3.jpg",
+      "https://example.com/images/nissan_xtrail_interior_4.jpg",
+      "https://example.com/images/nissan_xtrail_interior_5.jpg",
+      "https://example.com/images/nissan_xtrail_interior_6.jpg",
+      "https://example.com/images/nissan_xtrail_interior_7.jpg",
+      "https://example.com/images/nissan_xtrail_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Ben Onyango",
+      "tel": "0725678901",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Hiace",
+    "year": 2018,
+    "color": "White",
+    "price": 3800000,
+    "engine_type": "2.5L Diesel",
+    "features": [
+      "14 Seater",
+      "High Roof",
+      "Sliding Doors",
+      "Rear Air Conditioning",
+      "Power Steering",
+      "ABS"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 14,
+    "fuel_efficiency": {
+      "city_km_per_liter": 8.0,
+      "highway_km_per_liter": 11.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/toyota_hiace_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_hiace_exterior_1.jpg",
+      "https://example.com/images/toyota_hiace_exterior_2.jpg",
+      "https://example.com/images/toyota_hiace_exterior_3.jpg",
+      "https://example.com/images/toyota_hiace_exterior_4.jpg",
+      "https://example.com/images/toyota_hiace_exterior_5.jpg",
+      "https://example.com/images/toyota_hiace_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_hiace_interior_1.jpg",
+      "https://example.com/images/toyota_hiace_interior_2.jpg",
+      "https://example.com/images/toyota_hiace_interior_3.jpg",
+      "https://example.com/images/toyota_hiace_interior_4.jpg",
+      "https://example.com/images/toyota_hiace_interior_5.jpg",
+      "https://example.com/images/toyota_hiace_interior_6.jpg",
+      "https://example.com/images/toyota_hiace_interior_7.jpg",
+      "https://example.com/images/toyota_hiace_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mary Njoki",
+      "tel": "0724123456",
+      "location": "Ruaka, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Axio",
+    "year": 2016,
+    "color": "Blue Metallic",
+    "price": 1600000,
+    "engine_type": "1.5L Petrol",
+    "features": [
+      "Automatic Transmission",
+      "Power Windows",
+      "Air Conditioning",
+      "Central Locking",
+      "Fabric Seats"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 17.0,
+      "highway_km_per_liter": 21.0
+    },
+    "shipping_fee": 85000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 35,
+    "car_display_image": "https://example.com/images/toyota_axio_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_axio_exterior_1.jpg",
+      "https://example.com/images/toyota_axio_exterior_2.jpg",
+      "https://example.com/images/toyota_axio_exterior_3.jpg",
+      "https://example.com/images/toyota_axio_exterior_4.jpg",
+      "https://example.com/images/toyota_axio_exterior_5.jpg",
+      "https://example.com/images/toyota_axio_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_axio_interior_1.jpg",
+      "https://example.com/images/toyota_axio_interior_2.jpg",
+      "https://example.com/images/toyota_axio_interior_3.jpg",
+      "https://example.com/images/toyota_axio_interior_4.jpg",
+      "https://example.com/images/toyota_axio_interior_5.jpg",
+      "https://example.com/images/toyota_axio_interior_6.jpg",
+      "https://example.com/images/toyota_axio_interior_7.jpg",
+      "https://example.com/images/toyota_axio_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Evelyn Moraa",
+      "tel": "0723456789",
+      "location": "Lang'ata, Nairobi"
+    }
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "E-Class (E220d)",
+    "year": 2019,
+    "color": "Iridium Silver",
+    "price": 6200000,
+    "engine_type": "2.0L Turbo Diesel",
+    "features": [
+      "LED High Performance Headlights",
+      "Widescreen Cockpit",
+      "ARTICO Leather Seats",
+      "Active Parking Assist with PARKTRONIC",
+      "Ambient Lighting",
+      "Burmester Surround Sound System"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 14.0,
+      "highway_km_per_liter": 18.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 55,
+    "car_display_image": "https://example.com/images/mercedes_e220d_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_e220d_exterior_1.jpg",
+      "https://example.com/images/mercedes_e220d_exterior_2.jpg",
+      "https://example.com/images/mercedes_e220d_exterior_3.jpg",
+      "https://example.com/images/mercedes_e220d_exterior_4.jpg",
+      "https://example.com/images/mercedes_e220d_exterior_5.jpg",
+      "https://example.com/images/mercedes_e220d_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_e220d_interior_1.jpg",
+      "https://example.com/images/mercedes_e220d_interior_2.jpg",
+      "https://example.com/images/mercedes_e220d_interior_3.jpg",
+      "https://example.com/images/mercedes_e220d_interior_4.jpg",
+      "https://example.com/images/mercedes_e220d_interior_5.jpg",
+      "https://example.com/images/mercedes_e220d_interior_6.jpg",
+      "https://example.com/images/mercedes_e220d_interior_7.jpg",
+      "https://example.com/images/mercedes_e220d_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Kevin Njoroge",
+      "tel": "0707890123",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Audi",
+    "model": "Q5",
+    "year": 2018,
+    "color": "Mythos Black Metallic",
+    "price": 5800000,
+    "engine_type": "2.0L TFSI Petrol",
+    "features": [
+      "Quattro All-Wheel Drive",
+      "Audi Virtual Cockpit",
+      "MMI Navigation Plus",
+      "Leather Seats",
+      "Panoramic Sunroof",
+      "Audi Pre Sense City"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 11.0,
+      "highway_km_per_liter": 14.0
+    },
+    "shipping_fee": 180000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/audi_q5_display.jpg",
+    "images": [
+      "https://example.com/images/audi_q5_exterior_1.jpg",
+      "https://example.com/images/audi_q5_exterior_2.jpg",
+      "https://example.com/images/audi_q5_exterior_3.jpg",
+      "https://example.com/images/audi_q5_exterior_4.jpg",
+      "https://example.com/images/audi_q5_exterior_5.jpg",
+      "https://example.com/images/audi_q5_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/audi_q5_interior_1.jpg",
+      "https://example.com/images/audi_q5_interior_2.jpg",
+      "https://example.com/images/audi_q5_interior_3.jpg",
+      "https://example.com/images/audi_q5_interior_4.jpg",
+      "https://example.com/images/audi_q5_interior_5.jpg",
+      "https://example.com/images/audi_q5_interior_6.jpg",
+      "https://example.com/images/audi_q5_interior_7.jpg",
+      "https://example.com/images/audi_q5_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Samuel Kipruto",
+      "tel": "0728901234",
+      "location": "Lavington, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Alphard",
+    "year": 2017,
+    "color": "Black",
+    "price": 4500000,
+    "engine_type": "2.5L Hybrid Petrol",
+    "features": [
+      "Executive Lounge Seats",
+      "Power Sliding Doors",
+      "Roof-Mounted Monitor",
+      "Ambient Lighting",
+      "Premium Sound System",
+      "Adaptive Cruise Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 15.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/toyota_alphard_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_alphard_exterior_1.jpg",
+      "https://example.com/images/toyota_alphard_exterior_2.jpg",
+      "https://example.com/images/toyota_alphard_exterior_3.jpg",
+      "https://example.com/images/toyota_alphard_exterior_4.jpg",
+      "https://example.com/images/toyota_alphard_exterior_5.jpg",
+      "https://example.com/images/toyota_alphard_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_alphard_interior_1.jpg",
+      "https://example.com/images/toyota_alphard_interior_2.jpg",
+      "https://example.com/images/toyota_alphard_interior_3.jpg",
+      "https://example.com/images/toyota_alphard_interior_4.jpg",
+      "https://example.com/images/toyota_alphard_interior_5.jpg",
+      "https://example.com/images/toyota_alphard_interior_6.jpg",
+      "https://example.com/images/toyota_alphard_interior_7.jpg",
+      "https://example.com/images/toyota_alphard_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Susan Nyamu",
+      "tel": "0730112233",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Nissan",
+    "model": "Juke",
+    "year": 2016,
+    "color": "White",
+    "price": 1650000,
+    "engine_type": "1.5L Petrol",
+    "features": [
+      "Sporty Design",
+      "Integrated Control System (I-CON)",
+      "Rearview Camera",
+      "Bluetooth Connectivity",
+      "Automatic Climate Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 14.0,
+      "highway_km_per_liter": 17.0
+    },
+    "shipping_fee": 90000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 35,
+    "car_display_image": "https://example.com/images/nissan_juke_display.jpg",
+    "images": [
+      "https://example.com/images/nissan_juke_exterior_1.jpg",
+      "https://example.com/images/nissan_juke_exterior_2.jpg",
+      "https://example.com/images/nissan_juke_exterior_3.jpg",
+      "https://example.com/images/nissan_juke_exterior_4.jpg",
+      "https://example.com/images/nissan_juke_exterior_5.jpg",
+      "https://example.com/images/nissan_juke_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/nissan_juke_interior_1.jpg",
+      "https://example.com/images/nissan_juke_interior_2.jpg",
+      "https://example.com/images/nissan_juke_interior_3.jpg",
+      "https://example.com/images/nissan_juke_interior_4.jpg",
+      "https://example.com/images/nissan_juke_interior_5.jpg",
+      "https://example.com/images/nissan_juke_interior_6.jpg",
+      "https://example.com/images/nissan_juke_interior_7.jpg",
+      "https://example.com/images/nissan_juke_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Brian Mwangi",
+      "tel": "0709876543",
+      "location": "Thika Road, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Sienta",
+    "year": 2018,
+    "color": "Light Purple Mica",
+    "price": 2100000,
+    "engine_type": "1.5L Hybrid Petrol",
+    "features": [
+      "Sliding Doors",
+      "7 Seater (Compact MPV)",
+      "Hybrid System",
+      "Touchscreen Display",
+      "Fold-flat Seating"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 20.0,
+      "highway_km_per_liter": 24.0
+    },
+    "shipping_fee": 110000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_sienta_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_sienta_exterior_1.jpg",
+      "https://example.com/images/toyota_sienta_exterior_2.jpg",
+      "https://example.com/images/toyota_sienta_exterior_3.jpg",
+      "https://example.com/images/toyota_sienta_exterior_4.jpg",
+      "https://example.com/images/toyota_sienta_exterior_5.jpg",
+      "https://example.com/images/toyota_sienta_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_sienta_interior_1.jpg",
+      "https://example.com/images/toyota_sienta_interior_2.jpg",
+      "https://example.com/images/toyota_sienta_interior_3.jpg",
+      "https://example.com/images/toyota_sienta_interior_4.jpg",
+      "https://example.com/images/toyota_sienta_interior_5.jpg",
+      "https://example.com/images/toyota_sienta_interior_6.jpg",
+      "https://example.com/images/toyota_sienta_interior_7.jpg",
+      "https://example.com/images/toyota_sienta_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Brenda Anyango",
+      "tel": "0701234567",
+      "location": "Embakasi, Nairobi"
+    }
+  },
+  {
+    "make": "Suzuki",
+    "model": "Swift",
+    "year": 2019,
+    "color": "White",
+    "price": 1300000,
+    "engine_type": "1.2L Petrol",
+    "features": [
+      "Compact & Agile",
+      "Fuel Efficient",
+      "Touchscreen Infotainment",
+      "LED Projector Headlamps",
+      "Dual Sensor Brake Support"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 19.0,
+      "highway_km_per_liter": 23.0
+    },
+    "shipping_fee": 80000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 30,
+    "car_display_image": "https://example.com/images/suzuki_swift_display.jpg",
+    "images": [
+      "https://example.com/images/suzuki_swift_exterior_1.jpg",
+      "https://example.com/images/suzuki_swift_exterior_2.jpg",
+      "https://example.com/images/suzuki_swift_exterior_3.jpg",
+      "https://example.com/images/suzuki_swift_exterior_4.jpg",
+      "https://example.com/images/suzuki_swift_exterior_5.jpg",
+      "https://example.com/images/suzuki_swift_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/suzuki_swift_interior_1.jpg",
+      "https://example.com/images/suzuki_swift_interior_2.jpg",
+      "https://example.com/images/suzuki_swift_interior_3.jpg",
+      "https://example.com/images/suzuki_swift_interior_4.jpg",
+      "https://example.com/images/suzuki_swift_interior_5.jpg",
+      "https://example.com/images/suzuki_swift_interior_6.jpg",
+      "https://example.com/images/suzuki_swift_interior_7.jpg",
+      "https://example.com/images/suzuki_swift_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Patrick Mwangi",
+      "tel": "0700112233",
+      "location": "City Centre, Nairobi"
+    }
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Outlander PHEV",
+    "year": 2020,
+    "color": "Titanium Grey Metallic",
+    "price": 3800000,
+    "engine_type": "2.4L Plug-in Hybrid",
+    "features": [
+      "Super All-Wheel Control (S-AWC)",
+      "Electric Range",
+      "Quick Charge Capability",
+      "Leather Seats",
+      "Heated Steering Wheel",
+      "Dual-Zone Climate Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 25.0,
+      "highway_km_per_liter": 28.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/mitsubishi_outlander_phev_display.jpg",
+    "images": [
+      "https://example.com/images/mitsubishi_outlander_phev_exterior_1.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_exterior_2.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_exterior_3.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_exterior_4.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_exterior_5.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mitsubishi_outlander_phev_interior_1.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_interior_2.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_interior_3.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_interior_4.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_interior_5.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_interior_6.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_interior_7.jpg",
+      "https://example.com/images/mitsubishi_outlander_phev_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Joshua Omolo",
+      "tel": "0714567890",
+      "location": "Ngong Road, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Land Cruiser 300 Series",
+    "year": 2022,
+    "color": "Attitude Black Mica",
+    "price": 18000000,
+    "engine_type": "3.5L Twin-Turbo V6 Petrol",
+    "features": [
+      "New GA-F Platform",
+      "Multi-Terrain Monitor",
+      "Toyota Safety Sense 2.0",
+      "Digital Rear-View Mirror",
+      "JBL Premium Audio",
+      "Torsen LSD"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 7.0,
+      "highway_km_per_liter": 10.0
+    },
+    "shipping_fee": 500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 100,
+    "car_display_image": "https://example.com/images/toyota_lc300_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_lc300_exterior_1.jpg",
+      "https://example.com/images/toyota_lc300_exterior_2.jpg",
+      "https://example.com/images/toyota_lc300_exterior_3.jpg",
+      "https://example.com/images/toyota_lc300_exterior_4.jpg",
+      "https://example.com/images/toyota_lc300_exterior_5.jpg",
+      "https://example.com/images/toyota_lc300_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_lc300_interior_1.jpg",
+      "https://example.com/images/toyota_lc300_interior_2.jpg",
+      "https://example.com/images/toyota_lc300_interior_3.jpg",
+      "https://example.com/images/toyota_lc300_interior_4.jpg",
+      "https://example.com/images/toyota_lc300_interior_5.jpg",
+      "https://example.com/images/toyota_lc300_interior_6.jpg",
+      "https://example.com/images/toyota_lc300_interior_7.jpg",
+      "https://example.com/images/toyota_lc300_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mercy Nduku",
+      "tel": "0790987654",
+      "location": "Gigiri, Nairobi"
+    }
+  },
+  {
+    "make": "BMW",
+    "model": "3 Series (320i)",
+    "year": 2019,
+    "color": "Alpine White",
+    "price": 4800000,
+    "engine_type": "2.0L Turbo Petrol",
+    "features": [
+      "Live Cockpit Professional",
+      "iDrive 7",
+      "Sport Seats",
+      "LED Headlights",
+      "Parking Assistant",
+      "Wireless Apple CarPlay"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 16.0
+    },
+    "shipping_fee": 180000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/bmw_3series_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_3series_exterior_1.jpg",
+      "https://example.com/images/bmw_3series_exterior_2.jpg",
+      "https://example.com/images/bmw_3series_exterior_3.jpg",
+      "https://example.com/images/bmw_3series_exterior_4.jpg",
+      "https://example.com/images/bmw_3series_exterior_5.jpg",
+      "https://example.com/images/bmw_3series_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_3series_interior_1.jpg",
+      "https://example.com/images/bmw_3series_interior_2.jpg",
+      "https://example.com/images/bmw_3series_interior_3.jpg",
+      "https://example.com/images/bmw_3series_interior_4.jpg",
+      "https://example.com/images/bmw_3series_interior_5.jpg",
+      "https://example.com/images/bmw_3series_interior_6.jpg",
+      "https://example.com/images/bmw_3series_interior_7.jpg",
+      "https://example.com/images/bmw_3series_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Vincent Kiprono",
+      "tel": "0700234567",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Audi",
+    "model": "A4",
+    "year": 2018,
+    "color": "Glacier White Metallic",
+    "price": 4500000,
+    "engine_type": "2.0L TFSI Petrol",
+    "features": [
+      "LED Headlights",
+      "Audi Smartphone Interface",
+      "Leather Seats",
+      "Virtual Cockpit (optional)",
+      "Three-zone Climate Control",
+      "Parking System Plus"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 13.0,
+      "highway_km_per_liter": 17.0
+    },
+    "shipping_fee": 170000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 48,
+    "car_display_image": "https://example.com/images/audi_a4_display.jpg",
+    "images": [
+      "https://example.com/images/audi_a4_exterior_1.jpg",
+      "https://example.com/images/audi_a4_exterior_2.jpg",
+      "https://example.com/images/audi_a4_exterior_3.jpg",
+      "https://example.com/images/audi_a4_exterior_4.jpg",
+      "https://example.com/images/audi_a4_exterior_5.jpg",
+      "https://example.com/images/audi_a4_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/audi_a4_interior_1.jpg",
+      "https://example.com/images/audi_a4_interior_2.jpg",
+      "https://example.com/images/audi_a4_interior_3.jpg",
+      "https://example.com/images/audi_a4_interior_4.jpg",
+      "https://example.com/images/audi_a4_interior_5.jpg",
+      "https://example.com/images/audi_a4_interior_6.jpg",
+      "https://example.com/images/audi_a4_interior_7.jpg",
+      "https://example.com/images/audi_a4_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Caroline Wanjiru",
+      "tel": "0719876543",
+      "location": "Lavington, Nairobi"
+    }
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2020,
+    "color": "Pure White",
+    "price": 4200000,
+    "engine_type": "1.4L TSI Petrol",
+    "features": [
+      "Panoramic Sunroof",
+      "Digital Cockpit",
+      "Apple CarPlay/Android Auto",
+      "LED Headlights",
+      "Adaptive Cruise Control",
+      "Front Assist"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 15.0
+    },
+    "shipping_fee": 160000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/vw_tiguan_display.jpg",
+    "images": [
+      "https://example.com/images/vw_tiguan_exterior_1.jpg",
+      "https://example.com/images/vw_tiguan_exterior_2.jpg",
+      "https://example.com/images/vw_tiguan_exterior_3.jpg",
+      "https://example.com/images/vw_tiguan_exterior_4.jpg",
+      "https://example.com/images/vw_tiguan_exterior_5.jpg",
+      "https://example.com/images/vw_tiguan_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/vw_tiguan_interior_1.jpg",
+      "https://example.com/images/vw_tiguan_interior_2.jpg",
+      "https://example.com/images/vw_tiguan_interior_3.jpg",
+      "https://example.com/images/vw_tiguan_interior_4.jpg",
+      "https://example.com/images/vw_tiguan_interior_5.jpg",
+      "https://example.com/images/vw_tiguan_interior_6.jpg",
+      "https://example.com/images/vw_tiguan_interior_7.jpg",
+      "https://example.com/images/vw_tiguan_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Dennis Kipkemboi",
+      "tel": "0731234567",
+      "location": "Kilimani, Nairobi"
+    }
+  },
+  {
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2019,
+    "color": "Soul Red Crystal Metallic",
+    "price": 3500000,
+    "engine_type": "2.5L SkyActiv Petrol",
+    "features": [
+      "G-Vectoring Control Plus",
+      "Mazda Connect Infotainment",
+      "Bose Audio System",
+      "Leather Seats",
+      "Power Liftgate",
+      "Blind Spot Monitoring"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 13.0,
+      "highway_km_per_liter": 16.0
+    },
+    "shipping_fee": 140000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/mazda_cx5_display.jpg",
+    "images": [
+      "https://example.com/images/mazda_cx5_exterior_1.jpg",
+      "https://example.com/images/mazda_cx5_exterior_2.jpg",
+      "https://example.com/images/mazda_cx5_exterior_3.jpg",
+      "https://example.com/images/mazda_cx5_exterior_4.jpg",
+      "https://example.com/images/mazda_cx5_exterior_5.jpg",
+      "https://example.com/images/mazda_cx5_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mazda_cx5_interior_1.jpg",
+      "https://example.com/images/mazda_cx5_interior_2.jpg",
+      "https://example.com/images/mazda_cx5_interior_3.jpg",
+      "https://example.com/images/mazda_cx5_interior_4.jpg",
+      "https://example.com/images/mazda_cx5_interior_5.jpg",
+      "https://example.com/images/mazda_cx5_interior_6.jpg",
+      "https://example.com/images/mazda_cx5_interior_7.jpg",
+      "https://example.com/images/mazda_cx5_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Maryanne Gathoni",
+      "tel": "0702876543",
+      "location": "Ngong Road, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Crown",
+    "year": 2018,
+    "color": "Precious White Pearl",
+    "price": 5000000,
+    "engine_type": "2.5L Hybrid Petrol",
+    "features": [
+      "Toyota New Global Architecture (TNGA)",
+      "Adaptive Variable Suspension",
+      "T-Connect SD Navigation",
+      "Leather Seats",
+      "Rear Power Seats",
+      "Advanced Safety Features"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 16.0,
+      "highway_km_per_liter": 20.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/toyota_crown_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_crown_exterior_1.jpg",
+      "https://example.com/images/toyota_crown_exterior_2.jpg",
+      "https://example.com/images/toyota_crown_exterior_3.jpg",
+      "https://example.com/images/toyota_crown_exterior_4.jpg",
+      "https://example.com/images/toyota_crown_exterior_5.jpg",
+      "https://example.com/images/toyota_crown_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_crown_interior_1.jpg",
+      "https://example.com/images/toyota_crown_interior_2.jpg",
+      "https://example.com/images/toyota_crown_interior_3.jpg",
+      "https://example.com/images/toyota_crown_interior_4.jpg",
+      "https://example.com/images/toyota_crown_interior_5.jpg",
+      "https://example.com/images/toyota_crown_interior_6.jpg",
+      "https://example.com/images/toyota_crown_interior_7.jpg",
+      "https://example.com/images/toyota_crown_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Joseph Mugo",
+      "tel": "0721234567",
+      "location": "Muthaiga, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Aqua",
+    "year": 2017,
+    "color": "Gray Metallic",
+    "price": 1450000,
+    "engine_type": "1.5L Hybrid Petrol",
+    "features": [
+      "Compact Hybrid",
+      "Good Fuel Economy",
+      "Push Start Button",
+      "Touchscreen Infotainment",
+      "Automatic Climate Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 25.0,
+      "highway_km_per_liter": 30.0
+    },
+    "shipping_fee": 80000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 35,
+    "car_display_image": "https://example.com/images/toyota_aqua_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_aqua_exterior_1.jpg",
+      "https://example.com/images/toyota_aqua_exterior_2.jpg",
+      "https://example.com/images/toyota_aqua_exterior_3.jpg",
+      "https://example.com/images/toyota_aqua_exterior_4.jpg",
+      "https://example.com/images/toyota_aqua_exterior_5.jpg",
+      "https://example.com/images/toyota_aqua_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_aqua_interior_1.jpg",
+      "https://example.com/images/toyota_aqua_interior_2.jpg",
+      "https://example.com/images/toyota_aqua_interior_3.jpg",
+      "https://example.com/images/toyota_aqua_interior_4.jpg",
+      "https://example.com/images/toyota_aqua_interior_5.jpg",
+      "https://example.com/images/toyota_aqua_interior_6.jpg",
+      "https://example.com/images/toyota_aqua_interior_7.jpg",
+      "https://example.com/images/toyota_aqua_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Mercy Awuor",
+      "tel": "0703876543",
+      "location": "Rongai, Nairobi"
+    }
+  },
+  {
+    "make": "Range Rover",
+    "model": "Sport",
+    "year": 2020,
+    "color": "Santorini Black",
+    "price": 12000000,
+    "engine_type": "3.0L Turbo Diesel V6",
+    "features": [
+      "Terrain Response 2",
+      "Meridian Surround Sound System",
+      "Panoramic Roof",
+      "Leather Interior",
+      "Adaptive Cruise Control",
+      "Heated and Cooled Seats"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.0,
+      "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 350000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 75,
+    "car_display_image": "https://example.com/images/range_rover_sport_display.jpg",
+    "images": [
+      "https://example.com/images/range_rover_sport_exterior_1.jpg",
+      "https://example.com/images/range_rover_sport_exterior_2.jpg",
+      "https://example.com/images/range_rover_sport_exterior_3.jpg",
+      "https://example.com/images/range_rover_sport_exterior_4.jpg",
+      "https://example.com/images/range_rover_sport_exterior_5.jpg",
+      "https://example.com/images/range_rover_sport_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/range_rover_sport_interior_1.jpg",
+      "https://example.com/images/range_rover_sport_interior_2.jpg",
+      "https://example.com/images/range_rover_sport_interior_3.jpg",
+      "https://example.com/images/range_rover_sport_interior_4.jpg",
+      "https://example.com/images/range_rover_sport_interior_5.jpg",
+      "https://example.com/images/range_rover_sport_interior_6.jpg",
+      "https://example.com/images/range_rover_sport_interior_7.jpg",
+      "https://example.com/images/range_rover_sport_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Michael Onyango",
+      "tel": "0720345678",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "BMW",
+    "model": "iX (Electric SUV)",
+    "year": 2023,
+    "color": "Sophisto Grey Metallic",
+    "price": 16000000,
+    "engine_type": "Dual Electric Motors",
+    "features": [
+      "BMW eDrive Technology",
+      "Curved Display",
+      "Integrated 5G Connectivity",
+      "Panoramic Sky Lounge LED Roof",
+      "Active Driving Assistant Pro",
+      "Vegan Leather Interior"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": "N/A (Electric)",
+      "highway_km_per_liter": "N/A (Electric)"
+    },
+    "shipping_fee": 400000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "https://example.com/images/bmw_ix_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_ix_exterior_1.jpg",
+      "https://example.com/images/bmw_ix_exterior_2.jpg",
+      "https://example.com/images/bmw_ix_exterior_3.jpg",
+      "https://example.com/images/bmw_ix_exterior_4.jpg",
+      "https://example.com/images/bmw_ix_exterior_5.jpg",
+      "https://example.com/images/bmw_ix_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_ix_interior_1.jpg",
+      "https://example.com/images/bmw_ix_interior_2.jpg",
+      "https://example.com/images/bmw_ix_interior_3.jpg",
+      "https://example.com/images/bmw_ix_interior_4.jpg",
+      "https://example.com/images/bmw_ix_interior_5.jpg",
+      "https://example.com/images/bmw_ix_interior_6.jpg",
+      "https://example.com/images/bmw_ix_interior_7.jpg",
+      "https://example.com/images/bmw_ix_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Esther Wanjiru",
+      "tel": "0792345678",
+      "location": "Gigiri, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Premio",
+    "year": 2016,
+    "color": "Dark Blue Mica",
+    "price": 2000000,
+    "engine_type": "1.8L Petrol",
+    "features": [
+      "Smart Key System",
+      "Push Start Button",
+      "Auto Air Conditioning",
+      "Wood Grain Interior Accents",
+      "HID Headlamps"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 15.0,
+      "highway_km_per_liter": 19.0
+    },
+    "shipping_fee": 100000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_premio_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_premio_exterior_1.jpg",
+      "https://example.com/images/toyota_premio_exterior_2.jpg",
+      "https://example.com/images/toyota_premio_exterior_3.jpg",
+      "https://example.com/images/toyota_premio_exterior_4.jpg",
+      "https://example.com/images/toyota_premio_exterior_5.jpg",
+      "https://example.com/images/toyota_premio_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_premio_interior_1.jpg",
+      "https://example.com/images/toyota_premio_interior_2.jpg",
+      "https://example.com/images/toyota_premio_interior_3.jpg",
+      "https://example.com/images/toyota_premio_interior_4.jpg",
+      "https://example.com/images/toyota_premio_interior_5.jpg",
+      "https://example.com/images/toyota_premio_interior_6.jpg",
+      "https://example.com/images/toyota_premio_interior_7.jpg",
+      "https://example.com/images/toyota_premio_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Fredrick Odhiambo",
+      "tel": "0700345678",
+      "location": "Ruaraka, Nairobi"
+    }
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "GLC 250",
+    "year": 2019,
+    "color": "Polar White",
+    "price": 6500000,
+    "engine_type": "2.0L Turbo Petrol",
+    "features": [
+      "4MATIC All-Wheel Drive",
+      "LED High Performance Headlights",
+      "ARTICO Leather Seats",
+      "Active Parking Assist",
+      "Power Tailgate",
+      "Dynamic Select Modes"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 11.0,
+      "highway_km_per_liter": 14.0
+    },
+    "shipping_fee": 220000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 55,
+    "car_display_image": "https://example.com/images/mercedes_glc250_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_glc250_exterior_1.jpg",
+      "https://example.com/images/mercedes_glc250_exterior_2.jpg",
+      "https://example.com/images/mercedes_glc250_exterior_3.jpg",
+      "https://example.com/images/mercedes_glc250_exterior_4.jpg",
+      "https://example.com/images/mercedes_glc250_exterior_5.jpg",
+      "https://example.com/images/mercedes_glc250_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_glc250_interior_1.jpg",
+      "https://example.com/images/mercedes_glc250_interior_2.jpg",
+      "https://example.com/images/mercedes_glc250_interior_3.jpg",
+      "https://example.com/images/mercedes_glc250_interior_4.jpg",
+      "https://example.com/images/mercedes_glc250_interior_5.jpg",
+      "https://example.com/images/mercedes_glc250_interior_6.jpg",
+      "https://example.com/images/mercedes_glc250_interior_7.jpg",
+      "https://example.com/images/mercedes_glc250_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Sophia Njeri",
+      "tel": "0704000111",
+      "location": "Lavington, Nairobi"
+    }
+  },
+  {
+    "make": "BMW",
+    "model": "X1",
+    "year": 2018,
+    "color": "Mediterranean Blue Metallic",
+    "price": 3900000,
+    "engine_type": "1.5L Turbo Petrol",
+    "features": [
+      "LED Headlights",
+      "iDrive System",
+      "Power Tailgate",
+      "Rear Parking Sensors",
+      "Automatic Climate Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 13.0,
+      "highway_km_per_liter": 16.0
+    },
+    "shipping_fee": 160000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/bmw_x1_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_x1_exterior_1.jpg",
+      "https://example.com/images/bmw_x1_exterior_2.jpg",
+      "https://example.com/images/bmw_x1_exterior_3.jpg",
+      "https://example.com/images/bmw_x1_exterior_4.jpg",
+      "https://example.com/images/bmw_x1_exterior_5.jpg",
+      "https://example.com/images/bmw_x1_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_x1_interior_1.jpg",
+      "https://example.com/images/bmw_x1_interior_2.jpg",
+      "https://example.com/images/bmw_x1_interior_3.jpg",
+      "https://example.com/images/bmw_x1_interior_4.jpg",
+      "https://example.com/images/bmw_x1_interior_5.jpg",
+      "https://example.com/images/bmw_x1_interior_6.jpg",
+      "https://example.com/images/bmw_x1_interior_7.jpg",
+      "https://example.com/images/bmw_x1_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Collins Murimi",
+      "tel": "0710223344",
+      "location": "Kilimani, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "RAV4 Hybrid",
+    "year": 2021,
+    "color": "Silver Sky Metallic",
+    "price": 4000000,
+    "engine_type": "2.5L 4-Cylinder Hybrid",
+    "features": [
+      "Electronic On-Demand All-Wheel Drive",
+      "Toyota Safety Sense 2.0",
+      "Power Moonroof",
+      "Heated Front Seats",
+      "Digital Rearview Mirror",
+      "JBL Audio System"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 18.0,
+      "highway_km_per_liter": 22.0
+    },
+    "shipping_fee": 180000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/toyota_rav4_hybrid_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_rav4_hybrid_exterior_1.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_exterior_2.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_exterior_3.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_exterior_4.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_exterior_5.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_rav4_hybrid_interior_1.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_interior_2.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_interior_3.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_interior_4.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_interior_5.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_interior_6.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_interior_7.jpg",
+      "https://example.com/images/toyota_rav4_hybrid_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Joyce Achieng",
+      "tel": "0705000999",
+      "location": "Lang'ata, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Mark X",
+    "year": 2015,
+    "color": "Black",
+    "price": 2400000,
+    "engine_type": "2.5L V6 Petrol",
+    "features": [
+      "Rear-Wheel Drive",
+      "Sporty Design",
+      "Push Start",
+      "Leather Seats (optional)",
+      "Automatic Climate Control"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 120000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_markx_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_markx_exterior_1.jpg",
+      "https://example.com/images/toyota_markx_exterior_2.jpg",
+      "https://example.com/images/toyota_markx_exterior_3.jpg",
+      "https://example.com/images/toyota_markx_exterior_4.jpg",
+      "https://example.com/images/toyota_markx_exterior_5.jpg",
+      "https://example.com/images/toyota_markx_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_markx_interior_1.jpg",
+      "https://example.com/images/toyota_markx_interior_2.jpg",
+      "https://example.com/images/toyota_markx_interior_3.jpg",
+      "https://example.com/images/toyota_markx_interior_4.jpg",
+      "https://example.com/images/toyota_markx_interior_5.jpg",
+      "https://example.com/images/toyota_markx_interior_6.jpg",
+      "https://example.com/images/toyota_markx_interior_7.jpg",
+      "https://example.com/images/toyota_markx_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Patrick Mwangi",
+      "tel": "0700112233",
+      "location": "Ngong Road, Nairobi"
+    }
+  },
+  {
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2018,
+    "color": "Modern Steel Metallic",
+    "price": 3200000,
+    "engine_type": "1.5L Turbo Petrol",
+    "features": [
+      "Honda Sensing Suite",
+      "Apple CarPlay/Android Auto",
+      "Hands-Free Access Power Tailgate",
+      "Leather-Trimmed Interior",
+      "Heated Front Seats",
+      "LED Headlights"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 15.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/honda_crv_display.jpg",
+    "images": [
+      "https://example.com/images/honda_crv_exterior_1.jpg",
+      "https://example.com/images/honda_crv_exterior_2.jpg",
+      "https://example.com/images/honda_crv_exterior_3.jpg",
+      "https://example.com/images/honda_crv_exterior_4.jpg",
+      "https://example.com/images/honda_crv_exterior_5.jpg",
+      "https://example.com/images/honda_crv_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/honda_crv_interior_1.jpg",
+      "https://example.com/images/honda_crv_interior_2.jpg",
+      "https://example.com/images/honda_crv_interior_3.jpg",
+      "https://example.com/images/honda_crv_interior_4.jpg",
+      "https://example.com/images/honda_crv_interior_5.jpg",
+      "https://example.com/images/honda_crv_interior_6.jpg",
+      "https://example.com/images/honda_crv_interior_7.jpg",
+      "https://example.com/images/honda_crv_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Faith Mumbi",
+      "tel": "0713456789",
+      "location": "Upper Hill, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Vellfire",
+    "year": 2017,
+    "color": "Black",
+    "price": 4800000,
+    "engine_type": "2.5L Hybrid Petrol",
+    "features": [
+      "Executive Lounge Seats",
+      "Power Sliding Doors",
+      "Roof-Mounted Monitor",
+      "Ambient Lighting",
+      "Premium Sound System",
+      "Adaptive Cruise Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 15.0
+    },
+    "shipping_fee": 220000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/toyota_vellfire_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_vellfire_exterior_1.jpg",
+      "https://example.com/images/toyota_vellfire_exterior_2.jpg",
+      "https://example.com/images/toyota_vellfire_exterior_3.jpg",
+      "https://example.com/images/toyota_vellfire_exterior_4.jpg",
+      "https://example.com/images/toyota_vellfire_exterior_5.jpg",
+      "https://example.com/images/toyota_vellfire_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_vellfire_interior_1.jpg",
+      "https://example.com/images/toyota_vellfire_interior_2.jpg",
+      "https://example.com/images/toyota_vellfire_interior_3.jpg",
+      "https://example.com/images/toyota_vellfire_interior_4.jpg",
+      "https://example.com/images/toyota_vellfire_interior_5.jpg",
+      "https://example.com/images/toyota_vellfire_interior_6.jpg",
+      "https://example.com/images/toyota_vellfire_interior_7.jpg",
+      "https://example.com/images/toyota_vellfire_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Patrick Mureithi",
+      "tel": "0702112233",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Nissan",
+    "model": "Murano",
+    "year": 2018,
+    "color": "Deep Blue Pearl",
+    "price": 3800000,
+    "engine_type": "3.5L V6 Petrol",
+    "features": [
+      "Intelligent All-Wheel Drive",
+      "Zero Gravity Seats",
+      "Bose Audio System",
+      "Panoramic Moonroof",
+      "Around View Monitor",
+      "Remote Engine Start"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 160000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/nissan_murano_display.jpg",
+    "images": [
+      "https://example.com/images/nissan_murano_exterior_1.jpg",
+      "https://example.com/images/nissan_murano_exterior_2.jpg",
+      "https://example.com/images/nissan_murano_exterior_3.jpg",
+      "https://example.com/images/nissan_murano_exterior_4.jpg",
+      "https://example.com/images/nissan_murano_exterior_5.jpg",
+      "https://example.com/images/nissan_murano_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/nissan_murano_interior_1.jpg",
+      "https://example.com/images/nissan_murano_interior_2.jpg",
+      "https://example.com/images/nissan_murano_interior_3.jpg",
+      "https://example.com/images/nissan_murano_interior_4.jpg",
+      "https://example.com/images/nissan_murano_interior_5.jpg",
+      "https://example.com/images/nissan_murano_interior_6.jpg",
+      "https://example.com/images/nissan_murano_interior_7.jpg",
+      "https://example.com/images/nissan_murano_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Esther Wairimu",
+      "tel": "0726000111",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Fortuner",
+    "year": 2020,
+    "color": "Pearl White",
+    "price": 5500000,
+    "engine_type": "2.8L Diesel",
+    "features": [
+      "True SUV Capability",
+      "7 Seater",
+      "Leather Seats",
+      "Power Back Door",
+      "Paddle Shifters",
+      "LED Projector Headlamps"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.0,
+      "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 180000,
+    "imported": false,
+    "vat_included": true,
+    "waiting_period_days": 15,
+    "car_display_image": "https://example.com/images/toyota_fortuner_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_fortuner_exterior_1.jpg",
+      "https://example.com/images/toyota_fortuner_exterior_2.jpg",
+      "https://example.com/images/toyota_fortuner_exterior_3.jpg",
+      "https://example.com/images/toyota_fortuner_exterior_4.jpg",
+      "https://example.com/images/toyota_fortuner_exterior_5.jpg",
+      "https://example.com/images/toyota_fortuner_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_fortuner_interior_1.jpg",
+      "https://example.com/images/toyota_fortuner_interior_2.jpg",
+      "https://example.com/images/toyota_fortuner_interior_3.jpg",
+      "https://example.com/images/toyota_fortuner_interior_4.jpg",
+      "https://example.com/images/toyota_fortuner_interior_5.jpg",
+      "https://example.com/images/toyota_fortuner_interior_6.jpg",
+      "https://example.com/images/toyota_fortuner_interior_7.jpg",
+      "https://example.com/images/toyota_fortuner_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Joel Mwangi",
+      "tel": "0707788990",
+      "location": "Industrial Area, Nairobi"
+    }
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "S-Class (S400d)",
+    "year": 2021,
+    "color": "Designo Selenite Grey Magno",
+    "price": 18000000,
+    "engine_type": "3.0L Inline-6 Turbo Diesel",
+    "features": [
+      "MBUX Infotainment System",
+      "Burmester 3D Surround Sound",
+      "Energizing Comfort Control",
+      "Digital Light Headlights",
+      "Active Ambient Lighting",
+      "Rear-Axle Steering"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 16.0
+    },
+    "shipping_fee": 500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "https://example.com/images/mercedes_s400d_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_s400d_exterior_1.jpg",
+      "https://example.com/images/mercedes_s400d_exterior_2.jpg",
+      "https://example.com/images/mercedes_s400d_exterior_3.jpg",
+      "https://example.com/images/mercedes_s400d_exterior_4.jpg",
+      "https://example.com/images/mercedes_s400d_exterior_5.jpg",
+      "https://example.com/images/mercedes_s400d_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_s400d_interior_1.jpg",
+      "https://example.com/images/mercedes_s400d_interior_2.jpg",
+      "https://example.com/images/mercedes_s400d_interior_3.jpg",
+      "https://example.com/images/mercedes_s400d_interior_4.jpg",
+      "https://example.com/images/mercedes_s400d_interior_5.jpg",
+      "https://example.com/images/mercedes_s400d_interior_6.jpg",
+      "https://example.com/images/mercedes_s400d_interior_7.jpg",
+      "https://example.com/images/mercedes_s400d_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Jane Wanjiku",
+      "tel": "0790223344",
+      "location": "Gigiri, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2018,
+    "color": "Blue",
+    "price": 3100000,
+    "engine_type": "2.0L Petrol",
+    "features": [
+      "All-Wheel Drive",
+      "Touchscreen Infotainment",
+      "Rearview Camera",
+      "Adaptive Cruise Control",
+      "Lane Departure Alert",
+      "Automatic High Beams"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 13.0,
+      "highway_km_per_liter": 16.0
+    },
+    "shipping_fee": 140000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_rav4_display_2.jpg",
+    "images": [
+      "https://example.com/images/toyota_rav4_exterior_7.jpg",
+      "https://example.com/images/toyota_rav4_exterior_8.jpg",
+      "https://example.com/images/toyota_rav4_exterior_9.jpg",
+      "https://example.com/images/toyota_rav4_exterior_10.jpg",
+      "https://example.com/images/toyota_rav4_exterior_11.jpg",
+      "https://example.com/images/toyota_rav4_exterior_12.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_rav4_interior_9.jpg",
+      "https://example.com/images/toyota_rav4_interior_10.jpg",
+      "https://example.com/images/toyota_rav4_interior_11.jpg",
+      "https://example.com/images/toyota_rav4_interior_12.jpg",
+      "https://example.com/images/toyota_rav4_interior_13.jpg",
+      "https://example.com/images/toyota_rav4_interior_14.jpg",
+      "https://example.com/images/toyota_rav4_interior_15.jpg",
+      "https://example.com/images/toyota_rav4_interior_16.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Robert Onyango",
+      "tel": "0722334455",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Lexus",
+    "model": "NX 300h",
+    "year": 2019,
+    "color": "Sonic Titanium",
+    "price": 5500000,
+    "engine_type": "2.5L Hybrid Petrol",
+    "features": [
+      "Lexus Safety System+",
+      "Touchpad Remote Control",
+      "Heated & Ventilated Front Seats",
+      "Panoramic View Monitor",
+      "Power Back Door",
+      "LED Triple-Beam Headlamps"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 15.0,
+      "highway_km_per_liter": 18.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 55,
+    "car_display_image": "https://example.com/images/lexus_nx300h_display.jpg",
+    "images": [
+      "https://example.com/images/lexus_nx300h_exterior_1.jpg",
+      "https://example.com/images/lexus_nx300h_exterior_2.jpg",
+      "https://example.com/images/lexus_nx300h_exterior_3.jpg",
+      "https://example.com/images/lexus_nx300h_exterior_4.jpg",
+      "https://example.com/images/lexus_nx300h_exterior_5.jpg",
+      "https://example.com/images/lexus_nx300h_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/lexus_nx300h_interior_1.jpg",
+      "https://example.com/images/lexus_nx300h_interior_2.jpg",
+      "https://example.com/images/lexus_nx300h_interior_3.jpg",
+      "https://example.com/images/lexus_nx300h_interior_4.jpg",
+      "https://example.com/images/lexus_nx300h_interior_5.jpg",
+      "https://example.com/images/lexus_nx300h_interior_6.jpg",
+      "https://example.com/images/lexus_nx300h_interior_7.jpg",
+      "https://example.com/images/lexus_nx300h_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Collins Okoth",
+      "tel": "0706123456",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Hilux Single Cab",
+    "year": 2022,
+    "color": "White",
+    "price": 3800000,
+    "engine_type": "2.4L Diesel",
+    "features": [
+      "4x4",
+      "Heavy Duty Chassis",
+      "Large Load Bed",
+      "Robust Suspension",
+      "Power Steering"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.5,
+      "highway_km_per_liter": 12.5
+    },
+    "shipping_fee": 0,
+    "imported": false,
+    "vat_included": true,
+    "waiting_period_days": 10,
+    "car_display_image": "https://example.com/images/toyota_hilux_single_cab_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_hilux_single_cab_exterior_1.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_exterior_2.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_exterior_3.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_exterior_4.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_exterior_5.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_hilux_single_cab_interior_1.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_interior_2.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_interior_3.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_interior_4.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_interior_5.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_interior_6.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_interior_7.jpg",
+      "https://example.com/images/toyota_hilux_single_cab_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Jane Muthoni",
+      "tel": "0702345678",
+      "location": "Industrial Area, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Succeed",
+    "year": 2015,
+    "color": "White",
+    "price": 980000,
+    "engine_type": "1.5L Petrol",
+    "features": [
+      "Utility Vehicle",
+      "Large Cargo Area",
+      "Manual Windows",
+      "Basic Stereo",
+      "Reliable"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 15.0,
+      "highway_km_per_liter": 18.0
+    },
+    "shipping_fee": 80000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_succeed_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_succeed_exterior_1.jpg",
+      "https://example.com/images/toyota_succeed_exterior_2.jpg",
+      "https://example.com/images/toyota_succeed_exterior_3.jpg",
+      "https://example.com/images/toyota_succeed_exterior_4.jpg",
+      "https://example.com/images/toyota_succeed_exterior_5.jpg",
+      "https://example.com/images/toyota_succeed_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_succeed_interior_1.jpg",
+      "https://example.com/images/toyota_succeed_interior_2.jpg",
+      "https://example.com/images/toyota_succeed_interior_3.jpg",
+      "https://example.com/images/toyota_succeed_interior_4.jpg",
+      "https://example.com/images/toyota_succeed_interior_5.jpg",
+      "https://example.com/images/toyota_succeed_interior_6.jpg",
+      "https://example.com/images/toyota_succeed_interior_7.jpg",
+      "https://example.com/images/toyota_succeed_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Peter Kamau",
+      "tel": "0700445566",
+      "location": "Mlolongo, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Noah",
+    "year": 2017,
+    "color": "Black",
+    "price": 2500000,
+    "engine_type": "2.0L Petrol",
+    "features": [
+      "8 Seater",
+      "Power Sliding Doors",
+      "Rearview Camera",
+      "Automatic Climate Control",
+      "Spacious Interior"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 8,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 15.0
+    },
+    "shipping_fee": 130000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_noah_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_noah_exterior_1.jpg",
+      "https://example.com/images/toyota_noah_exterior_2.jpg",
+      "https://example.com/images/toyota_noah_exterior_3.jpg",
+      "https://example.com/images/toyota_noah_exterior_4.jpg",
+      "https://example.com/images/toyota_noah_exterior_5.jpg",
+      "https://example.com/images/toyota_noah_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_noah_interior_1.jpg",
+      "https://example.com/images/toyota_noah_interior_2.jpg",
+      "https://example.com/images/toyota_noah_interior_3.jpg",
+      "https://example.com/images/toyota_noah_interior_4.jpg",
+      "https://example.com/images/toyota_noah_interior_5.jpg",
+      "https://example.com/images/toyota_noah_interior_6.jpg",
+      "https://example.com/images/toyota_noah_interior_7.jpg",
+      "https://example.com/images/toyota_noah_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "David Wanjala",
+      "tel": "0725123456",
+      "location": "Ruaraka, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Voxy",
+    "year": 2017,
+    "color": "Pearl White",
+    "price": 2600000,
+    "engine_type": "2.0L Petrol",
+    "features": [
+      "8 Seater",
+      "Power Sliding Doors",
+      "Rearview Camera",
+      "Automatic Climate Control",
+      "Captain Seats (optional)"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 8,
+    "fuel_efficiency": {
+      "city_km_per_liter": 12.0,
+      "highway_km_per_liter": 15.0
+    },
+    "shipping_fee": 130000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_voxy_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_voxy_exterior_1.jpg",
+      "https://example.com/images/toyota_voxy_exterior_2.jpg",
+      "https://example.com/images/toyota_voxy_exterior_3.jpg",
+      "https://example.com/images/toyota_voxy_exterior_4.jpg",
+      "https://example.com/images/toyota_voxy_exterior_5.jpg",
+      "https://example.com/images/toyota_voxy_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_voxy_interior_1.jpg",
+      "https://example.com/images/toyota_voxy_interior_2.jpg",
+      "https://example.com/images/toyota_voxy_interior_3.jpg",
+      "https://example.com/images/toyota_voxy_interior_4.jpg",
+      "https://example.com/images/toyota_voxy_interior_5.jpg",
+      "https://example.com/images/toyota_voxy_interior_6.jpg",
+      "https://example.com/images/toyota_voxy_interior_7.jpg",
+      "https://example.com/images/toyota_voxy_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Catherine Wangari",
+      "tel": "0726789012",
+      "location": "Rongai, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Isis",
+    "year": 2016,
+    "color": "Gray Metallic",
+    "price": 1900000,
+    "engine_type": "1.8L Petrol",
+    "features": [
+      "7 Seater (MPV)",
+      "Sliding Doors",
+      "Flexible Seating",
+      "Automatic Climate Control",
+      "Rearview Camera"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 13.0,
+      "highway_km_per_liter": 16.0
+    },
+    "shipping_fee": 100000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 35,
+    "car_display_image": "https://example.com/images/toyota_isis_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_isis_exterior_1.jpg",
+      "https://example.com/images/toyota_isis_exterior_2.jpg",
+      "https://example.com/images/toyota_isis_exterior_3.jpg",
+      "https://example.com/images/toyota_isis_exterior_4.jpg",
+      "https://example.com/images/toyota_isis_exterior_5.jpg",
+      "https://example.com/images/toyota_isis_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_isis_interior_1.jpg",
+      "https://example.com/images/toyota_isis_interior_2.jpg",
+      "https://example.com/images/toyota_isis_interior_3.jpg",
+      "https://example.com/images/toyota_isis_interior_4.jpg",
+      "https://example.com/images/toyota_isis_interior_5.jpg",
+      "https://example.com/images/toyota_isis_interior_6.jpg",
+      "https://example.com/images/toyota_isis_interior_7.jpg",
+      "https://example.com/images/toyota_isis_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Simon Njoroge",
+      "tel": "0708123456",
+      "location": "Thika Road, Nairobi"
+    }
+  },
+  {
+    "make": "Subaru",
+    "model": "Outback",
+    "year": 2019,
+    "color": "Crystal White Pearl",
+    "price": 3800000,
+    "engine_type": "2.5L Boxer Petrol",
+    "features": [
+      "Symmetrical All-Wheel Drive",
+      "EyeSight Driver Assist",
+      "X-Mode",
+      "Starlink Infotainment",
+      "Heated Front Seats",
+      "Power Rear Gate"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 11.0,
+      "highway_km_per_liter": 14.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/subaru_outback_display.jpg",
+    "images": [
+      "https://example.com/images/subaru_outback_exterior_1.jpg",
+      "https://example.com/images/subaru_outback_exterior_2.jpg",
+      "https://example.com/images/subaru_outback_exterior_3.jpg",
+      "https://example.com/images/subaru_outback_exterior_4.jpg",
+      "https://example.com/images/subaru_outback_exterior_5.jpg",
+      "https://example.com/images/subaru_outback_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/subaru_outback_interior_1.jpg",
+      "https://example.com/images/subaru_outback_interior_2.jpg",
+      "https://example.com/images/subaru_outback_interior_3.jpg",
+      "https://example.com/images/subaru_outback_interior_4.jpg",
+      "https://example.com/images/subaru_outback_interior_5.jpg",
+      "https://example.com/images/subaru_outback_interior_6.jpg",
+      "https://example.com/images/subaru_outback_interior_7.jpg",
+      "https://example.com/images/subaru_outback_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Kevin Githinji",
+      "tel": "0709123456",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "color": "Predawn Gray Mica",
+    "price": 3500000,
+    "engine_type": "2.5L Petrol",
+    "features": [
+      "Dynamic Radar Cruise Control",
+      "Lane Departure Alert",
+      "Apple CarPlay/Android Auto",
+      "Leather-Trimmed Seats",
+      "Panoramic Glass Roof",
+      "Push Button Start"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 14.0,
+      "highway_km_per_liter": 18.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/toyota_camry_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_camry_exterior_1.jpg",
+      "https://example.com/images/toyota_camry_exterior_2.jpg",
+      "https://example.com/images/toyota_camry_exterior_3.jpg",
+      "https://example.com/images/toyota_camry_exterior_4.jpg",
+      "https://example.com/images/toyota_camry_exterior_5.jpg",
+      "https://example.com/images/toyota_camry_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_camry_interior_1.jpg",
+      "https://example.com/images/toyota_camry_interior_2.jpg",
+      "https://example.com/images/toyota_camry_interior_3.jpg",
+      "https://example.com/images/toyota_camry_interior_4.jpg",
+      "https://example.com/images/toyota_camry_interior_5.jpg",
+      "https://example.com/images/toyota_camry_interior_6.jpg",
+      "https://example.com/images/toyota_camry_interior_7.jpg",
+      "https://example.com/images/toyota_camry_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Ruth Chepkoech",
+      "tel": "0706234567",
+      "location": "Kilimani, Nairobi"
+    }
+  },
+  {
+    "make": "Mazda",
+    "model": "Axela",
+    "year": 2017,
+    "color": "Deep Crystal Blue Mica",
+    "price": 1900000,
+    "engine_type": "1.5L SkyActiv Petrol",
+    "features": [
+      "i-Stop System",
+      "Mazda Connect Infotainment",
+      "Push Button Start",
+      "Keyless Entry",
+      "Reverse Camera",
+      "LED Headlights"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 17.0,
+      "highway_km_per_liter": 21.0
+    },
+    "shipping_fee": 90000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 35,
+    "car_display_image": "https://example.com/images/mazda_axela_display.jpg",
+    "images": [
+      "https://example.com/images/mazda_axela_exterior_1.jpg",
+      "https://example.com/images/mazda_axela_exterior_2.jpg",
+      "https://example.com/images/mazda_axela_exterior_3.jpg",
+      "https://example.com/images/mazda_axela_exterior_4.jpg",
+      "https://example.com/images/mazda_axela_exterior_5.jpg",
+      "https://example.com/images/mazda_axela_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mazda_axela_interior_1.jpg",
+      "https://example.com/images/mazda_axela_interior_2.jpg",
+      "https://example.com/images/mazda_axela_interior_3.jpg",
+      "https://example.com/images/mazda_axela_interior_4.jpg",
+      "https://example.com/images/mazda_axela_interior_5.jpg",
+      "https://example.com/images/mazda_axela_interior_6.jpg",
+      "https://example.com/images/mazda_axela_interior_7.jpg",
+      "https://example.com/images/mazda_axela_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "George Kimani",
+      "tel": "0715678901",
+      "location": "Ngong Road, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2018,
+    "color": "Hypersonic Red",
+    "price": 2800000,
+    "engine_type": "1.8L Hybrid Petrol",
+    "features": [
+      "Hybrid Synergy Drive",
+      "Aerodynamic Design",
+      "Toyota Safety Sense P",
+      "Head-Up Display",
+      "Wireless Charging",
+      "Smart-flow Climate Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 25.0,
+      "highway_km_per_liter": 28.0
+    },
+    "shipping_fee": 130000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_prius_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_prius_exterior_1.jpg",
+      "https://example.com/images/toyota_prius_exterior_2.jpg",
+      "https://example.com/images/toyota_prius_exterior_3.jpg",
+      "https://example.com/images/toyota_prius_exterior_4.jpg",
+      "https://example.com/images/toyota_prius_exterior_5.jpg",
+      "https://example.com/images/toyota_prius_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_prius_interior_1.jpg",
+      "https://example.com/images/toyota_prius_interior_2.jpg",
+      "https://example.com/images/toyota_prius_interior_3.jpg",
+      "https://example.com/images/toyota_prius_interior_4.jpg",
+      "https://example.com/images/toyota_prius_interior_5.jpg",
+      "https://example.com/images/toyota_prius_interior_6.jpg",
+      "https://example.com/images/toyota_prius_interior_7.jpg",
+      "https://example.com/images/toyota_prius_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Janet Wanjiku",
+      "tel": "0707123456",
+      "location": "Lang'ata, Nairobi"
+    }
+  },
+  {
+    "make": "Nissan",
+    "model": "Dualis",
+    "year": 2016,
+    "color": "Gun Metallic",
+    "price": 2200000,
+    "engine_type": "2.0L Petrol",
+    "features": [
+      "All-Wheel Drive",
+      "Panoramic Glass Roof",
+      "Rearview Camera",
+      "Bluetooth Connectivity",
+      "Automatic Climate Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 11.0,
+      "highway_km_per_liter": 14.0
+    },
+    "shipping_fee": 110000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 38,
+    "car_display_image": "https://example.com/images/nissan_dualis_display.jpg",
+    "images": [
+      "https://example.com/images/nissan_dualis_exterior_1.jpg",
+      "https://example.com/images/nissan_dualis_exterior_2.jpg",
+      "https://example.com/images/nissan_dualis_exterior_3.jpg",
+      "https://example.com/images/nissan_dualis_exterior_4.jpg",
+      "https://example.com/images/nissan_dualis_exterior_5.jpg",
+      "https://example.com/images/nissan_dualis_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/nissan_dualis_interior_1.jpg",
+      "https://example.com/images/nissan_dualis_interior_2.jpg",
+      "https://example.com/images/nissan_dualis_interior_3.jpg",
+      "https://example.com/images/nissan_dualis_interior_4.jpg",
+      "https://example.com/images/nissan_dualis_interior_5.jpg",
+      "https://example.com/images/nissan_dualis_interior_6.jpg",
+      "https://example.com/images/nissan_dualis_interior_7.jpg",
+      "https://example.com/images/nissan_dualis_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mercy Njoroge",
+      "tel": "0708000999",
+      "location": "Kilimani, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Land Cruiser Prado (Diesel)",
+    "year": 2018,
+    "color": "White Pearl",
+    "price": 5200000,
+    "engine_type": "2.8L Diesel",
+    "features": [
+      "4x4",
+      "7 Seater",
+      "Leather Seats",
+      "Multi-Terrain Select",
+      "Crawl Control",
+      "Cool Box"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.0,
+      "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 160000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/toyota_prado_diesel_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_prado_diesel_exterior_1.jpg",
+      "https://example.com/images/toyota_prado_diesel_exterior_2.jpg",
+      "https://example.com/images/toyota_prado_diesel_exterior_3.jpg",
+      "https://example.com/images/toyota_prado_diesel_exterior_4.jpg",
+      "https://example.com/images/toyota_prado_diesel_exterior_5.jpg",
+      "https://example.com/images/toyota_prado_diesel_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_prado_diesel_interior_1.jpg",
+      "https://example.com/images/toyota_prado_diesel_interior_2.jpg",
+      "https://example.com/images/toyota_prado_diesel_interior_3.jpg",
+      "https://example.com/images/toyota_prado_diesel_interior_4.jpg",
+      "https://example.com/images/toyota_prado_diesel_interior_5.jpg",
+      "https://example.com/images/toyota_prado_diesel_interior_6.jpg",
+      "https://example.com/images/toyota_prado_diesel_interior_7.jpg",
+      "https://example.com/images/toyota_prado_diesel_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Daniel Kimani",
+      "tel": "0720445566",
+      "location": "Karen, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Rush 4WD",
+    "year": 2018,
+    "color": "Silver Metallic",
+    "price": 2550000,
+    "engine_type": "1.5L Petrol",
+    "features": [
+      "4WD",
+      "7 Seater (Compact SUV)",
+      "LED Headlights",
+      "Push Start",
+      "Touchscreen Infotainment",
+      "Rear Parking Sensors"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 13.0,
+      "highway_km_per_liter": 17.0
+    },
+    "shipping_fee": 130000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 42,
+    "car_display_image": "https://example.com/images/toyota_rush_4wd_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_rush_4wd_exterior_1.jpg",
+      "https://example.com/images/toyota_rush_4wd_exterior_2.jpg",
+      "https://example.com/images/toyota_rush_4wd_exterior_3.jpg",
+      "https://example.com/images/toyota_rush_4wd_exterior_4.jpg",
+      "https://example.com/images/toyota_rush_4wd_exterior_5.jpg",
+      "https://example.com/images/toyota_rush_4wd_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_rush_4wd_interior_1.jpg",
+      "https://example.com/images/toyota_rush_4wd_interior_2.jpg",
+      "https://example.com/images/toyota_rush_4wd_interior_3.jpg",
+      "https://example.com/images/toyota_rush_4wd_interior_4.jpg",
+      "https://example.com/images/toyota_rush_4wd_interior_5.jpg",
+      "https://example.com/images/toyota_rush_4wd_interior_6.jpg",
+      "https://example.com/images/toyota_rush_4wd_interior_7.jpg",
+      "https://example.com/images/toyota_rush_4wd_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Lucy Wanjiru",
+      "tel": "0701000111",
+      "location": "Lang'ata, Nairobi"
+    }
+  },
+  {
+    "make": "Toyota",
+    "model": "Succeed Diesel",
+    "year": 2016,
+    "color": "White",
+    "price": 1050000,
+    "engine_type": "1.5L Diesel",
+    "features": [
+      "Utility Vehicle",
+      "Large Cargo Area",
+      "Fuel Efficient Diesel Engine",
+      "Manual Windows",
+      "Basic Stereo"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 18.0,
+      "highway_km_per_liter": 22.0
+    },
+    "shipping_fee": 85000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 40,
+    "car_display_image": "https://example.com/images/toyota_succeed_diesel_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_succeed_diesel_exterior_1.jpg",
+      "https://example.com/images/toyota_succeed_diesel_exterior_2.jpg",
+      "https://example.com/images/toyota_succeed_diesel_exterior_3.jpg",
+      "https://example.com/images/toyota_succeed_diesel_exterior_4.jpg",
+      "https://example.com/images/toyota_succeed_diesel_exterior_5.jpg",
+      "https://example.com/images/toyota_succeed_diesel_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_succeed_diesel_interior_1.jpg",
+      "https://example.com/images/toyota_succeed_diesel_interior_2.jpg",
+      "https://example.com/images/toyota_succeed_diesel_interior_3.jpg",
+      "https://example.com/images/toyota_succeed_diesel_interior_4.jpg",
+      "https://example.com/images/toyota_succeed_diesel_interior_5.jpg",
+      "https://example.com/images/toyota_succeed_diesel_interior_6.jpg",
+      "https://example.com/images/toyota_succeed_diesel_interior_7.jpg",
+      "https://example.com/images/toyota_succeed_diesel_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Jane Muthoni",
+      "tel": "0702345678",
+      "location": "Mlolongo, Nairobi"
+    }
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Delica D:5",
+    "year": 2017,
+    "color": "Black Mica",
+    "price": 2900000,
+    "engine_type": "2.2L Diesel",
+    "features": [
+      "4WD",
+      "8 Seater",
+      "Sliding Doors",
+      "Off-road Capability",
+      "Automatic Climate Control",
+      "Rearview Camera"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 8,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/mitsubishi_delica_d5_display.jpg",
+    "images": [
+      "https://example.com/images/mitsubishi_delica_d5_exterior_1.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_exterior_2.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_exterior_3.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_exterior_4.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_exterior_5.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mitsubishi_delica_d5_interior_1.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_interior_2.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_interior_3.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_interior_4.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_interior_5.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_interior_6.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_interior_7.jpg",
+      "https://example.com/images/mitsubishi_delica_d5_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Daniel Muchiri",
+      "tel": "0704123456",
+      "location": "Thika Road, Nairobi"
+    }
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "A-Class (A200)",
+    "year": 2019,
+    "color": "Digital White Metallic",
+    "price": 4200000,
+    "engine_type": "1.3L Turbo Petrol",
+    "features": [
+      "MBUX Infotainment System",
+      "Dual Digital Displays",
+      "Ambient Lighting",
+      "LED Headlights",
+      "Active Parking Assist",
+      "Dynamic Select"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 14.0,
+      "highway_km_per_liter": 18.0
+    },
+    "shipping_fee": 180000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 50,
+    "car_display_image": "https://example.com/images/mercedes_a200_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_a200_exterior_1.jpg",
+      "https://example.com/images/mercedes_a200_exterior_2.jpg",
+      "https://example.com/images/mercedes_a200_exterior_3.jpg",
+      "https://example.com/images/mercedes_a200_exterior_4.jpg",
+      "https://example.com/images/mercedes_a200_exterior_5.jpg",
+      "https://example.com/images/mercedes_a200_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_a200_interior_1.jpg",
+      "https://example.com/images/mercedes_a200_interior_2.jpg",
+      "https://example.com/images/mercedes_a200_interior_3.jpg",
+      "https://example.com/images/mercedes_a200_interior_4.jpg",
+      "https://example.com/images/mercedes_a200_interior_5.jpg",
+      "https://example.com/images/mercedes_a200_interior_6.jpg",
+      "https://example.com/images/mercedes_a200_interior_7.jpg",
+      "https://example.com/images/mercedes_a200_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Monica Cheptoo",
+      "tel": "0705112233",
+      "location": "Kilimani, Nairobi"
+    }
+  },
+  {
+    "make": "BMW",
+    "model": "5 Series (520d)",
+    "year": 2018,
+    "color": "Black Sapphire Metallic",
+    "price": 6000000,
+    "engine_type": "2.0L TwinPower Turbo Diesel",
+    "features": [
+      "LED Headlights",
+      "iDrive System with Gesture Control",
+      "Leather Seats",
+      "Parking Assistant",
+      "Ambient Lighting",
+      "Harman Kardon Surround Sound"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 15.0,
+      "highway_km_per_liter": 19.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 55,
+    "car_display_image": "https://example.com/images/bmw_5series_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_5series_exterior_1.jpg",
+      "https://example.com/images/bmw_5series_exterior_2.jpg",
+      "https://example.com/images/bmw_5series_exterior_3.jpg",
+      "https://example.com/images/bmw_5series_exterior_4.jpg",
+      "https://example.com/images/bmw_5series_exterior_5.jpg",
+      "https://example.com/images/bmw_5series_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_5series_interior_1.jpg",
+      "https://example.com/images/bmw_5series_interior_2.jpg",
+      "https://example.com/images/bmw_5series_interior_3.jpg",
+      "https://example.com/images/bmw_5series_interior_4.jpg",
+      "https://example.com/images/bmw_5series_interior_5.jpg",
+      "https://example.com/images/bmw_5series_interior_6.jpg",
+      "https://example.com/images/bmw_5series_interior_7.jpg",
+      "https://example.com/images/bmw_5series_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Anthony Waweru",
+      "tel": "0706789012",
+      "location": "Westlands, Nairobi"
+    }
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C-Class (C180)",
+    "year": 2017,
+    "color": "Obsidian Black",
+    "price": 3800000,
+    "engine_type": "1.6L Turbo Petrol",
+    "features": [
+      "LED High Performance Headlights",
+      "ARTICO Leather Seats",
+      "Dynamic Select",
+      "Active Parking Assist",
+      "Reversing Camera",
+      "Collision Prevention Assist Plus"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 13.0,
+      "highway_km_per_liter": 17.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 45,
+    "car_display_image": "https://example.com/images/mercedes_c180_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_c180_exterior_1.jpg",
+      "https://example.com/images/mercedes_c180_exterior_2.jpg",
+      "https://example.com/images/mercedes_c180_exterior_3.jpg",
+      "https://example.com/images/mercedes_c180_exterior_4.jpg",
+      "https://example.com/images/mercedes_c180_exterior_5.jpg",
+      "https://example.com/images/mercedes_c180_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_c180_interior_1.jpg",
+      "https://example.com/images/mercedes_c180_interior_2.jpg",
+      "https://example.com/images/mercedes_c180_interior_3.jpg",
+      "https://example.com/images/mercedes_c180_interior_4.jpg",
+      "https://example.com/images/mercedes_c180_interior_5.jpg",
+      "https://example.com/images/mercedes_c180_interior_6.jpg",
+      "https://example.com/images/mercedes_c180_interior_7.jpg",
+      "https://example.com/images/mercedes_c180_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Grace Wairimu",
+      "tel": "0701234567",
+      "location": "Kilimani, Nairobi"
+    }
+    }
+]

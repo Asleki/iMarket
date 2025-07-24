@@ -1,0 +1,703 @@
+/*
+ * main.css
+ * This file contains the core styling for the iMarket website,
+ * including layout, typography, responsive design, and component styling.
+ * It relies on variables defined in colors.css for theme consistency.
+ */
+
+/* ========================================= */
+/* General Body & HTML Styling */
+/* ========================================= */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-primary); /* From colors.css */
+    color: var(--text-primary); /* From colors.css */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for mode toggle */
+    -webkit-font-smoothing: antialiased; /* Better font rendering */
+    -moz-osx-font-smoothing: grayscale; /* Better font rendering */
+}
+
+/* Basic reset for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-heading); /* From colors.css */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.5em; }
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+a {
+    color: var(--link-color); /* From colors.css */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--link-hover-color); /* From colors.css */
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Utility classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border: none; /* Default for buttons */
+}
+
+.btn-primary {
+    background-color: var(--color-brand-primary); /* From colors.css */
+    color: var(--button-text-light); /* From colors.css */
+}
+
+.btn-primary:hover {
+    background-color: var(--color-brand-primary-hover); /* From colors.css */
+    text-decoration: none;
+}
+
+.divider {
+    margin: 0 10px;
+    color: var(--text-secondary);
+}
+
+/* ========================================= */
+/* Header & Top Announcement */
+/* ========================================= */
+.top-announcement {
+    background-color: var(--color-brand-primary-hover); /* A darker shade for contrast */
+    color: var(--button-text-light);
+    text-align: center;
+    padding: 8px 0;
+    font-size: 0.9em;
+}
+
+/* ========================================= */
+/* Main Navigation (Unified) */
+/* ========================================= */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-light);
+    box-shadow: 0 2px 5px var(--box-shadow-light);
+    position: sticky; /* Makes nav stick to top */
+    top: 0;
+    z-index: 1000; /* Ensures nav is above other content */
+}
+
+.nav-brand .logo {
+    height: 40px; /* Adjust as needed for your logo size */
+    width: auto;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px; /* Spacing between main nav items */
+    align-items: center;
+}
+
+.nav-item {
+    position: relative; /* For dropdown positioning */
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+    color: var(--text-primary);
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--color-brand-primary);
+    text-decoration: none;
+}
+
+/* Dropdown / Mega Menu Styling */
+.dropdown-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Position below the parent nav item */
+    left: 0;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-light);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px var(--box-shadow-light);
+    padding: 15px;
+    min-width: 200px; /* Default min-width for simple dropdowns */
+    z-index: 1001;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+
+.nav-item.has-dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Mega Menu Specifics */
+.mega-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Flexible columns */
+    gap: 20px;
+    min-width: 700px; /* Wider for mega menu */
+}
+
+.mega-menu h4 {
+    color: var(--text-heading);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 5px;
+}
+
+.mega-menu ul li a {
+    padding: 5px 0;
+    font-weight: normal;
+    font-size: 0.95em;
+    color: var(--text-secondary);
+}
+
+.mega-menu ul li a:hover {
+    color: var(--color-brand-primary);
+    text-decoration: underline;
+}
+
+/* Simple Dropdown Specifics (e.g., for "Our Shops") */
+.simple-dropdown ul li a {
+    padding: 8px 15px;
+    font-weight: normal;
+    color: var(--text-primary);
+    white-space: nowrap; /* Prevent wrapping for single line items */
+}
+
+.simple-dropdown ul li a:hover {
+    background-color: var(--bg-secondary);
+    color: var(--color-brand-primary);
+    text-decoration: none;
+}
+
+
+/* Nav Utility (Search & Mode Toggle) */
+.nav-utility {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.utility-icon {
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.utility-icon:hover {
+    color: var(--color-brand-primary);
+}
+
+/* Search Bar */
+.search-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--input-border);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    width: 0; /* Hidden by default */
+    opacity: 0;
+    visibility: hidden;
+}
+
+.search-input-container.active {
+    width: 250px; /* Visible width */
+    opacity: 1;
+    visibility: visible;
+}
+
+.search-input-container input {
+    border: none;
+    padding: 8px 15px;
+    outline: none;
+    flex-grow: 1;
+    background-color: var(--input-bg);
+    color: var(--text-primary);
+    font-size: 0.95em;
+}
+
+.search-input-container button {
+    background-color: var(--color-brand-primary);
+    color: var(--button-text-light);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-input-container button:hover {
+    background-color: var(--color-brand-primary-hover);
+}
+
+/* Hamburger Menu (Hidden on large screens by default) */
+.hamburger-menu {
+    display: none; /* Hidden on large screens */
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Subheader (for account/cart icons - will be populated on other pages) */
+.subheader {
+    /* Basic styling for the subheader if needed, e.g., padding, background */
+    padding: 10px 20px;
+    background-color: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    gap: 15px;
+    color: var(--text-secondary);
+}
+
+/* ========================================= */
+/* Main Content Sections (Homepage Examples) */
+/* ========================================= */
+main {
+    padding: 20px 0;
+}
+
+.hero-banner {
+    background: linear-gradient(to right, var(--color-brand-primary), var(--color-brand-primary-hover));
+    color: var(--button-text-light);
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.hero-banner h1 {
+    color: var(--button-text-light); /* Override for hero banner */
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.hero-banner p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.featured-categories, .featured-shops, .dynamic-products {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.featured-categories h2, .featured-shops h2, .dynamic-products h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.category-grid, .shop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+}
+
+.category-card, .shop-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    box-shadow: 0 2px 5px var(--box-shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover, .shop-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px var(--box-shadow-light);
+    text-decoration: none;
+}
+
+.category-card img, .shop-card img {
+    width: 100%;
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Cover the area, crop if necessary */
+    display: block;
+    margin-bottom: 15px;
+}
+
+.category-card h3, .shop-card h3 {
+    font-size: 1.2em;
+    color: var(--text-heading);
+    padding: 0 10px;
+}
+
+
+/* ========================================= */
+/* Footer Styling */
+/* ========================================= */
+footer {
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    padding: 40px 20px 20px;
+    border-top: 1px solid var(--border-light);
+    margin-top: 50px;
+}
+
+.footer-content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Default: flexible columns */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 30px;
+}
+
+.footer-content-wrapper h4 {
+    color: var(--text-heading);
+    margin-bottom: 15px;
+    font-size: 1.15em;
+}
+
+.footer-content-wrapper p,
+.footer-content-wrapper ul li {
+    font-size: 0.95em;
+    margin-bottom: 8px;
+}
+
+.footer-content-wrapper ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-content-wrapper a {
+    color: var(--text-secondary);
+    transition: color 0.3s ease;
+}
+
+.footer-content-wrapper a:hover {
+    color: var(--color-brand-primary);
+    text-decoration: underline;
+}
+
+.footer-contact p i {
+    margin-right: 8px;
+    color: var(--color-brand-primary); /* Icon color */
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column; /* Stack social links */
+}
+
+.social-links a {
+    display: inline-block; /* Keep images inline */
+    margin-right: 15px; /* Spacing between icons */
+    margin-bottom: 10px; /* Spacing for stacked links */
+}
+
+.social-links a img {
+    height: 24px; /* Icon size */
+    width: 24px;
+    transition: transform 0.2s ease;
+}
+
+.social-links a:hover img {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    padding-top: 20px;
+    border-top: 1px solid var(--border-light);
+}
+
+/* ========================================= */
+/* Media Queries for Responsiveness */
+/* ========================================= */
+
+/* Tablet and smaller desktops (e.g., up to 1024px) */
+@media (max-width: 1024px) {
+    .main-nav {
+        padding: 10px 15px;
+    }
+
+    .nav-links {
+        gap: 15px; /* Slightly reduce gap */
+    }
+
+    .nav-link {
+        padding: 8px 0;
+        font-size: 0.95em;
+    }
+
+    .mega-menu {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust mega menu columns */
+        min-width: unset; /* Allow it to shrink */
+        width: 100%; /* Take full width of parent */
+        left: 0; /* Align to left */
+        right: 0; /* Align to right */
+    }
+
+    .search-input-container.active {
+        width: 200px; /* Smaller search bar */
+    }
+
+    /* Footer: Adjust to 3 columns if content fits, or let auto-fit handle it */
+    .footer-content-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Allow more flexibility */
+    }
+}
+
+/* Small screens (e.g., Mobile - up to 768px) */
+@media (max-width: 768px) {
+    .top-announcement {
+        font-size: 0.8em;
+        padding: 5px 0;
+    }
+
+    .main-nav {
+        flex-wrap: wrap; /* Allow items to wrap */
+        padding: 10px 15px;
+    }
+
+    .nav-brand {
+        flex-basis: 50%; /* Take half width */
+    }
+
+    .nav-utility {
+        flex-basis: 50%; /* Take half width */
+        justify-content: flex-end; /* Push utility icons to the right */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger menu */
+        order: 1; /* Place it first in utility group */
+    }
+
+    .nav-utility #search-toggle {
+        order: 2; /* Place search second */
+    }
+
+    .nav-utility #mode-toggle {
+        order: 3; /* Place mode toggle third */
+    }
+
+    .search-input-container {
+        /* Initially hidden, will be toggled by JS */
+        position: absolute; /* Overlay effect */
+        top: 100%; /* Below the nav */
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0 2px 5px var(--box-shadow-light);
+        z-index: 999;
+    }
+
+    .search-input-container.active {
+        width: 100%; /* Full width when active */
+    }
+
+    /* Hide full nav links on small screens by default */
+    .nav-links {
+        display: none;
+        flex-direction: column; /* Stack vertically */
+        width: 100%;
+        background-color: var(--bg-primary);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 4px 8px var(--box-shadow-light);
+        z-index: 998;
+        padding: 10px 0;
+        border-top: 1px solid var(--border-light);
+    }
+
+    /* When nav is open (JS will add this class to body or header) */
+    body.nav-open .nav-links {
+        display: flex;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid var(--border-light); /* Separator for nav items */
+    }
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+
+    .nav-link {
+        padding: 15px 0; /* More padding for touch targets */
+    }
+
+    .nav-item.has-dropdown:hover .dropdown-menu {
+        display: none; /* Hide dropdowns on hover for mobile, JS will handle click toggle */
+    }
+
+    /* Mobile Dropdown/Mega Menu adjustments */
+    .dropdown-menu {
+        position: static; /* Remove absolute positioning */
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        background-color: transparent; /* Inherit parent background */
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        border-top: 1px solid var(--border-light); /* Separator */
+        margin-top: 10px;
+    }
+
+    .mega-menu, .simple-dropdown ul {
+        grid-template-columns: 1fr; /* Single column for mega menu columns */
+        gap: 0;
+    }
+
+    .mega-menu h4 {
+        padding-top: 10px;
+        padding-left: 20px;
+        border-top: 1px solid var(--border-light); /* Separator for mega menu categories */
+    }
+    .mega-menu h4:first-child {
+        border-top: none;
+    }
+
+    .mega-menu ul li a, .simple-dropdown ul li a {
+        padding: 10px 30px; /* Indent sub-links */
+    }
+
+    /* Footer: Two columns */
+    .footer-content-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* Very small screens (e.g., smaller mobiles - up to 480px) */
+@media (max-width: 480px) {
+    .hero-banner h1 {
+        font-size: 2em;
+    }
+
+    .hero-banner p {
+        font-size: 1em;
+    }
+
+    .category-grid, .shop-grid {
+        grid-template-columns: 1fr; /* Single column for grids */
+    }
+
+    /* Footer: Single column */
+    .footer-content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .social-links {
+        flex-direction: row; /* Keep social icons horizontal on very small screens */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .social-links a {
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+/* ========================================= */
+/* Dark Mode Specific Styles (if needed beyond color variables) */
+/* ========================================= */
+/* Example: If you want to change specific shadows or images in dark mode */
+/*
+html.dark-mode .logo {
+    filter: invert(1); // Example: invert a dark logo to white
+}
+*/
+
+/* ========================================= */
+/* Dynamic Products Grid Styling */
+/* (Used for Popular Products) */
+/* ========================================= */
+.product-grid {
+    display: grid;
+    /* This creates a responsive grid:
+       - auto-fit: will create as many columns as can fit.
+       - minmax(220px, 1fr): each column will be at least 220px wide,
+                             but will grow to fill available space equally.
+    */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+    /* Ensure the container itself can expand */
+    width: 100%;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Ensure individual product cards don't break the grid */
+.product-card {
+    /* ... (your existing product-card styles) ... */
+    display: flex; /* Keep flex for internal content layout */
+    flex-direction: column;
+    /* No fixed width here, let the grid system handle it */
+}
+
+/* Media query adjustments for smaller screens, if needed for the grid */
+@media (max-width: 480px) {
+    .product-grid {
+        /* On very small screens, maybe force a single column if 220px is too wide */
+        grid-template-columns: 1fr; /* One column, full width */
+        gap: 15px; /* Smaller gap */
+        padding: 10px;
+    }
+}

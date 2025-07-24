@@ -1,0 +1,268 @@
+[
+  {
+    "item_id": "OFF-COMP001",
+    "name": "Desktop Computer (Mid-Range Office PC)",
+    "category": "Computers",
+    "features": [
+      "Intel Core i5 Processor (12th Gen or newer)",
+      "8GB RAM (DDR4)",
+      "256GB SSD + 1TB HDD Storage",
+      "Windows 11 Pro",
+      "Integrated Graphics",
+      "Multiple USB ports, HDMI, DisplayPort",
+      "Ethernet port"
+    ],
+    "price_ksh": 75000,
+    "size_cm": "40 x 17 x 45 (Tower)",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.5
+  },
+  {
+    "item_id": "OFF-LAP002",
+    "name": "Laptop (Business Series)",
+    "category": "Computers",
+    "features": [
+      "Intel Core i7 Processor (12th Gen or newer)",
+      "16GB RAM (DDR4)",
+      "512GB NVMe SSD",
+      "14-inch Full HD Display",
+      "Windows 11 Pro",
+      "Lightweight and portable",
+      "Long battery life",
+      "Webcam with privacy shutter"
+    ],
+    "price_ksh": 120000,
+    "size_cm": "1.8 x 32.5 x 22 (Slim)",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.7
+  },
+  {
+    "item_id": "OFF-PRT003",
+    "name": "Multifunction Laser Printer (Print, Scan, Copy, Fax)",
+    "category": "Printers",
+    "features": [
+      "Monochrome Laser Printing",
+      "Print Speed: Up to 40 ppm",
+      "Automatic Duplex Printing",
+      "Flatbed & ADF Scanner",
+      "Network & Wi-Fi Connectivity",
+      "Mobile Printing Support"
+    ],
+    "price_ksh": 45000,
+    "size_cm": "40 x 42 x 35",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.3
+  },
+  {
+    "item_id": "OFF-SCAN004",
+    "name": "Document Scanner (High-Speed)",
+    "category": "Scanners",
+    "features": [
+      "Scan Speed: Up to 60 ppm",
+      "Automatic Document Feeder (ADF) - 80 sheets",
+      "Duplex Scanning",
+      "USB 3.0 Connectivity",
+      "OCR Software included"
+    ],
+    "price_ksh": 55000,
+    "size_cm": "15 x 30 x 20",
+    "discount_percent": 0,
+    "in_stock": false,
+    "review_star_rate": 4.6
+  },
+  {
+    "item_id": "OFF-COPY005",
+    "name": "Office Photocopier (Medium Volume)",
+    "category": "Photocopiers",
+    "features": [
+      "Color & Monochrome Copying",
+      "Copy Speed: Up to 30 ppm",
+      "Automatic Document Feeder",
+      "Sorting & Stapling Functions",
+      "Network Connectivity",
+      "Large Paper Capacity"
+    ],
+    "price_ksh": 180000,
+    "size_cm": "90 x 60 x 65",
+    "discount_percent": 15,
+    "in_stock": true,
+    "review_star_rate": 4.2
+  },
+  {
+    "item_id": "OFF-SHRED006",
+    "name": "Heavy Duty Paper Shredder",
+    "category": "Shredders",
+    "features": [
+      "Cross-Cut Shredding (P-4 security level)",
+      "Sheet Capacity: 20-25 sheets",
+      "Bin Capacity: 30 Liters",
+      "Shreds CDs, Credit Cards, Staples, Paper Clips",
+      "Continuous run time: 30 minutes"
+    ],
+    "price_ksh": 15000,
+    "size_cm": "60 x 40 x 30",
+    "discount_percent": 8,
+    "in_stock": true,
+    "review_star_rate": 4.4
+  },
+  {
+    "item_id": "OFF-PHONE007",
+    "name": "VoIP Desk Phone",
+    "category": "Telephones",
+    "features": [
+      "HD Voice Quality",
+      "Multiple SIP Accounts",
+      "Programmable Keys",
+      "Power over Ethernet (PoE)",
+      "Headset Jack",
+      "Call Transfer, Hold, Conference"
+    ],
+    "price_ksh": 8000,
+    "size_cm": "20 x 18 x 15",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.1
+  },
+  {
+    "item_id": "OFF-SAFE008",
+    "name": "Office Fire Resistant Safe (Small)",
+    "category": "Safes",
+    "features": [
+      "UL Classified Fire Protection (1-hour at 1700°F)",
+      "Digital Lock with programmable code",
+      "Live-locking bolts",
+      "Pry-resistant hinge bar",
+      "Steel construction",
+      "Ideal for documents and small valuables"
+    ],
+    "price_ksh": 35000,
+    "size_cm": "30 x 40 x 35",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.6
+  },
+  {
+    "item_id": "OFF-SAFE009",
+    "name": "Burglar-Proof Floor Safe",
+    "category": "Safes",
+    "features": [
+      "C-Rate Burglary Protection",
+      "Heavy-gauge steel door and body",
+      "Reinforced concrete fill (for floor installation)",
+      "Combination dial lock (mechanical)",
+      "Recessed design for concealment",
+      "Bolt-down kit included"
+    ],
+    "price_ksh": 95000,
+    "size_cm": "25 x 30 x 30 (Internal)",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.8
+  },
+  {
+    "item_id": "OFF-SAFE010",
+    "name": "Data Safe (Fire & Water Resistant)",
+    "category": "Safes",
+    "features": [
+      "ETL Verified for 1/2 hour fire protection of digital media (CDs, DVDs, USBs, external hard drives)",
+      "Water resistance (24 hours in 8 inches of water)",
+      "Key lock",
+      "Adjustable shelf",
+      "Protects sensitive electronic data"
+    ],
+    "price_ksh": 28000,
+    "size_cm": "20 x 30 x 25",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.5
+  },
+  {
+    "item_id": "OFF-SAFE011",
+    "name": "Deposit Safe (Cash Management)",
+    "category": "Safes",
+    "features": [
+      "B-Rate Burglary Protection",
+      "Anti-fishing deposit slot",
+      "Key lock or digital lock option",
+      "Heavy-duty steel construction",
+      "Bolt-down holes",
+      "Ideal for cash, checks, and small envelopes"
+    ],
+    "price_ksh": 60000,
+    "size_cm": "60 x 35 x 35",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.3
+  },
+  {
+    "item_id": "OFF-PROJ012",
+    "name": "HD Projector (Office Presentations)",
+    "category": "Projectors",
+    "features": [
+      "Native 1080p Resolution",
+      "3500 Lumens Brightness",
+      "HDMI, VGA, USB Connectivity",
+      "Built-in Speaker",
+      "Keystone Correction"
+    ],
+    "price_ksh": 70000,
+    "size_cm": "10 x 30 x 25",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.4
+  },
+  {
+    "item_id": "OFF-LAMI013",
+    "name": "A3 Laminator (Professional)",
+    "category": "Laminators",
+    "features": [
+      "Hot and Cold Lamination",
+      "Warm-up time: 3-5 minutes",
+      "Max Laminating Width: 330mm (A3)",
+      "Jam Release Function",
+      "Adjustable Temperature Control"
+    ],
+    "price_ksh": 12000,
+    "size_cm": "10 x 48 x 15",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.0
+  },
+  {
+    "item_id": "OFF-BIND014",
+    "name": "Comb Binding Machine",
+    "category": "Binding Machines",
+    "features": [
+      "Punch Capacity: 15-20 sheets",
+      "Bind Capacity: Up to 450 sheets",
+      "Adjustable Punch Depth Margin",
+      "Waste Tray",
+      "Heavy-duty construction"
+    ],
+    "price_ksh": 9000,
+    "size_cm": "20 x 40 x 30",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.2
+  },
+  {
+    "item_id": "OFF-COUNT015",
+    "name": "Money Counting Machine (UV/MG Detection)",
+    "category": "Money Counting Machines",
+    "features": [
+      "Counts up to 1000 notes/minute",
+      "UV (Ultraviolet) and MG (Magnetic) counterfeit detection",
+      "Batching and Adding functions",
+      "Hopper Capacity: 200 notes",
+      "Suitable for KES, USD, EUR"
+    ],
+    "price_ksh": 25000,
+    "size_cm": "30 x 25 x 20",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.5
+  }
+]

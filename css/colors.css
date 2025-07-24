@@ -1,0 +1,261 @@
+/*
+ * colors.css
+ * This file defines the color palette and themes (light/dark mode) for the iMarket website.
+ * It uses CSS variables for easy management and ensures good color contrast for accessibility.
+ */
+
+/* ========================================= */
+/* Base Color Palette (Optional: for reference) */
+/* These are the raw colors used to derive the theme variables. */
+/* You can adjust these to change the overall feel of the site. */
+/* ========================================= */
+:root {
+    /* Neutrals */
+    --color-white: #FFFFFF;
+    --color-light-grey: #F8F8F8;
+    --color-medium-grey: #E0E0E0;
+    --color-dark-grey: #333333;
+    --color-black: #000000;
+
+    /* Primary Brand Colors (e.g., a vibrant blue for action) */
+    --color-imarket-blue: #007BFF; /* A standard blue */
+    --color-imarket-blue-dark: #0056b3; /* Darker shade for hover */
+
+    /* Accent Colors (e.g., for highlights or warnings) */
+    --color-accent-green: #28A745; /* Success */
+    --color-accent-red: #DC3545;   /* Error/Danger */
+    --color-accent-yellow: #FFC107; /* Warning */
+
+    /* Text Colors */
+    --color-text-light: #666666; /* Lighter text for secondary info */
+    --color-text-dark: #343A40; /* Darker text for main content */
+}
+
+
+/* ========================================= */
+/* Light Mode Theme Variables (Default) */
+/* These variables are used throughout the CSS for styling. */
+/* Ensure sufficient contrast for accessibility (WCAG AA minimum 4.5:1 for normal text). */
+/* ========================================= */
+:root {
+    /* Backgrounds */
+    --bg-primary: var(--color-white); /* Main background color */
+    --bg-secondary: var(--color-light-grey); /* For alternate sections, cards */
+    --bg-tertiary: var(--color-medium-grey); /* For borders, separators */
+
+    /* Text Colors */
+    --text-primary: var(--color-dark-grey); /* Main body text, headings */
+    --text-secondary: var(--color-text-light); /* Lighter text for descriptions, meta info */
+    --text-heading: var(--color-black); /* Stronger color for main headings */
+
+    /* Brand / Interactive Colors */
+    --color-brand-primary: var(--color-imarket-blue); /* Main button, link color */
+    --color-brand-primary-hover: var(--color-imarket-blue-dark); /* Hover state for primary brand color */
+    --color-brand-secondary: #6C757D; /* A neutral secondary color for less prominent actions */
+    --color-brand-secondary-hover: #5A6268; /* Hover state for secondary brand color */
+
+    /* Specific Element Colors */
+    --button-text-light: var(--color-white); /* Text on dark buttons */
+    --button-text-dark: var(--color-dark-grey); /* Text on light buttons */
+    --input-border: var(--color-medium-grey); /* Input field borders */
+    --input-bg: var(--color-white); /* Input field background */
+    --link-color: var(--color-imarket-blue); /* Default link color */
+    --link-hover-color: var(--color-imarket-blue-dark); /* Default link hover color */
+
+    /* Status Colors */
+    --color-success: var(--color-accent-green);
+    --color-error: var(--color-accent-red);
+    --color-warning: var(--color-accent-yellow);
+
+    /* Border Colors */
+    --border-light: var(--color-medium-grey);
+    --border-dark: var(--color-dark-grey);
+
+    /* Box Shadows */
+    --box-shadow-light: rgba(0, 0, 0, 0.1);
+}
+
+
+/* ========================================= */
+/* Dark Mode Theme Variables */
+/* These variables override the light mode ones when the 'dark-mode' class is applied to <html> or <body>. */
+/* Ensure sufficient contrast for accessibility. */
+/* ========================================= */
+html.dark-mode, body.dark-mode {
+    /* Backgrounds */
+    --bg-primary: #121212; /* Dark main background */
+    --bg-secondary: #1E1E1E; /* Darker alternate sections, cards */
+    --bg-tertiary: #333333; /* Dark borders, separators */
+
+    /* Text Colors */
+    --text-primary: #E0E0E0; /* Light text for main body, headings */
+    --text-secondary: #B0B0B0; /* Lighter text for descriptions, meta info */
+    --text-heading: var(--color-white); /* Stronger white for main headings */
+
+    /* Brand / Interactive Colors (can remain similar or adjust for dark mode vibrancy) */
+    --color-brand-primary: #64B5F6; /* Lighter blue for dark mode primary actions */
+    --color-brand-primary-hover: #42A5F5; /* Slightly darker for hover */
+    --color-brand-secondary: #9E9E9E; /* Neutral secondary for dark mode */
+    --color-brand-secondary-hover: #757575; /* Hover state */
+
+    /* Specific Element Colors */
+    --button-text-light: var(--color-dark-grey); /* Text on light buttons (if any in dark mode) */
+    --button-text-dark: var(--color-white); /* Text on dark buttons */
+    --input-border: #444444; /* Input field borders in dark mode */
+    --input-bg: #2C2C2C; /* Input field background in dark mode */
+    --link-color: #64B5F6; /* Default link color in dark mode */
+    --link-hover-color: #42A5F5; /* Default link hover color in dark mode */
+
+    /* Status Colors (can remain consistent or adjust for dark mode) */
+    --color-success: #66BB6A;
+    --color-error: #EF5350;
+    --color-warning: #FFEB3B;
+
+    /* Border Colors */
+    --border-light: #444444;
+    --border-dark: #666666;
+
+    /* Box Shadows (adjust for subtlety in dark mode) */
+    --box-shadow-light: rgba(255, 255, 255, 0.05);
+}
+
+/* ========================================= */
+/* General Element Styling using Variables */
+/* This section demonstrates how to use the variables. */
+/* You would typically put these in main.css, but included here for context. */
+/* ========================================= */
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-heading);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* Example button styling */
+.btn-primary {
+    background-color: var(--color-brand-primary);
+    color: var(--button-text-light);
+    border: 1px solid var(--color-brand-primary);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-brand-primary-hover);
+    border-color: var(--color-brand-primary-hover);
+}
+
+.card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-light);
+    box-shadow: 0 2px 5px var(--box-shadow-light);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Navigation specific colors */
+.main-nav {
+    background-color: var(--bg-primary); /* Or a slightly different shade if desired */
+    border-bottom: 1px solid var(--border-light);
+}
+
+.main-nav a {
+    color: var(--text-primary); /* Nav links text */
+}
+
+.main-nav a:hover {
+    color: var(--color-brand-primary); /* Nav links hover */
+}
+
+.dropdown-menu {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-light);
+    box-shadow: 0 4px 8px var(--box-shadow-light);
+}
+
+.dropdown-menu a {
+    color: var(--text-primary);
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--bg-secondary);
+    color: var(--color-brand-primary);
+}
+
+/* Mode toggle icon color */
+#mode-toggle {
+    color: var(--text-primary); /* Icon color */
+}
+
+/* Search bar styling */
+.search-input-container input {
+    background-color: var(--input-bg);
+    color: var(--text-primary);
+    border: 1px solid var(--input-border);
+}
+
+.search-input-container button {
+    background-color: var(--color-brand-primary);
+    color: var(--button-text-light);
+}
+
+.search-input-container button:hover {
+    background-color: var(--color-brand-primary-hover);
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border-light);
+}
+
+footer h4 {
+    color: var(--text-heading);
+}
+
+footer a {
+    color: var(--link-color);
+}
+
+footer a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Ensure good contrast for text against backgrounds */
+/* You can use online contrast checkers (e.g., webaim.org/resources/contrastchecker/)
+   to verify specific color combinations.
+   General guideline:
+   - Normal text (14pt or less): 4.5:1 contrast ratio
+   - Large text (18pt or 14pt bold and larger): 3:1 contrast ratio
+*/
+
+/* Example of a contrast check (conceptual, not actual code) */
+/*
+   Light Mode:
+   - --text-primary (#333333) on --bg-primary (#FFFFFF) -> High contrast (passes)
+   - --text-secondary (#666666) on --bg-primary (#FFFFFF) -> Good contrast (passes)
+   - --color-brand-primary (#007BFF) on --button-text-light (#FFFFFF) -> Good contrast (passes)
+
+   Dark Mode:
+   - --text-primary (#E0E0E0) on --bg-primary (#121212) -> High contrast (passes)
+   - --text-secondary (#B0B0B0) on --bg-primary (#121212) -> Good contrast (passes)
+   - --color-brand-primary (#64B5F6) on --button-text-dark (#FFFFFF) -> Good contrast (passes)
+*/
