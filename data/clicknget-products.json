@@ -6,12 +6,12 @@
     "category": "Electronics",
     "subCategory": "Televisions",
     "brand": "TechVision",
-    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=TechVision",
+    "brandLogo": "images/TechVision.webp",
     "price": 999.99,
     "originalPrice": 1199.99,
     "isDiscounted": true,
     "images": [
-      "https://placehold.co/600x400/B0E0E6/000000?text=TV+Main"
+      "images/super-amoled-1.webp"
     ],
     "thumbnailImages": [
       "https://placehold.co/100x75/E6B0E6/000000?text=Thumb1",
@@ -62,13 +62,13 @@
     "originalPrice": 79.99,
     "isDiscounted": true,
     "images": [
-      "https://placehold.co/600x400/E0F0E0/000000?text=Mouse+Main"
+      "images/gaming-mouse.webp"
     ],
     "thumbnailImages": [
-      "https://placehold.co/100x75/F0E6D0/000000?text=Thumb1",
-      "https://placehold.co/100x75/D0E0F0/000000?text=Thumb2",
-      "https://placehold.co/100x75/E0F0A0/000000?text=Thumb3",
-      "https://placehold.co/100x75/F0A0E0/000000?text=Thumb4"
+      "images/gaming-mouse-thumb1.webp",
+      "images/gaming-mouse-thumb2.webp",
+      "images/gaming-mouse-thumb3.webp",
+      "images/gaming-mouse-thumb4.webp"
     ],
     "rating": 4.9,
     "reviewsCount": 870,
@@ -114,13 +114,13 @@
     "originalPrice": 55.00,
     "isDiscounted": true,
     "images": [
-      "https://placehold.co/600x400/D0D0F0/000000?text=Jeans+Main"
+      "images/denim.webp"
     ],
     "thumbnailImages": [
-      "https://placehold.co/100x75/F0F0D0/000000?text=Thumb1",
-      "https://placehold.co/100x75/D0F0F0/000000?text=Thumb2",
-      "https://placehold.co/100x75/F0D0D0/000000?text=Thumb3",
-      "https://placehold.co/100x75/D0D0D0/000000?text=Thumb4"
+      "images/denim-thumb1.webp",
+      "images/denim-thumb2.webp",
+      "images/denim-thumb3.webp",
+      "images/denim-thumb4.webp"
     ],
     "rating": 4.5,
     "reviewsCount": 1500,
@@ -167,13 +167,13 @@
     "originalPrice": 229.99,
     "isDiscounted": true,
     "images": [
-      "https://placehold.co/600x400/F0F0E0/000000?text=Chair+Main"
+      "images/"
     ],
     "thumbnailImages": [
-      "https://placehold.co/100x75/E0D0F0/000000?text=Thumb1",
-      "https://placehold.co/100x75/A0F0E0/000000?text=Thumb2",
-      "https://placehold.co/100x75/F0E0A0/000000?text=Thumb3",
-      "https://placehold.co/100x75/D0A0F0/000000?text=Thumb4"
+      "images/office-chair-thumb1.webp",
+      "images/office-chair-thumb2.webp",
+      "images/office-chair-thumb3.webp",
+      "images/office-chair-thumb4.webp"
     ],
     "rating": 4.6,
     "reviewsCount": 980,
@@ -218,12 +218,12 @@
     "originalPrice": 149.99,
     "isDiscounted": true,
     "images": [
-      "https://placehold.co/600x400/A0D0F0/000000?text=Headphones+Main"
+      "images/noise-cancelation.webp"
     ],
     "thumbnailImages": [
-      "https://placehold.co/100x75/F0A0D0/000000?text=Thumb1",
-      "https://placehold.co/100x75/D0F0A0/000000?text=Thumb2",
-      "https://placehold.co/100x75/A0F0D0/000000?text=Thumb3",
+      "images/noise-cancelation-thumb1.webp",
+      "images/noise-cancelation-thumb2.webp",
+      "images/noise-cancelation-thumb3.webp",
       "https://placehold.co/100x75/F0D0A0/000000?text=Thumb4"
     ],
     "rating": 4.8,
@@ -270,13 +270,13 @@
     "originalPrice": 42.00,
     "isDiscounted": true,
     "images": [
-      "https://placehold.co/600x400/F0D0E0/000000?text=Dress+Main"
+      "images/floral-dress.webp"
     ],
     "thumbnailImages": [
-      "https://placehold.co/100x75/E0F0D0/000000?text=Thumb1",
-      "https://placehold.co/100x75/D0E0F0/000000?text=Thumb2",
-      "https://placehold.co/100x75/F0D0A0/000000?text=Thumb3",
-      "https://placehold.co/100x75/A0F0D0/000000?text=Thumb4"
+      "images/floral-dress-thumb1.webp",
+      "images/floral-dress-thumb2.webp",
+      "images/floral-dress-thumb3.webp",
+      "images/floral-dress-thumb4.webp"
     ],
     "rating": 4.4,
     "reviewsCount": 750,
@@ -324,13 +324,13 @@
     "originalPrice": 100.00,
     "isDiscounted": true,
     "images": [
-      "https://placehold.co/600x400/E0F0D0/000000?text=CoffeeMaker+Main"
+      "images/coffee-maker.webp"
     ],
     "thumbnailImages": [
-      "https://placehold.co/100x75/A0E0F0/000000?text=Thumb1",
-      "https://placehold.co/100x75/F0D0E0/000000?text=Thumb2",
-      "https://placehold.co/100x75/D0E0A0/000000?text=Thumb3",
-      "https://placehold.co/100x75/E0A0F0/000000?text=Thumb4"
+      "images/coffee-maker-thumb1.webp",
+      "images/coffee-maker-thumb2.webp",
+      "images/coffee-maker-thumb3.webp",
+      "images/coffee-maker-thumb4.webp"
     ],
     "rating": 4.7,
     "reviewsCount": 600,
@@ -374,13 +374,13 @@
     "originalPrice": 15.00,
     "isDiscounted": true,
     "images": [
-      "https://placehold.co/600x400/A0E0F0/000000?text=Cable+Main"
+      "images/cable-charger.webp"
     ],
     "thumbnailImages": [
-      "https://placehold.co/100x75/F0A0E0/000000?text=Thumb1",
-      "https://placehold.co/100x75/E0D0F0/000000?text=Thumb2",
-      "https://placehold.co/100x75/D0F0E0/000000?text=Thumb3",
-      "https://placehold.co/100x75/F0C0D0/000000?text=Thumb4"
+      "images/cable-charger-thumb1.webp",
+      "images/cable-charger-thumb2.webp",
+      "images/cable-charger-thumb3.webp",
+      "images/cable-charger-thumb4.webp"
     ],
     "rating": 4.9,
     "reviewsCount": 3500,

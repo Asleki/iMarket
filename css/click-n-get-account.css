@@ -1,0 +1,541 @@
+/*
+ * css/click-n-get-account.css
+ * Styles for the Click 'n Get user account dashboard.
+ */
+
+.account-dashboard-section {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: var(--bg-primary);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--box-shadow-light);
+}
+
+.account-dashboard-grid {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Sidebar fixed width, content takes rest */
+    gap: 30px;
+    align-items: flex-start; /* Align content to the top */
+}
+
+/* Account Sidebar Navigation */
+.account-sidebar {
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+    position: sticky; /* Keep sidebar visible on scroll */
+    top: 100px; /* Adjust based on header height */
+}
+
+.account-sidebar h2 {
+    font-size: 1.8em;
+    color: var(--text-heading);
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 10px;
+}
+
+.account-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.account-nav li {
+    margin-bottom: 8px;
+}
+
+.account-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 1.05em;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.account-nav-link i {
+    font-size: 1.1em;
+    color: var(--text-secondary); /* Default icon color */
+}
+
+.account-nav-link:hover {
+    background-color: var(--bg-light);
+    color: var(--color-brand-primary);
+}
+
+.account-nav-link.active {
+    background-color: var(--color-brand-primary);
+    color: var(--color-white);
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(var(--color-brand-primary-rgb), 0.3);
+}
+
+.account-nav-link.active i {
+    color: var(--color-white); /* Active icon color */
+}
+
+.account-nav-link.logout-link {
+    margin-top: 20px;
+    border-top: 1px solid var(--border-light);
+    padding-top: 15px;
+    color: var(--color-error); /* Red for logout */
+}
+.account-nav-link.logout-link:hover {
+    background-color: var(--color-error-light);
+    color: var(--color-white);
+}
+.account-nav-link.logout-link i {
+    color: var(--color-error);
+}
+.account-nav-link.logout-link:hover i {
+    color: var(--color-white);
+}
+
+/* Account Content Sections */
+.account-content {
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+    min-height: 500px; /* Ensure content area has a minimum height */
+}
+
+.account-content-section {
+    display: none; /* Hidden by default, shown by JS */
+}
+
+.account-content-section.active {
+    display: block;
+}
+
+.account-content-section h2 {
+    font-size: 2em;
+    color: var(--text-heading);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+/* My Profile Section */
+.profile-info p {
+    font-size: 1.1em;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+}
+.profile-info p strong {
+    color: var(--text-heading);
+    margin-right: 5px;
+}
+.profile-info .edit-profile-btn {
+    margin-top: 20px;
+}
+
+.edit-form {
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 25px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+.edit-form h3 {
+    font-size: 1.5em;
+    color: var(--text-heading);
+    margin-bottom: 20px;
+}
+.edit-form .form-group {
+    margin-bottom: 15px;
+}
+.edit-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--text-primary);
+}
+.edit-form input[type="text"],
+.edit-form input[type="email"],
+.edit-form input[type="tel"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    background-color: var(--input-bg);
+    color: var(--text-primary);
+    font-size: 1em;
+    box-sizing: border-box;
+}
+.edit-form input:focus {
+    border-color: var(--color-brand-primary);
+    box-shadow: 0 0 0 2px rgba(var(--color-brand-primary-rgb), 0.2);
+    outline: none;
+}
+.edit-form .form-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+/* Order History Section */
+.order-item {
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.order-item:last-child {
+    margin-bottom: 0;
+}
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed var(--border-light);
+    padding-bottom: 8px;
+}
+.order-header h3 {
+    font-size: 1.2em;
+    color: var(--text-heading);
+    margin: 0;
+}
+.order-date {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+}
+.order-item p {
+    font-size: 1em;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+}
+.order-item p strong {
+    color: var(--text-heading);
+}
+.order-status {
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.85em;
+}
+.status-delivered {
+    background-color: var(--color-success-light);
+    color: var(--color-success-dark);
+}
+.status-processing {
+    background-color: var(--color-info-light);
+    color: var(--color-info-dark);
+}
+.status-shipped {
+    background-color: var(--color-warning-light);
+    color: var(--color-warning-dark);
+}
+.order-items-summary {
+    font-style: italic;
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    margin-top: 10px;
+}
+.view-order-details-btn {
+    margin-top: 10px;
+}
+
+/* My Activities Section */
+.activity-item {
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.activity-item:last-child {
+    margin-bottom: 0;
+}
+.activity-type {
+    font-weight: bold;
+    color: var(--color-brand-primary);
+    font-size: 0.95em;
+    min-width: 120px; /* Align types */
+}
+.activity-description {
+    flex-grow: 1;
+    color: var(--text-primary);
+    font-size: 0.95em;
+}
+.activity-date {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+/* Account Settings Section */
+.settings-group {
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.settings-group h3 {
+    font-size: 1.3em;
+    color: var(--text-heading);
+    margin-bottom: 15px;
+    border-bottom: 1px dashed var(--border-light);
+    padding-bottom: 8px;
+}
+.settings-group .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-right: 15px;
+    vertical-align: middle; /* Align with text */
+}
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--input-border);
+    transition: .4s;
+    border-radius: 34px;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--color-white);
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .slider {
+    background-color: var(--color-brand-primary);
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--color-brand-primary);
+}
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+.settings-group label.toggle-switch {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: normal; /* Override default label bold */
+    color: var(--text-primary);
+    gap: 10px;
+}
+
+
+/* My Addresses & Payment Methods Sections (simulated static content) */
+.address-item, .payment-method-item {
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    position: relative; /* For buttons positioning */
+}
+.address-item h4, .payment-method-item h4 {
+    font-size: 1.1em;
+    color: var(--text-heading);
+    margin-bottom: 8px;
+}
+.address-item p, .payment-method-item p {
+    font-size: 0.95em;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+}
+.address-item .btn, .payment-method-item .btn {
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.add-new-btn {
+    margin-top: 20px;
+}
+
+/* Wishlist Section */
+#wishlist-items {
+    /* Reuses .product-grid from click-n-get.css */
+    margin-top: 20px;
+}
+
+/* Empty State Messages */
+.empty-state-message {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
+    font-size: 1.1em;
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+.empty-state-message i {
+    font-size: 2.5em;
+    color: var(--text-tertiary);
+    margin-bottom: 15px;
+    display: block;
+}
+.empty-state-message p {
+    margin-bottom: 20px;
+}
+
+
+/* ========================================= */
+/* Responsive Adjustments */
+/* ========================================= */
+@media (max-width: 1024px) {
+    .account-dashboard-grid {
+        grid-template-columns: 200px 1fr; /* Smaller sidebar */
+        gap: 20px;
+    }
+    .account-sidebar {
+        padding: 15px;
+    }
+    .account-sidebar h2 {
+        font-size: 1.6em;
+    }
+    .account-nav-link {
+        padding: 10px 12px;
+        font-size: 0.95em;
+    }
+    .account-nav-link i {
+        font-size: 1em;
+    }
+    .account-content {
+        padding: 20px;
+    }
+    .account-content-section h2 {
+        font-size: 1.8em;
+    }
+    .profile-info p, .order-item p, .activity-item span {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 768px) {
+    .account-dashboard-grid {
+        grid-template-columns: 1fr; /* Stack sidebar and content */
+        gap: 25px;
+    }
+    .account-sidebar {
+        position: static; /* Remove sticky */
+        top: auto;
+        border-radius: 0; /* Full width on mobile */
+        padding: 15px 10px;
+    }
+    .account-sidebar h2 {
+        display: none; /* Hide main account title on mobile sidebar */
+    }
+    .account-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+    .account-nav li {
+        margin-bottom: 0;
+        flex: 1 1 auto; /* Allow items to grow/shrink */
+    }
+    .account-nav-link {
+        justify-content: center;
+        text-align: center;
+        padding: 10px 8px;
+        font-size: 0.85em;
+        flex-direction: column; /* Stack icon and text */
+        gap: 5px;
+    }
+    .account-nav-link i {
+        font-size: 1.2em;
+    }
+    .account-nav-link.logout-link {
+        border-top: none;
+        padding-top: 10px;
+    }
+    .account-content {
+        padding: 15px;
+    }
+    .account-content-section h2 {
+        font-size: 1.6em;
+    }
+    .edit-form .form-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .edit-form .btn {
+        width: 100%;
+    }
+    .order-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .order-date {
+        margin-left: 0;
+    }
+    .activity-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .activity-type {
+        min-width: unset; /* Remove fixed width */
+        width: 100%;
+    }
+    .settings-group label.toggle-switch {
+        flex-direction: row; /* Keep toggle and text inline */
+        justify-content: space-between;
+        width: 100%;
+    }
+    .toggle-switch {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .account-dashboard-section {
+        padding: 15px 10px;
+    }
+    .account-content-section h2 {
+        font-size: 1.4em;
+    }
+    .profile-info p, .order-item p, .activity-item span {
+        font-size: 0.9em;
+    }
+    .edit-form h3 {
+        font-size: 1.3em;
+    }
+    .order-header h3 {
+        font-size: 1.1em;
+    }
+    .order-status {
+        font-size: 0.8em;
+    }
+    .activity-item {
+        padding: 10px;
+    }
+}

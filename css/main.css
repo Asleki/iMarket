@@ -102,7 +102,6 @@ ul {
     padding: 8px 0;
     font-size: 0.9em;
 }
-
 /* ========================================= */
 /* Main Navigation (Unified) */
 /* ========================================= */
@@ -120,7 +119,7 @@ ul {
 }
 
 .nav-brand .logo {
-    height: 40px; /* Adjust as needed for your logo size */
+    height: 60px; /* Adjust as needed for your logo size */
     width: auto;
     display: block;
 }
@@ -148,9 +147,8 @@ ul {
     text-decoration: none;
 }
 
-/* Dropdown / Mega Menu Styling */
+/* Dropdown / Mega Menu Styling - HIDDEN STATE */
 .dropdown-menu {
-    display: none; /* Hidden by default */
     position: absolute;
     top: 100%; /* Position below the parent nav item */
     left: 0;
@@ -161,22 +159,33 @@ ul {
     padding: 15px;
     min-width: 200px; /* Default min-width for simple dropdowns */
     z-index: 1001;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
-    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+
+    /* --- CRUCIAL FOR SMOOTH TRANSITION (HIDDEN) --- */
+    max-height: 0; /* Start with no height */
+    overflow: hidden; /* Hide overflowing content */
+    opacity: 0; /* Start fully transparent */
+    visibility: hidden; /* Hide from accessibility tree and screen readers */
+    transform: translateY(10px); /* Start slightly below for slide-in effect */
+    pointer-events: none; /* Prevent clicks/interactions when hidden */
+    transition: max-height 0.4s ease-out, opacity 0.3s ease, visibility 0.3s, transform 0.3s ease; /* Apply transitions */
+    /* Add a small buffer at the top to maintain hover area for smoother transition */
+    padding-top: 5px; 
 }
 
+/* Desktop Hover State for Dropdowns - VISIBLE STATE */
 .nav-item.has-dropdown:hover .dropdown-menu {
-    display: block;
+    /* Set a large enough max-height to reveal content.
+       You might need to adjust this value if your mega menu is very tall. */
+    max-height: 400px; /* Desktop max height */
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
+    transform: translateY(0); /* Slide up to normal position */
+    pointer-events: auto; /* Allow interaction when visible */
 }
 
 /* Mega Menu Specifics */
 .mega-menu {
-    display: grid;
+    display: grid; /* Always use grid for mega-menu layout */
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Flexible columns */
     gap: 20px;
     min-width: 700px; /* Wider for mega menu */
@@ -278,6 +287,610 @@ ul {
 
 .search-input-container button:hover {
     background-color: var(--color-brand-primary-hover);
+}
+
+/* Hamburger Menu (Hidden on large screens by default) */
+.hamburger-menu {
+    display: none; /* Hidden on large screens */
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.3s ease; /* For X animation */
+}
+
+/* Optional: Rotate the X icon slightly for a nicer effect */
+.hamburger-menu i.fa-times {
+    transform: rotate(90deg);
+}
+
+/* Subheader (for account/cart icons - will be populated on other pages) */
+.subheader {
+    padding: 10px 20px;
+    background-color: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    color: var(--text-secondary);
+}
+
+/* ========================================= */
+/* Media Queries for Responsiveness */
+/* ========================================= */
+
+/* Tablet and smaller desktops (e.g., up to 1024px) */
+@media (max-width: 1024px) {
+    .main-nav {
+        padding: 10px 15px;
+    }
+
+    .nav-links {
+        gap: 15px; /* Slightly reduce gap */
+    }
+
+    .nav-link {
+        padding: 8px 0;
+        font-size: 0.95em;
+    }
+
+    .mega-menu {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust mega menu columns */
+        min-width: unset; /* Allow it to shrink */
+        width: 100%; /* Take full width of parent */
+        left: 0; /* Align to left */
+        right: 0; /* Align to right */
+    }
+
+    .search-input-container.active {
+        width: 200px; /* Smaller search bar */
+    }
+
+    /* Footer: Adjust to 3 columns if content fits, or let auto-fit handle it */
+    .footer-content-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Allow more flexibility */
+    }
+}
+
+/* Small screens (e.g., Mobile - up to 768px) */
+@media (max-width: 768px) {
+    .top-announcement {
+        font-size: 0.8em;
+        padding: 5px 0;
+    }
+
+    .main-nav {
+        flex-wrap: wrap; /* Allow items to wrap */
+        padding: 10px 15px;
+    }
+
+    .nav-brand {
+        flex-basis: 50%; /* Take half width */
+    }
+
+    .nav-utility {
+        flex-basis: 50%; /* Take half width */
+        justify-content: flex-end; /* Push utility icons to the right */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger menu */
+        order: 1; /* Place it first in utility group */
+    }
+
+    .nav-utility #search-toggle {
+        order: 2; /* Place search second */
+    }
+
+    .nav-utility #mode-toggle {
+        order: 3; /* Place mode toggle third */
+    }
+
+    .search-input-container {
+        position: absolute; /* Overlay effect */
+        top: 100%; /* Below the nav */
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0 2px 5px var(--box-shadow-light);
+        z-index: 999;
+    }
+
+    .search-input-container.active {
+        width: 100%; /* Full width when active */
+    }
+
+    /* Hide full nav links on small screens by default */
+    .nav-links {
+        display: none; /* Hidden by default, JS toggles 'nav-open' on body */
+        flex-direction: column; /* Stack vertically */
+        width: 100%;
+        background-color: var(--bg-primary);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 4px 8px var(--box-shadow-light);
+        z-index: 998;
+        padding: 10px 0;
+        border-top: 1px solid var(--border-light);
+        /* Add transitions for smooth opening/closing */
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out; /* Slower transition for main nav */
+    }
+
+    /* When nav is open (JS adds 'nav-open' class to body) */
+    body.nav-open .nav-links {
+        display: flex; /* Show the nav links */
+        max-height: 80vh; /* Allow it to expand to a max height, adjust as needed */
+        overflow-y: auto; /* Enable scrolling for very long navs */
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid var(--border-light); /* Separator for nav items */
+    }
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+
+    .nav-link {
+        padding: 15px 0; /* More padding for touch targets */
+    }
+
+    /* Mobile Dropdown/Mega Menu adjustments (controlled by JS toggling 'dropdown-open' class) */
+    .dropdown-menu {
+        position: static; /* Remove absolute positioning for mobile */
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        background-color: transparent; /* Inherit parent background */
+        transform: none; /* Remove translateY */
+        opacity: 1; /* Always visible when parent is 'dropdown-open' */
+        visibility: visible; /* Always visible when parent is 'dropdown-open' */
+        pointer-events: auto; /* Always interactive on mobile when showing */
+        border-top: 1px solid var(--border-light); /* Separator */
+        margin-top: 10px;
+
+        /* --- CRUCIAL FOR SMOOTH TRANSITION (MOBILE) --- */
+        max-height: 0; /* Start with no height on mobile */
+        overflow: hidden; /* Hide overflow */
+        transition: max-height 0.4s ease-out; /* Transition max-height for mobile dropdowns */
+    }
+
+    /* Hide dropdowns on hover for mobile (JS handles click toggle) */
+    .nav-item.has-dropdown:hover .dropdown-menu {
+        max-height: 0; /* Override hover effect */
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        pointer-events: none;
+    }
+
+    /* This rule ensures the dropdown is shown when JS adds the 'dropdown-open' class */
+    .nav-item.has-dropdown.dropdown-open .dropdown-menu {
+        max-height: 60vh; /* Mobile max height for dropdowns, adjust as needed */
+        overflow-y: auto; /* Enable internal scrolling */
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    /* Ensure specific dropdown types also follow this for mobile when open */
+    .nav-item.has-dropdown.dropdown-open .mega-menu {
+        display: grid; /* Ensure mega-menu uses grid when active */
+    }
+    .nav-item.has-dropdown.dropdown-open .simple-dropdown {
+        display: block; /* Ensure simple-dropdown uses block when active */
+    }
+
+
+    .mega-menu, .simple-dropdown ul {
+        grid-template-columns: 1fr; /* Single column for mega menu columns */
+        gap: 0;
+    }
+
+    .mega-menu h4 {
+        padding-top: 10px;
+        padding-left: 20px;
+        border-top: 1px solid var(--border-light); /* Separator for mega menu categories */
+    }
+    .mega-menu h4:first-child {
+        border-top: none;
+    }
+
+    .mega-menu ul li a, .simple-dropdown ul li a {
+        padding: 10px 30px; /* Indent sub-links */
+    }
+
+    /* Footer: Two columns */
+    .footer-content-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* Very small screens (e.g., smaller mobiles - up to 480px) */
+@media (max-width: 480px) {
+    .hero-banner h1 {
+        font-size: 2em;
+    }
+
+    .hero-banner p {
+        font-size: 1em;
+    }
+
+    .category-grid, .shop-grid {
+        grid-template-columns: 1fr; /* Single column for grids */
+    }
+
+    /* Footer: Single column */
+    .footer-content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .social-links {
+        flex-direction: row; /* Keep social icons horizontal on very small screens */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .social-links a {
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+}
+/* ========================================= */
+/* Media Queries for Responsiveness - Mobile Dropdown Adjustments */
+/* ========================================= */
+
+@media (max-width: 768px) {
+    /* Existing mobile nav-links display logic (handled by JS toggling 'nav-open' on body) */
+    .nav-links {
+        /* ... (your existing mobile nav-links styles) ... */
+    }
+
+    /* Mobile Dropdown/Mega Menu adjustments */
+    .dropdown-menu {
+        position: static; /* Remove absolute positioning for mobile */
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        background-color: transparent; /* Inherit parent background */
+        transform: none;
+        opacity: 1; /* Always visible when parent is 'dropdown-open' */
+        visibility: visible; /* Always visible when parent is 'dropdown-open' */
+        pointer-events: auto; /* Always interactive on mobile when showing */
+        border-top: 1px solid var(--border-light); /* Separator */
+        margin-top: 10px;
+
+        /* Adjust max-height for mobile view (e.g., 60% of viewport height) */
+        max-height: 60vh; 
+        overflow-y: auto; /* Keep internal scrolling for long lists */
+    }
+
+    /* Important: Disable hover effects for dropdowns on small screens */
+    .nav-item.has-dropdown:hover .dropdown-menu {
+        /* On mobile, dropdowns are controlled by JS toggling 'dropdown-open' class, not hover */
+        /* Ensure hover styles don't conflict or show unwanted behavior */
+        display: none; /* Hide on hover on mobile, only show via JS class toggle */
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        pointer-events: none;
+    }
+
+    /* This rule ensures the dropdown is shown when JS adds the 'dropdown-open' class */
+    .nav-item.has-dropdown.dropdown-open .dropdown-menu {
+        display: block; /* Or flex/grid as appropriate for the specific dropdown type */
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    /* Ensure specific dropdown types also follow this for mobile */
+    .nav-item.has-dropdown.dropdown-open .mega-menu {
+        display: grid;
+    }
+    .nav-item.has-dropdown.dropdown-open .simple-dropdown {
+        display: block;
+    }
+
+    /* ... rest of your mobile media query styles ... */
+}
+
+/* Nav Utility (Search & Mode Toggle) */
+.nav-utility {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.utility-icon {
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.utility-icon:hover {
+    color: var(--color-brand-primary);
+}
+
+/* Search Bar */
+.search-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--input-border);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    width: 0; /* Hidden by default */
+    opacity: 0;
+    visibility: hidden;
+}
+
+.search-input-container.active {
+    width: 250px; /* Visible width */
+    opacity: 1;
+    visibility: visible;
+}
+
+.search-input-container input {
+    border: none;
+    padding: 8px 15px;
+    outline: none;
+    flex-grow: 1;
+    background-color: var(--input-bg);
+    color: var(--text-primary);
+    font-size: 0.95em;
+}
+
+.search-input-container button {
+    background-color: var(--color-brand-primary);
+    color: var(--button-text-light);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-input-container button:hover {
+    background-color: var(--color-brand-primary-hover);
+}
+
+/* Hamburger Menu (Hidden on large screens by default) */
+.hamburger-menu {
+    display: none; /* Hidden on large screens */
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Subheader (for account/cart icons - will be populated on other pages) */
+.subheader {
+    /* Basic styling for the subheader if needed, e.g., padding, background */
+    padding: 10px 20px;
+    background-color: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    gap: 15px;
+    color: var(--text-secondary);
+}
+
+/* ========================================= */
+/* Media Queries for Responsiveness */
+/* ========================================= */
+
+/* Tablet and smaller desktops (e.g., up to 1024px) */
+@media (max-width: 1024px) {
+    .main-nav {
+        padding: 10px 15px;
+    }
+
+    .nav-links {
+        gap: 15px; /* Slightly reduce gap */
+    }
+
+    .nav-link {
+        padding: 8px 0;
+        font-size: 0.95em;
+    }
+
+    .mega-menu {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust mega menu columns */
+        min-width: unset; /* Allow it to shrink */
+        width: 100%; /* Take full width of parent */
+        left: 0; /* Align to left */
+        right: 0; /* Align to right */
+    }
+
+    .search-input-container.active {
+        width: 200px; /* Smaller search bar */
+    }
+
+    /* Footer: Adjust to 3 columns if content fits, or let auto-fit handle it */
+    .footer-content-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Allow more flexibility */
+    }
+}
+
+/* Small screens (e.g., Mobile - up to 768px) */
+@media (max-width: 768px) {
+    .top-announcement {
+        font-size: 0.8em;
+        padding: 5px 0;
+    }
+
+    .main-nav {
+        flex-wrap: wrap; /* Allow items to wrap */
+        padding: 10px 15px;
+    }
+
+    .nav-brand {
+        flex-basis: 50%; /* Take half width */
+    }
+
+    .nav-utility {
+        flex-basis: 50%; /* Take half width */
+        justify-content: flex-end; /* Push utility icons to the right */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger menu */
+        order: 1; /* Place it first in utility group */
+    }
+
+    .nav-utility #search-toggle {
+        order: 2; /* Place search second */
+    }
+
+    .nav-utility #mode-toggle {
+        order: 3; /* Place mode toggle third */
+    }
+
+    .search-input-container {
+        /* Initially hidden, will be toggled by JS */
+        position: absolute; /* Overlay effect */
+        top: 100%; /* Below the nav */
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0 2px 5px var(--box-shadow-light);
+        z-index: 999;
+    }
+
+    .search-input-container.active {
+        width: 100%; /* Full width when active */
+    }
+
+    /* Hide full nav links on small screens by default */
+    .nav-links {
+        display: none;
+        flex-direction: column; /* Stack vertically */
+        width: 100%;
+        background-color: var(--bg-primary);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 4px 8px var(--box-shadow-light);
+        z-index: 998;
+        padding: 10px 0;
+        border-top: 1px solid var(--border-light);
+    }
+
+    /* When nav is open (JS will add this class to body or header) */
+    body.nav-open .nav-links {
+        display: flex;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid var(--border-light); /* Separator for nav items */
+    }
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+
+    .nav-link {
+        padding: 15px 0; /* More padding for touch targets */
+    }
+
+    .nav-item.has-dropdown:hover .dropdown-menu {
+        display: none; /* Hide dropdowns on hover for mobile, JS will handle click toggle */
+    }
+
+    /* Mobile Dropdown/Mega Menu adjustments */
+    .dropdown-menu {
+        position: static; /* Remove absolute positioning */
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        background-color: transparent; /* Inherit parent background */
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        border-top: 1px solid var(--border-light); /* Separator */
+        margin-top: 10px;
+
+        /* --- CRUCIAL ADDITIONS FOR SCROLLING ON MOBILE --- */
+        max-height: 60vh; /* Adjust max-height for mobile view (e.g., 60% of viewport height) */
+        overflow-y: auto;
+        /* --- END CRUCIAL ADDITIONS --- */
+    }
+
+    .mega-menu, .simple-dropdown ul {
+        grid-template-columns: 1fr; /* Single column for mega menu columns */
+        gap: 0;
+    }
+
+    .mega-menu h4 {
+        padding-top: 10px;
+        padding-left: 20px;
+        border-top: 1px solid var(--border-light); /* Separator for mega menu categories */
+    }
+    .mega-menu h4:first-child {
+        border-top: none;
+    }
+
+    .mega-menu ul li a, .simple-dropdown ul li a {
+        padding: 10px 30px; /* Indent sub-links */
+    }
+
+    /* Footer: Two columns */
+    .footer-content-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* Very small screens (e.g., smaller mobiles - up to 480px) */
+@media (max-width: 480px) {
+    .hero-banner h1 {
+        font-size: 2em;
+    }
+
+    .hero-banner p {
+        font-size: 1em;
+    }
+
+    .category-grid, .shop-grid {
+        grid-template-columns: 1fr; /* Single column for grids */
+    }
+
+    /* Footer: Single column */
+    .footer-content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .social-links {
+        flex-direction: row; /* Keep social icons horizontal on very small screens */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .social-links a {
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
 }
 
 /* Hamburger Menu (Hidden on large screens by default) */
@@ -700,4 +1313,415 @@ html.dark-mode .logo {
         gap: 15px; /* Smaller gap */
         padding: 10px;
     }
+}
+
+/* Add to your existing main.css */
+
+/* ========================================= */
+/* User Preference Modal Styling */
+/* ========================================= */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Ensure it's on top of everything */
+    overflow-y: auto; /* Allow scrolling if content is tall */
+    padding: 20px; /* Padding around the modal content */
+    box-sizing: border-box;
+}
+
+.modal-content {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 700px; /* Max width for the modal */
+    width: 100%;
+    text-align: center;
+    position: relative;
+    max-height: 90vh; /* Max height to prevent overflow on small screens */
+    overflow-y: auto; /* Scroll inside modal if content is too long */
+}
+
+.modal-content h2 {
+    color: var(--color-brand-primary);
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.preference-selection-area {
+    display: flex;
+    flex-wrap: wrap; /* Allow sections to wrap */
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.category-selection, .subcategory-selection {
+    flex: 1; /* Take equal space */
+    min-width: 280px; /* Minimum width for each column */
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.category-selection h3, .subcategory-selection h3 {
+    color: var(--text-heading);
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 10px;
+}
+
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Flexible columns for checkboxes */
+    gap: 10px;
+}
+
+.checkbox-grid label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 0.95em;
+    color: var(--text-primary);
+}
+
+.checkbox-grid input[type="checkbox"] {
+    transform: scale(1.2); /* Slightly larger checkboxes */
+    accent-color: var(--color-brand-primary); /* Brand color for checked state */
+}
+
+.selection-feedback {
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#save-preferences-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1.1em;
+}
+
+/* Body class to prevent scrolling when modal is open */
+body.modal-open {
+    overflow: hidden;
+}
+
+/* Explore More Button Container */
+.explore-more-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments for modal */
+@media (max-width: 768px) {
+    .modal-content {
+        padding: 20px;
+        margin: 10px;
+    }
+    .modal-content h2 {
+        font-size: 1.8em;
+    }
+    .modal-content p {
+        font-size: 1em;
+    }
+    .preference-selection-area {
+        flex-direction: column; /* Stack columns vertically */
+        gap: 20px;
+    }
+    .category-selection, .subcategory-selection {
+        min-width: unset; /* Remove min-width to allow full width */
+        width: 100%;
+    }
+    .checkbox-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 15px;
+    }
+    .modal-content h2 {
+        font-size: 1.5em;
+    }
+    .checkbox-grid {
+        grid-template-columns: 1fr; /* Single column for checkboxes on very small screens */
+    }
+}
+
+
+/*
+ * main.css additions for Hero Slider Styling
+ * Add these rules to your existing main.css file.
+ */
+
+/* ========================================= */
+/* Hero Slider Styling */
+/* ========================================= */
+.hero-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1400px; /* Max width for your slider */
+    margin: 20px auto;
+    overflow: hidden; /* Hide overflowing parts of slides */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px var(--box-shadow-light); /* Soft shadow */
+}
+
+.slides-container {
+    display: flex;
+    width: 100%;
+    height: 400px; /* Fixed height for the slider, adjust as needed */
+    position: relative; /* For absolute positioning of individual slides */
+}
+
+.slide {
+    min-width: 100%; /* Each slide takes full width of container */
+    height: 100%;
+    position: absolute; /* Position slides on top of each other */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 1s ease-in-out; /* Smooth fade transition */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; /* Ensure background image covers the slide */
+    background-position: center; /* Center the background image */
+    color: var(--button-text-light); /* Default text color for slide content */
+}
+
+.slide.active {
+    opacity: 1; /* Show active slide */
+    position: relative; /* Bring active slide into flow for layout */
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the slide area */
+    filter: brightness(60%); /* Darken image for better text readability */
+    /* Add a subtle transition for image if you want a slight effect on slide change */
+    transition: filter 0.5s ease;
+}
+
+.slide-content {
+    position: absolute; /* Position content over the image */
+    text-align: center;
+    padding: 20px;
+    max-width: 80%; /* Limit content width */
+    z-index: 2; /* Ensure content is above the dimmed image */
+    /* Add subtle animation for content on slide change */
+    transform: translateY(20px);
+    opacity: 0;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.slide.active .slide-content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.slide-content h2 {
+    font-size: 2.8em; /* Large heading for impact */
+    margin-bottom: 10px;
+    color: var(--color-white); /* Ensure white text for readability over dark image */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Text shadow for better contrast */
+}
+
+.slide-content p {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+    color: var(--color-white);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.slide-content .btn-primary {
+    /* Inherits .btn-primary styles, but can be customized for slider */
+    background-color: var(--color-brand-primary);
+    color: var(--button-text-light);
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 30px; /* More rounded button for hero */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.slide-content .btn-primary:hover {
+    background-color: var(--color-brand-primary-hover);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Slider Navigation Buttons (Arrows) */
+.slider-prev, .slider-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: var(--color-white);
+    border: none;
+    padding: 15px 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    z-index: 3; /* Ensure buttons are above slides */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.slider-prev:hover, .slider-next:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+}
+
+.slider-prev {
+    left: 10px;
+}
+
+.slider-next {
+    right: 10px;
+}
+
+/* Slider Dots (Indicators) */
+.slider-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px; /* Space between dots */
+    z-index: 3;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    border-radius: 50%; /* Circular dots */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot.active {
+    background-color: var(--color-white); /* Solid white for active dot */
+    transform: scale(1.2); /* Slightly larger for active dot */
+}
+
+/* Responsive adjustments for Hero Slider */
+@media (max-width: 1024px) {
+    .slides-container {
+        height: 350px; /* Slightly shorter height for smaller desktops/large tablets */
+    }
+    .slide-content h2 {
+        font-size: 2.2em;
+    }
+    .slide-content p {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .slides-container {
+        height: 300px; /* Shorter height for mobile */
+    }
+    .slide-content h2 {
+        font-size: 2em;
+    }
+    .slide-content p {
+        font-size: 1em;
+    }
+    .slider-prev, .slider-next {
+        padding: 10px 5px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .slides-container {
+        height: 200px; /* Even shorter for very small mobiles */
+    }
+    .slide-content h2 {
+        font-size: 1.5em;
+    }
+    .slide-content p {
+        font-size: 0.9em;
+        margin-bottom: 15px; /* Reduce margin */
+    }
+    .slide-content .btn-primary {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
+
+
+/* In your main.css file */
+
+/* Product Grid (General) */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: var(--bg-secondary); /* THIS IS THE LIGHT BACKGROUND COLOR */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px var(--box-shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none; /* Ensure cards don't have underlines */
+    color: var(--text-primary); /* Default text color for card */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px var(--box-shadow-light);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px; /* Fixed height for product images */
+    object-fit: cover;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.product-info {
+    padding: 15px;
+    flex-grow: 1; /* Allows info section to take remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info h3 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: var(--text-heading);
+}
+
+.product-info .product-price {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--color-brand-primary);
+    margin-top: auto; /* Pushes price to the bottom */
 }

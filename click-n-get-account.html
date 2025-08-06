@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PRIMARY META TAGS FOR SEO -->
+    <title id="page-title">My Account - Click 'n Get</title>
+    <meta name="description" content="Manage your Click 'n Get account. View order history, update profile information, and track your activities.">
+    <meta name="keywords" content="Click n Get account, my profile, order history, my activities, online shopping account Kenya">
+    <meta name="author" content="Click 'n Get">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+
+    <!-- ROBOTS META TAG -->
+    <meta name="robots" content="noindex, nofollow"> <!-- Noindex/nofollow for private user pages -->
+
+    <!-- CANONICAL TAG - Will be updated by JS -->
+    <link rel="canonical" href="https://asleki.github.io/wdd231/iMarket/click-n-get-account.html"> 
+
+    <!-- OPEN GRAPH (Facebook, LinkedIn, etc.) -->
+    <meta property="og:locale" content="en_KE"> 
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://asleki.github.io/wdd231/iMarket/click-n-get-account.html"> 
+    <meta property="og:title" content="My Account - Click 'n Get">
+    <meta property="og:description" content="Manage your Click 'n Get account.">
+    <meta property="og:image" content="images/shop-click-n-get.webp"> 
+    <meta property="og:image:width" content="1200"> 
+    <meta property="og:image:height" content="630"> 
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ClickNGetKE"> 
+    <meta name="twitter:creator" content="@ClickNGetKE"> 
+    <meta name="twitter:url" content="https://asleki.github.io/wdd231/iMarket/click-n-get-account.html"> 
+    <meta name="twitter:title" content="My Account - Click 'n Get">
+    <meta name="twitter:description" content="Manage your Click 'n Get account.">
+    <meta name="twitter:image" content="images/shop-click-n-get.webp">
+
+    <!-- FONT PRELOADS -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></noscript>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/click-n-get.css"> 
+    <!-- Specific CSS for account page -->
+    <link rel="stylesheet" href="css/click-n-get-account.css"> 
+
+</head>
+<body>
+    <header>
+        <div class="top-announcement">
+            <p>🎉 Flash Sale! Up to 50% Off on Selected Electronics! Limited Time Offer!</p>
+        </div>
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <a href="index.html" aria-label="iMarket Home">
+                    <img src="images/imarket-logo.webp" alt="iMarket Logo" class="logo">
+                </a>
+            </div>
+            
+            <button class="hamburger-menu" aria-label="Open Navigation Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links">
+                <li class="nav-item has-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">Shop By Category <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu mega-menu category-menu">
+                        <div class="mega-menu-column">
+                            <h4>Electronics & Gadgets</h4>
+                            <ul>
+                                <li><a href="click-n-get-categories.html?category=Smartphones">Smartphones & Tablets</a></li>
+                                <li><a href="click-n-get-categories.html?category=Laptops">Laptops & Computers</a></li>
+                                <li><a href="click-n-get-categories.html?category=Televisions">TVs & Home Entertainment</a></li>
+                                <li><a href="click-n-get-categories.html?category=Accessories">Accessories</a></li>
+                                <li><a href="click-n-get-categories.html">View All Electronics</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu-column">
+                            <h4>Fashion & Apparel</h4>
+                            <ul>
+                                <li><a href="click-n-get-categories.html?category=MensFashion">Men's Fashion</a></li>
+                                <li><a href="click-n-get-categories.html?category=WomensFashion">Women's Fashion</a></li>
+                                <li><a href="click-n-get-categories.html?category=KidsBaby">Kids & Baby</a></li>
+                                <li><a href="click-n-get-categories.html?category=BagsShoes">Bags, Shoes & Accessories</a></li>
+                                <li><a href="click-n-get-categories.html">View All Fashion</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu-column">
+                            <h4>Home & Kitchen</h4>
+                            <ul>
+                                <li><a href="click-n-get-categories.html?category=MajorAppliances">Major Appliances</a></li>
+                                <li><a href="click-n-get-categories.html?category=Cookware">Cookware & Dining</a></li>
+                                <li><a href="click-n-get-categories.html?category=HomeDecor">Home Decor</a></li>
+                                <li><a href="click-n-get-categories.html?category=Furniture">Furniture</a></li>
+                                <li><a href="click-n-get-categories.html">View All Home & Kitchen</a></li>
+                            </ul>
+                        </div>
+                         <div class="mega-menu-column">
+                            <h4>Office & Business</h4>
+                            <ul>
+                                <li><a href="officetech-solutions-categories.html?category=Computers">Computers & Laptops</a></li>
+                                <li><a href="officetech-solutions-categories.html?category=Printers">Printers & Scanners</a></li>
+                                <li><a href="officetech-solutions-categories.html?category=OfficeFurniture">Office Furniture</a></li>
+                                <li><a href="officetech-solutions-categories.html?category=OfficeSupplies">Office Supplies</a></li>
+                                <li><a href="officetech-solutions-categories.html">View All Office</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu-column">
+                            <h4>Vehicles & Auto</h4>
+                            <ul>
+                                <li><a href="autogiant-motors-categories.html?category=Cars">Cars & SUVs</a></li>
+                                <li><a href="autogiant-motors-categories.html?category=Motorcycles">Motorcycles</a></li>
+                                <li><a href="autogiant-motors-categories.html?category=SpareParts">Spare Parts & Accessories</a></li>
+                                <li><a href="autogiant-motors-categories.html">View All Vehicles</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu-column">
+                            <h4>Properties</h4>
+                            <ul>
+                                <li><a href="soko-properties-categories.html?category=Houses">Houses</a></li>
+                                <li><a href="soko-properties-categories.html?category=Apartments">Apartments</a></li>
+                                <li><a href="soko-properties-categories.html?category=Land">Land</a></li>
+                                <li><a href="soko-properties-categories.html">View All Properties</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item has-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">Our Shops <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu simple-dropdown shop-menu">
+                        <ul>
+                            <li><a href="soko-properties-index.html">Soko Properties</a></li>
+                            <li><a href="click-n-get-index.html">Click 'n Get</a></li>
+                            <li><a href="autogiant-motors-index.html">AutoGiant Motors</a></li>
+                            <li><a href="officetech-solutions-index.html">OfficeTech Solutions</a></li>
+                            <li><a href="shops.html">View All Shops</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="deals.html" class="nav-link">Today's Deals</a></li>
+                <li class="nav-item"><a href="new-arrivals.html" class="nav-link">New Arrivals</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+
+            <div class="nav-utility">
+                <button id="search-toggle" class="utility-icon" aria-label="Toggle Search Bar">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="search-bar" class="search-input-container">
+                    <input type="search" placeholder="Search iMarket..." aria-label="Search iMarket">
+                    <button class="search-submit" aria-label="Perform Search"><i class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <button id="mode-toggle" class="utility-icon" aria-label="Toggle Light/Dark Mode">
+                    <i class="fas fa-moon"></i> <!-- Initial icon for dark mode -->
+                </button>
+            </div>
+        </nav>
+        
+        <div class="subheader">
+            <!-- This will be dynamically populated by JS or rendered based on page needs -->
+        </div>
+
+    </header>
+
+    <main>
+        <section class="account-dashboard-section">
+            <div class="account-dashboard-grid">
+                <aside class="account-sidebar">
+                    <h2>My Account</h2>
+                    <nav class="account-nav">
+                        <ul>
+                            <li><a href="#" class="account-nav-link active" data-section="profile"><i class="fas fa-user"></i> My Profile</a></li>
+                            <li><a href="#" class="account-nav-link" data-section="orders"><i class="fas fa-box-open"></i> Order History</a></li>
+                            <li><a href="#" class="account-nav-link" data-section="activities"><i class="fas fa-chart-line"></i> My Activities</a></li>
+                            <li><a href="#" class="account-nav-link" data-section="settings"><i class="fas fa-cog"></i> Account Settings</a></li>
+                            <li><a href="#" class="account-nav-link" data-section="addresses"><i class="fas fa-map-marker-alt"></i> My Addresses</a></li>
+                            <li><a href="#" class="account-nav-link" data-section="payment"><i class="fas fa-credit-card"></i> Payment Methods</a></li>
+                            <li><a href="#" class="account-nav-link" data-section="wishlist"><i class="fas fa-heart"></i> Wishlist</a></li>
+                            <li><a href="#" class="account-nav-link" data-section="notifications"><i class="fas fa-bell"></i> Notifications</a></li>
+                            <li><a href="#" class="account-nav-link logout-link"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <div class="account-content">
+                    <!-- My Profile Section -->
+                    <div id="profile-section" class="account-content-section active">
+                        <h2>My Profile</h2>
+                        <div class="profile-info">
+                            <p><strong>Name:</strong> <span id="profile-name">Loading...</span></p>
+                            <p><strong>Email:</strong> <span id="profile-email">Loading...</span></p>
+                            <p><strong>Phone:</strong> <span id="profile-phone">Loading...</span></p>
+                            <p><strong>Default Address:</strong> <span id="profile-address">Loading...</span></p>
+                            <p><strong>Member Since:</strong> <span id="profile-member-since">Loading...</span></p>
+                            <button class="btn btn-secondary edit-profile-btn"><i class="fas fa-edit"></i> Edit Profile</button>
+                        </div>
+                        <div id="profile-edit-form" class="edit-form" style="display: none;">
+                            <h3>Edit Profile</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="edit-name">Full Name:</label>
+                                    <input type="text" id="edit-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="edit-email">Email:</label>
+                                    <input type="email" id="edit-email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="edit-phone">Phone:</label>
+                                    <input type="tel" id="edit-phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="edit-address">Default Address:</label>
+                                    <input type="text" id="edit-address" placeholder="Street, City, County">
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-primary save-profile-btn">Save Changes</button>
+                                    <button type="button" class="btn btn-tertiary cancel-edit-btn">Cancel</button>
+                                </div>
+                            </form>
+                            <div id="profile-response-message" class="response-message" style="display: none;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Order History Section -->
+                    <div id="orders-section" class="account-content-section">
+                        <h2>Order History</h2>
+                        <div id="orders-list">
+                            <p class="loading-message">Loading order history...</p>
+                            <!-- Orders will be populated here by JS -->
+                        </div>
+                        <div id="no-orders-message" class="empty-state-message" style="display: none;">
+                            <p><i class="fas fa-box-open"></i> You haven't placed any orders yet.</p>
+                            <a href="click-n-get-index.html" class="btn btn-primary">Start Shopping</a>
+                        </div>
+                    </div>
+
+                    <!-- My Activities Section -->
+                    <div id="activities-section" class="account-content-section">
+                        <h2>My Activities</h2>
+                        <div id="activities-list">
+                            <p class="loading-message">Loading activities...</p>
+                            <!-- Activities will be populated here by JS -->
+                        </div>
+                        <div id="no-activities-message" class="empty-state-message" style="display: none;">
+                            <p><i class="fas fa-clipboard-list"></i> No recent activities to display.</p>
+                        </div>
+                    </div>
+
+                    <!-- Account Settings Section -->
+                    <div id="settings-section" class="account-content-section">
+                        <h2>Account Settings</h2>
+                        <p>Manage your account preferences and security settings.</p>
+                        <div class="settings-group">
+                            <h3>Password & Security</h3>
+                            <button class="btn btn-secondary"><i class="fas fa-key"></i> Change Password</button>
+                            <button class="btn btn-secondary"><i class="fas fa-shield-alt"></i> Two-Factor Authentication</button>
+                        </div>
+                        <div class="settings-group">
+                            <h3>Communication Preferences</h3>
+                            <label class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                                Receive Email Notifications
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                                Receive SMS Alerts
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- My Addresses Section -->
+                    <div id="addresses-section" class="account-content-section">
+                        <h2>My Addresses</h2>
+                        <div id="addresses-list">
+                            <p class="loading-message">Loading addresses...</p>
+                            <!-- Addresses will be populated here by JS -->
+                            <div class="address-item">
+                                <h4>Home Address</h4>
+                                <p>123 Main Street, Apt 4B</p>
+                                <p>Nairobi, Nairobi County, 00100</p>
+                                <p>Kenya</p>
+                                <button class="btn btn-tertiary btn-sm"><i class="fas fa-edit"></i> Edit</button>
+                                <button class="btn btn-tertiary btn-sm"><i class="fas fa-trash-alt"></i> Delete</button>
+                            </div>
+                            <div class="address-item">
+                                <h4>Work Address</h4>
+                                <p>Office 501, Business Park</p>
+                                <p>Mombasa, Mombasa County, 80100</p>
+                                <p>Kenya</p>
+                                <button class="btn btn-tertiary btn-sm"><i class="fas fa-edit"></i> Edit</button>
+                                <button class="btn btn-tertiary btn-sm"><i class="fas fa-trash-alt"></i> Delete</button>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary add-new-btn"><i class="fas fa-plus"></i> Add New Address</button>
+                    </div>
+
+                    <!-- Payment Methods Section -->
+                    <div id="payment-section" class="account-content-section">
+                        <h2>Payment Methods</h2>
+                        <div id="payment-methods-list">
+                            <p class="loading-message">Loading payment methods...</p>
+                            <!-- Payment methods will be populated here by JS -->
+                            <div class="payment-method-item">
+                                <h4>M-Pesa (Primary)</h4>
+                                <p>+254 7XX XXX XXX</p>
+                                <button class="btn btn-tertiary btn-sm"><i class="fas fa-edit"></i> Edit</button>
+                                <button class="btn btn-tertiary btn-sm"><i class="fas fa-trash-alt"></i> Delete</button>
+                            </div>
+                            <div class="payment-method-item">
+                                <h4>Visa Card</h4>
+                                <p>**** **** **** 1234 (Expires 12/26)</p>
+                                <button class="btn btn-tertiary btn-sm"><i class="fas fa-edit"></i> Edit</button>
+                                <button class="btn btn-tertiary btn-sm"><i class="fas fa-trash-alt"></i> Delete</button>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary add-new-btn"><i class="fas fa-plus"></i> Add New Payment Method</button>
+                    </div>
+
+                    <!-- Wishlist Section -->
+                    <div id="wishlist-section" class="account-content-section">
+                        <h2>Wishlist</h2>
+                        <div id="wishlist-items" class="product-grid">
+                            <p class="loading-message">Loading wishlist...</p>
+                            <!-- Wishlist items will be populated here by JS -->
+                        </div>
+                        <div id="no-wishlist-message" class="empty-state-message" style="display: none;">
+                            <p><i class="fas fa-heart"></i> Your wishlist is empty.</p>
+                            <a href="click-n-get-index.html" class="btn btn-primary">Discover Products</a>
+                        </div>
+                    </div>
+
+                    <!-- Notifications Section -->
+                    <div id="notifications-section" class="account-content-section">
+                        <h2>Notifications</h2>
+                        <div id="notifications-list">
+                            <p class="loading-message">Loading notifications...</p>
+                            <!-- Notifications will be populated here by JS -->
+                        </div>
+                        <div id="no-notifications-message" class="empty-state-message" style="display: none;">
+                            <p><i class="fas fa-bell-slash"></i> No new notifications.</p>
+                        </div>
+                        <button id="mark-all-read-btn" class="btn btn-secondary" style="display: none;"><i class="fas fa-check-double"></i> Mark All As Read</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content-wrapper">
+            <!-- iMarket Contact & Location (Prominent) -->
+            <div class="footer-contact">
+                <h4>Contact iMarket Kenya</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Mlolongo, Machakos County, Kenya <br> (Countrywide Delivery)</p>
+                <p><i class="fas fa-phone"></i> +254 722 000 000</p> 
+                <p><i class="fas fa-envelope"></i> support@imarket.co.ke</p>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <h4>Connect With Us</h4>
+                <a href="https://www.facebook.com/iMarketKenya" target="_blank" rel="noopener" aria-label="iMarket Kenya on Facebook">
+                    <img src="images/icons%26logos/facebook_24dp.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/iMarketKenya" target="_blank" rel="noopener" aria-label="iMarket Kenya on Instagram">
+                    <img src="images/icons%26logos/instagram_24dp.svg" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/company/iMarketKenya" target="_blank" rel="noopener" aria-label="iMarket Kenya on LinkedIn">
+                    <img src="images/icons%26logos/linkedin_24dp.svg" alt="LinkedIn">
+                </a>
+                <a href="https://twitter.com/iMarketKE" target="_blank" rel="noopener" aria-label="iMarket Kenya on Twitter">
+                    <img src="images/icons%26logos/twitter_24dp.svg" alt="Twitter">
+                </a>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-quick-links">
+                <h4>Information & Help</h4>
+                <ul>
+                    <li><a href="about.html">About iMarket</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="developer.html">About the Developer</a></li>
+                </ul>
+            </div>
+
+            <!-- Shop Categories -->
+            <div class="footer-shop-links">
+                <h4>Shop Categories</h4>
+                <ul>
+                    <li><a href="click-n-get-categories.html?category=Electronics">Electronics & Gadgets</a></li>
+                    <li><a href="click-n-get-categories.html?category=Fashion">Fashion & Apparel</a></li>
+                    <li><a href="click-n-get-categories.html?category=HomeGoods">Home & Kitchen</a></li>
+                    <li><a href="officetech-solutions-categories.html?category=Office">Office & Business</a></li>
+                    <li><a href="autogiant-motors-categories.html?category=Vehicles">Vehicles & Auto</a></li>
+                    <li><a href="soko-properties-categories.html?category=Properties">Properties</a></li>
+                </ul>
+            </div>
+             <!-- Shops / Vendors Section -->
+            <div class="footer-shops-list">
+                <h4>Our Trusted Shops</h4>
+                <ul>
+                    <li><a href="soko-properties-index.html">Soko Properties</a></li>
+                    <li><a href="click-n-get-index.html">Click 'n Get</a></li>
+                    <li><a href="autogiant-motors-index.html">AutoGiant Motors</a></li>
+                    <li><a href="officetech-solutions-index.html">OfficeTech Solutions</a></li>
+                    <li><a href="shops.html">View All Shops</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; <span id="copyright-year"></span> iMarket Kenya. All rights reserved. <span class="divider">|</span> Designed by Alex Malunda for WDD 231. <span class="divider">|</span> Last Modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top-btn" class="btn btn-primary scroll-to-top" aria-label="Scroll to top" style="display: none;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Notification Toast -->
+    <div id="notification-toast" class="notification-toast" style="display: none;">
+        <span id="notification-text"></span>
+        <button class="close-toast-btn">&times;</button>
+    </div>
+
+    <!-- Modals -->
+    <!-- Order Tracking Modal -->
+    <div id="order-tracking-modal" class="modal" aria-modal="true" role="dialog" aria-labelledby="order-tracking-modal-title">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="order-tracking-modal-title"><i class="fas fa-truck-fast"></i> Order Tracking</h2>
+                <button class="close-button" aria-label="Close order tracking modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="tracking-details">
+                    <p>Order Number: <strong id="tracking-order-number"></strong></p>
+                    <p>Current Status: <span id="tracking-current-status" class="order-status"></span></p>
+                    <div class="tracking-progress-bar">
+                        <div class="progress-step" id="step-ordered"><i class="fas fa-clipboard-check"></i> Ordered</div>
+                        <div class="progress-step" id="step-warehouse"><i class="fas fa-warehouse"></i> Warehouse</div>
+                        <div class="progress-step" id="step-packaging"><i class="fas fa-box"></i> Packaging</div>
+                        <div class="progress-step" id="step-courier-warehouse"><i class="fas fa-truck-loading"></i> Courier Hub</div>
+                        <div class="progress-step" id="step-in-transit"><i class="fas fa-route"></i> In Transit</div>
+                        <div class="progress-step" id="step-out-for-delivery"><i class="fas fa-person-walking-luggage"></i> Out for Delivery</div>
+                        <div class="progress-step" id="step-delivered"><i class="fas fa-handshake-angle"></i> Delivered</div>
+                    </div>
+                    <div id="tracking-updates-list" class="tracking-updates-list">
+                        <!-- Dynamic updates will go here -->
+                    </div>
+                    <div class="tracking-actions">
+                        <button id="advance-tracking-btn" class="btn btn-secondary" style="display: none;">Advance Status (Simulated)</button>
+                        <button id="mark-order-final-btn" class="btn btn-primary" style="display: none;">Mark as Delivered/Picked Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Submission Modal -->
+    <div id="review-modal" class="modal" aria-modal="true" role="dialog" aria-labelledby="review-modal-title">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="review-modal-title"><i class="fas fa-star"></i> Write a Review</h2>
+                <button class="close-button" aria-label="Close review modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Reviewing: <strong id="review-product-name"></strong></p>
+                <form id="review-form">
+                    <div class="form-group">
+                        <label>Your Rating <span class="required">*</span></label>
+                        <div id="review-star-rating" class="star-rating-input">
+                            <i class="far fa-star" data-rating="1"></i>
+                            <i class="far fa-star" data-rating="2"></i>
+                            <i class="far fa-star" data-rating="3"></i>
+                            <i class="far fa-star" data-rating="4"></i>
+                            <i class="far fa-star" data-rating="5"></i>
+                        </div>
+                        <input type="hidden" id="review-rating-value" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-comment">Your Comment <span class="required">*</span></label>
+                        <textarea id="review-comment" rows="5" placeholder="Share your experience with this product..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-media">Upload Photos/Videos (Simulated)</label>
+                        <input type="file" id="review-media" accept="image/*,video/*" multiple>
+                        <p class="form-help-text">File upload is simulated. No actual files will be stored.</p>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-review-btn">Submit Review</button>
+                </form>
+                <div id="review-response-message" class="response-message" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script> 
+    <script src="js/click-n-get-account.js"></script>
+</body>
+</html>

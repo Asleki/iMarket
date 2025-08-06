@@ -1,0 +1,663 @@
+/* officetech-solutions.css */
+
+/* General OfficeTech Solutions Styles */
+/* These styles will override or augment main.css for specific elements */
+
+body {
+    background-color: var(--light-background); /* Lighter background for a clean look */
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif; /* Consistent with main.css but can be specified if needed */
+}
+
+/* Shop Subheader Specifics (inside universal header .subheader) */
+.officetech-subheader {
+    background-color: var(--primary-color-dark); /* Darker primary for subheader */
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.officetech-subheader .shop-subheader-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.officetech-subheader .shop-logo img {
+    height: 50px; /* Adjust logo size */
+    width: auto;
+    object-fit: contain;
+}
+
+.officetech-subheader .shop-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px; /* Spacing between nav items */
+}
+
+.officetech-subheader .shop-nav a {
+    color: var(--white-text-color); /* White text on dark subheader */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+    padding: 5px 0;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.officetech-subheader .shop-nav a:hover,
+.officetech-subheader .shop-nav a.active {
+    color: var(--secondary-color); /* Highlight on hover/active */
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.officetech-subheader .shop-utility-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.officetech-subheader .shop-utility-icons .utility-icon {
+    color: var(--white-text-color);
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+    position: relative; /* For notification/cart count positioning */
+}
+
+.officetech-subheader .shop-utility-icons .utility-icon:hover {
+    color: var(--secondary-color);
+}
+
+.officetech-subheader .shop-utility-icons .cart-count,
+.officetech-subheader .shop-utility-icons .notification-count {
+    background-color: var(--accent-color); /* Use accent for count circles */
+    color: var(--white-text-color);
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: absolute;
+    top: -5px; /* Adjust positioning */
+    right: -10px; /* Adjust positioning */
+    min-width: 20px; /* Ensure circular shape for single digits */
+    text-align: center;
+    line-height: 1;
+    transform: scale(0); /* Hidden by default */
+    transform-origin: top right;
+    transition: transform 0.2s ease-out;
+}
+
+.officetech-subheader .shop-utility-icons .cart-count.visible,
+.officetech-subheader .shop-utility-icons .notification-count.visible {
+    transform: scale(1); /* Make visible */
+}
+
+
+/* Hero Slider Section */
+.hero-slider {
+    position: relative;
+    width: 100%;
+    height: 450px; /* Adjust height as needed */
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow-medium); /* Add shadow to slider */
+    border-radius: 8px; /* Rounded corners for slider */
+}
+
+.hero-slider .slider-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex; /* Use flex for content positioning */
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-slider .slider-item.active {
+    opacity: 1;
+}
+
+.hero-slider .slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the area, crop if necessary */
+    filter: brightness(0.5); /* Darken image for better text readability */
+}
+
+.hero-slider .slider-content {
+    position: absolute;
+    color: var(--white-text-color);
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    z-index: 10; /* Ensure content is above image */
+}
+
+.hero-slider .slider-content h2 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-slider .slider-content p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+/* Slider Navigation Buttons */
+.hero-slider .slider-prev,
+.hero-slider .slider-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--white-text-color);
+    border: none;
+    padding: 15px 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 15;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.hero-slider .slider-prev:hover,
+.hero-slider .slider-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-slider .slider-prev {
+    left: 10px;
+}
+
+.hero-slider .slider-next {
+    right: 10px;
+}
+
+/* Slider Dots */
+.slider-dots-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    display: flex;
+    gap: 10px;
+}
+
+.slider-dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.slider-dot.active {
+    background-color: var(--white-text-color);
+    transform: scale(1.2);
+}
+
+
+/* Common Section Styling */
+.filters-section, /* New filter section */
+.shop-categories-section,
+.hot-picks-section,
+.about-officetech-section,
+.cta-section-officetech {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: var(--shadow-small);
+}
+
+/* Specific styling for the new filters section */
+.filters-section {
+    padding: 30px 20px; /* Slightly less padding */
+    margin-bottom: 20px; /* Closer to the product grid */
+}
+
+.filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 25px; /* Row and column gap */
+    align-items: flex-end; /* Align items to the bottom */
+    justify-content: center;
+}
+
+.filter-controls h3 {
+    width: 100%; /* Take full width */
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-group label {
+    font-weight: 500;
+    color: var(--text-color-dark);
+}
+
+.filter-group select,
+.filter-group input[type="number"] {
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: var(--light-background);
+    min-width: 120px;
+}
+
+.filter-group input[type="number"] {
+    width: 100px; /* Fixed width for price inputs */
+}
+
+.filter-group.price-range-group {
+    flex-direction: row; /* Keep min/max price on one line */
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-controls .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px; /* Push buttons down a bit to align with inputs */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--heading-color);
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+/* Categories Section */
+.shop-categories-section .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch; /* Ensure items stretch to fill row */
+}
+
+.shop-categories-section .category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--light-background);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-extra-small);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.shop-categories-section .category-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.shop-categories-section .category-item img {
+    width: 100%;
+    max-width: 150px; /* Control image size */
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.shop-categories-section .category-item h3 {
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    margin: 0;
+}
+
+/* Product Grid (Hot Picks) */
+.hot-picks-section .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.hot-picks-section .product-card {
+    background-color: var(--light-background);
+    border-radius: 8px;
+    box-shadow: var(--shadow-extra-small);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hot-picks-section .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.hot-picks-section .product-card img {
+    max-width: 100%;
+    height: 200px; /* Fixed height for product images */
+    object-fit: contain; /* Ensure entire image is visible */
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.hot-picks-section .product-card h3 {
+    font-size: 1.4rem;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+
+.hot-picks-section .product-card .price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.hot-picks-section .product-card .price .old-price {
+    text-decoration: line-through;
+    color: var(--text-color-light);
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.hot-picks-section .product-card .rating {
+    color: var(--color-warning); 
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.hot-picks-section .product-card .btn-secondary {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+}
+
+.hot-picks-section .btn-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hot-picks-section .btn-outline {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.hot-picks-section .btn-outline:hover {
+    background-color: var(--primary-color);
+    color: var(--white-text-color);
+    box-shadow: var(--shadow-medium);
+}
+
+.hot-picks-section .product-grid .no-results {
+    grid-column: 1 / -1; /* Span across all columns */
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-color-light);
+    padding: 20px;
+}
+
+
+/* About OfficeTech Section */
+.about-officetech-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about-officetech-section .about-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-officetech-section .about-content h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+.about-officetech-section .about-content h2::after {
+    left: 0;
+    transform: none;
+}
+
+.about-officetech-section .about-content p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+    font-size: 1.05rem;
+}
+
+.about-officetech-section .about-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.about-officetech-section .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow-medium);
+}
+
+/* Call to Action Section (Specific to OfficeTech) */
+.cta-section-officetech {
+    background-color: var(--secondary-color); /* Use accent color for CTA */
+    color: var(--white-text-color);
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 0; /* No margin at the bottom before footer */
+}
+
+.cta-section-officetech h3 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.cta-section-officetech p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-section-officetech .btn-secondary {
+    background-color: var(--primary-color); /* Primary color for CTA button */
+    color: var(--white-text-color);
+    border: 2px solid var(--primary-color);
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cta-section-officetech .btn-secondary:hover {
+    background-color: var(--primary-color-dark);
+    border-color: var(--primary-color-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 992px) {
+    .officetech-subheader .shop-subheader-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .officetech-subheader .shop-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero-slider {
+        height: 350px;
+    }
+
+    .hero-slider .slider-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-slider .slider-content p {
+        font-size: 1rem;
+    }
+
+    .shop-categories-section .category-grid,
+    .hot-picks-section .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .filter-controls {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter-controls h3 {
+        margin-bottom: 15px;
+    }
+
+    .filter-group {
+        width: 100%;
+        max-width: 300px;
+        align-items: center;
+    }
+
+    .filter-group.price-range-group {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-slider {
+        height: 300px;
+    }
+
+    .hero-slider .slider-content h2 {
+        font-size: 2rem;
+    }
+
+    .hero-slider .slider-content p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    .about-officetech-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-officetech-section .about-content h2 {
+        text-align: center;
+    }
+
+    .about-officetech-section .about-content h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cta-section-officetech h3 {
+        font-size: 2rem;
+    }
+
+    .cta-section-officetech p {
+        font-size: 1rem;
+    }
+
+    .filter-controls .btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .officetech-subheader .shop-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-slider {
+        height: 250px;
+    }
+
+    .hero-slider .slider-content h2 {
+        font-size: 1.8rem;
+    }
+    .hero-slider .slider-content p {
+        display: none; /* Hide paragraph on very small screens */
+    }
+
+    .shop-categories-section .category-grid,
+    .hot-picks-section .product-grid {
+        grid-template-columns: 1fr; /* Single column layout for small screens */
+    }
+
+    .shop-categories-section,
+    .hot-picks-section,
+    .about-officetech-section,
+    .cta-section-officetech,
+    .filters-section { /* Apply to filters section too */
+        padding: 40px 15px;
+    }
+    
+    .filter-group select,
+    .filter-group input[type="number"] {
+        width: 100%; /* Make inputs full width on very small screens */
+        min-width: unset;
+    }
+}

@@ -3,6 +3,7 @@
     "item_id": "OFF-COMP001",
     "name": "Desktop Computer (Mid-Range Office PC)",
     "category": "Computers",
+    "image_path": "images/desktop-computer.webp",
     "features": [
       "Intel Core i5 Processor (12th Gen or newer)",
       "8GB RAM (DDR4)",
@@ -22,6 +23,7 @@
     "item_id": "OFF-LAP002",
     "name": "Laptop (Business Series)",
     "category": "Computers",
+    "image_path": "images/business-laptop.webp",
     "features": [
       "Intel Core i7 Processor (12th Gen or newer)",
       "16GB RAM (DDR4)",
@@ -42,6 +44,7 @@
     "item_id": "OFF-PRT003",
     "name": "Multifunction Laser Printer (Print, Scan, Copy, Fax)",
     "category": "Printers",
+    "image_path": "images/laser-printer.jpg",
     "features": [
       "Monochrome Laser Printing",
       "Print Speed: Up to 40 ppm",
@@ -60,6 +63,7 @@
     "item_id": "OFF-SCAN004",
     "name": "Document Scanner (High-Speed)",
     "category": "Scanners",
+    "image_path": "images/document-scanner.jpg",
     "features": [
       "Scan Speed: Up to 60 ppm",
       "Automatic Document Feeder (ADF) - 80 sheets",
@@ -77,6 +81,7 @@
     "item_id": "OFF-COPY005",
     "name": "Office Photocopier (Medium Volume)",
     "category": "Photocopiers",
+    "image_path": "images/office-photocopier.jpg",
     "features": [
       "Color & Monochrome Copying",
       "Copy Speed: Up to 30 ppm",
@@ -95,6 +100,7 @@
     "item_id": "OFF-SHRED006",
     "name": "Heavy Duty Paper Shredder",
     "category": "Shredders",
+    "image_path": "images/paper-shredder.jpg",
     "features": [
       "Cross-Cut Shredding (P-4 security level)",
       "Sheet Capacity: 20-25 sheets",
@@ -112,6 +118,7 @@
     "item_id": "OFF-PHONE007",
     "name": "VoIP Desk Phone",
     "category": "Telephones",
+    "image_path": "images/voip-desk-phone.jpg",
     "features": [
       "HD Voice Quality",
       "Multiple SIP Accounts",
@@ -130,6 +137,7 @@
     "item_id": "OFF-SAFE008",
     "name": "Office Fire Resistant Safe (Small)",
     "category": "Safes",
+    "image_path": "images/fire-resistant-safe.jpg",
     "features": [
       "UL Classified Fire Protection (1-hour at 1700°F)",
       "Digital Lock with programmable code",
@@ -148,6 +156,7 @@
     "item_id": "OFF-SAFE009",
     "name": "Burglar-Proof Floor Safe",
     "category": "Safes",
+    "image_path": "images/burglar-proof-safe.webp",
     "features": [
       "C-Rate Burglary Protection",
       "Heavy-gauge steel door and body",
@@ -166,6 +175,7 @@
     "item_id": "OFF-SAFE010",
     "name": "Data Safe (Fire & Water Resistant)",
     "category": "Safes",
+    "image_path": "images/data-safe.webp",
     "features": [
       "ETL Verified for 1/2 hour fire protection of digital media (CDs, DVDs, USBs, external hard drives)",
       "Water resistance (24 hours in 8 inches of water)",
@@ -183,6 +193,7 @@
     "item_id": "OFF-SAFE011",
     "name": "Deposit Safe (Cash Management)",
     "category": "Safes",
+    "image_path": "images/deposit-safe.webp",
     "features": [
       "B-Rate Burglary Protection",
       "Anti-fishing deposit slot",
@@ -201,6 +212,7 @@
     "item_id": "OFF-PROJ012",
     "name": "HD Projector (Office Presentations)",
     "category": "Projectors",
+    "image_path": "images/hd-projector.jpg",
     "features": [
       "Native 1080p Resolution",
       "3500 Lumens Brightness",
@@ -218,6 +230,7 @@
     "item_id": "OFF-LAMI013",
     "name": "A3 Laminator (Professional)",
     "category": "Laminators",
+    "image_path": "images/a3-laminator.webp",
     "features": [
       "Hot and Cold Lamination",
       "Warm-up time: 3-5 minutes",
@@ -235,6 +248,7 @@
     "item_id": "OFF-BIND014",
     "name": "Comb Binding Machine",
     "category": "Binding Machines",
+    "image_path": "images/binding-machine.webp",
     "features": [
       "Punch Capacity: 15-20 sheets",
       "Bind Capacity: Up to 450 sheets",
@@ -252,6 +266,7 @@
     "item_id": "OFF-COUNT015",
     "name": "Money Counting Machine (UV/MG Detection)",
     "category": "Money Counting Machines",
+    "image_path": "images/money-counting-machine.jpg",
     "features": [
       "Counts up to 1000 notes/minute",
       "UV (Ultraviolet) and MG (Magnetic) counterfeit detection",

@@ -1,0 +1,205 @@
+/*
+ * css/soko-properties-contact.css
+ * Styles for the general contact page for Soko Properties.
+ */
+
+.contact-section {
+    padding: 20px;
+    max-width: 1000px; /* Wider for general contact info */
+    margin: 20px auto;
+    background-color: var(--bg-primary);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--box-shadow-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-card {
+    width: 100%;
+    padding: 25px;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    box-shadow: 0 1px 5px var(--box-shadow-light);
+}
+
+.contact-card h2 {
+    font-size: 2.2em;
+    color: var(--text-heading);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-subheading {
+    font-size: 1.1em;
+    color: var(--text-secondary);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.contact-info-item {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.contact-info-item i {
+    font-size: 2.5em;
+    color: var(--color-brand-primary); /* Using Soko Properties' brand color */
+    margin-bottom: 15px;
+}
+
+.contact-info-item h3 {
+    font-size: 1.4em;
+    color: var(--text-heading);
+    margin-bottom: 10px;
+}
+
+.contact-info-item p {
+    font-size: 0.95em;
+    color: var(--text-primary);
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.contact-info-item p:last-child {
+    margin-bottom: 0;
+}
+.contact-info-item a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+.contact-info-item a:hover {
+    text-decoration: underline;
+}
+
+.form-heading-secondary {
+    font-size: 1.8em;
+    color: var(--text-heading);
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 10px;
+}
+
+.general-contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--text-primary);
+    font-size: 0.95em;
+}
+
+.form-group .required {
+    color: var(--color-error); /* Red asterisk for required fields */
+    margin-left: 3px;
+}
+
+.general-contact-form input[type="text"],
+.general-contact-form input[type="email"],
+.general-contact-form input[type="tel"],
+.general-contact-form textarea {
+    padding: 12px 15px;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    background-color: var(--input-bg);
+    color: var(--text-primary);
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding/border in width */
+}
+
+.general-contact-form input:focus,
+.general-contact-form textarea:focus {
+    border-color: var(--color-brand-primary);
+    box-shadow: 0 0 0 2px rgba(var(--color-brand-primary-rgb), 0.2);
+}
+
+.general-contact-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 150px;
+}
+
+.send-message-btn {
+    align-self: flex-start; /* Align button to the left */
+    margin-top: 10px;
+}
+
+.response-message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.response-message.success {
+    background-color: var(--color-success);
+    color: var(--button-text-light);
+}
+
+.response-message.error {
+    background-color: var(--color-error);
+    color: var(--button-text-light);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 15px;
+        margin: 15px auto;
+    }
+    .contact-card {
+        padding: 20px;
+    }
+    .contact-card h2 {
+        font-size: 1.8em;
+    }
+    .contact-info-grid {
+        grid-template-columns: 1fr; /* Stack contact info items vertically */
+    }
+    .form-heading-secondary {
+        font-size: 1.5em;
+    }
+    .send-message-btn {
+        width: 100%; /* Full width button on small screens */
+        align-self: center; /* Center the button */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-card h2 {
+        font-size: 1.5em;
+    }
+    .contact-subheading {
+        font-size: 1em;
+    }
+    .contact-info-item i {
+        font-size: 2em;
+    }
+    .contact-info-item h3 {
+        font-size: 1.2em;
+    }
+}

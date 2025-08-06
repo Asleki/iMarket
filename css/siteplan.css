@@ -1,0 +1,72 @@
+:root {
+            /* Using a consistent set of CSS variables from your `colors.css` file */
+            --primary-color: var(--color-brand-primary);
+            --secondary-color: var(--color-accent-green);
+            --accent1-color: var(--color-imarket-blue);
+            --accent2-color: var(--color-light-grey);
+            --heading-font: 'Merriweather', serif;
+            --paragraph-font: 'Roboto', sans-serif;
+        }
+        body {
+            font-family: var(--paragraph-font);
+            background-color: var(--accent2-color);
+            color: var(--primary-color);
+            padding: 2em;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            font-family: var(--heading-font);
+            color: var(--primary-color);
+        }
+        header {
+            background-color: var(--primary-color);
+            color: var(--accent2-color);
+            padding: 1em;
+            text-align: center;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        /* Styles for the color schema section */
+        .color-palette-display {
+            display: flex;
+        }
+        .color-box-primary {
+            background-color: #007BFF;
+        }
+        .color-box-secondary {
+            background-color: #F8F9FA;
+        }
+        .color-box-heading {
+            background-color: #212529;
+        }
+        .color-box-link {
+            background-color: #007BFF;
+        }
+        .color-box {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin: 0.5em;
+            border: 1px solid #ccc;
+        }
+        /* Styles for the typography section */
+        .typography-heading-example {
+            font-family: var(--heading-font);
+        }
+        .typography-paragraph-example {
+            font-family: var(--paragraph-font);
+        }
+        /* Styles for the wireframe section */
+        .wireframe-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }

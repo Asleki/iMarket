@@ -25,24 +25,22 @@
     "imported": false,
     "vat_included": true,
     "waiting_period_days": 7,
-    "car_display_image": "https://example.com/images/toyota_fielder_display.jpg",
+    "car_display_image": "images/toyota_fielder_display.webp",
     "images": [
-      "https://example.com/images/toyota_fielder_exterior_1.jpg",
-      "https://example.com/images/toyota_fielder_exterior_2.jpg",
-      "https://example.com/images/toyota_fielder_exterior_3.jpg",
-      "https://example.com/images/toyota_fielder_exterior_4.jpg",
-      "https://example.com/images/toyota_fielder_exterior_5.jpg",
-      "https://example.com/images/toyota_fielder_exterior_6.jpg"
+      "images/toyota_fielder_exterior_1.webp",
+      "images/toyota_fielder_exterior_2.webp",
+      "images/toyota_fielder_exterior_3.webp",
+      "images/toyota_fielder_exterior_4.webp",
+      "images/toyota_fielder_exterior_5.webp",
+      "images/toyota_fielder_exterior_6.webp"
     ],
     "interior_images": [
-      "https://example.com/images/toyota_fielder_interior_1.jpg",
-      "https://example.com/images/toyota_fielder_interior_2.jpg",
-      "https://example.com/images/toyota_fielder_interior_3.jpg",
-      "https://example.com/images/toyota_fielder_interior_4.jpg",
-      "https://example.com/images/toyota_fielder_interior_5.jpg",
-      "https://example.com/images/toyota_fielder_interior_6.jpg",
-      "https://example.com/images/toyota_fielder_interior_7.jpg",
-      "https://example.com/images/toyota_fielder_interior_8.jpg"
+      "images/toyota_fielder_interior_1.webp",
+      "images/toyota_fielder_interior_2.webp",
+      "images/toyota_fielder_interior_3.webp",
+      "images/toyota_fielder_interior_4.webp",
+      "images/toyota_fielder_interior_5.webp"
+
     ],
     "electric": false,
     "contact_agent": {
@@ -76,24 +74,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 30,
-    "car_display_image": "https://example.com/images/mazda_demio_display.jpg",
+    "car_display_image": "images/mazda_demio_display.webp",
     "images": [
-      "https://example.com/images/mazda_demio_exterior_1.jpg",
-      "https://example.com/images/mazda_demio_exterior_2.jpg",
-      "https://example.com/images/mazda_demio_exterior_3.jpg",
-      "https://example.com/images/mazda_demio_exterior_4.jpg",
-      "https://example.com/images/mazda_demio_exterior_5.jpg",
-      "https://example.com/images/mazda_demio_exterior_6.jpg"
+      "images/mazda_demio_exterior_1.webp",
+      "images/mazda_demio_exterior_2.webp",
+      "images/mazda_demio_exterior_3.webp",
+      "images/mazda_demio_exterior_4.webp",
+      "images/mazda_demio_exterior_5.webp",
+      "images/mazda_demio_exterior_6.webp"
     ],
     "interior_images": [
-      "https://example.com/images/mazda_demio_interior_1.jpg",
-      "https://example.com/images/mazda_demio_interior_2.jpg",
-      "https://example.com/images/mazda_demio_interior_3.jpg",
-      "https://example.com/images/mazda_demio_interior_4.jpg",
-      "https://example.com/images/mazda_demio_interior_5.jpg",
-      "https://example.com/images/mazda_demio_interior_6.jpg",
-      "https://example.com/images/mazda_demio_interior_7.jpg",
-      "https://example.com/images/mazda_demio_interior_8.jpg"
+      "images/mazda_demio_interior_1.webp",
+      "images/mazda_demio_interior_2.webp",
+      "images/mazda_demio_interior_3.webp",
+      "images/mazda_demio_interior_4.webp",
+      "images/mazda_demio_interior_5.webp",
+      "images/mazda_demio_interior_6.webp",
+      "images/mazda_demio_interior_7.webp"
+
     ],
     "electric": false,
     "contact_agent": {
@@ -129,24 +127,24 @@
     "imported": false,
     "vat_included": true,
     "waiting_period_days": 10,
-    "car_display_image": "https://example.com/images/subaru_forester_display.jpg",
+    "car_display_image": "images/subaru_forester_display.webp",
     "images": [
-      "https://example.com/images/subaru_forester_exterior_1.jpg",
-      "https://example.com/images/subaru_forester_exterior_2.jpg",
-      "https://example.com/images/subaru_forester_exterior_3.jpg",
-      "https://example.com/images/subaru_forester_exterior_4.jpg",
-      "https://example.com/images/subaru_forester_exterior_5.jpg",
-      "https://example.com/images/subaru_forester_exterior_6.jpg"
+      "images/subaru_forester_exterior_1.webp",
+      "images/subaru_forester_exterior_2.webp",
+      "images/subaru_forester_exterior_3.webp",
+      "images/subaru_forester_exterior_4.webp",
+      "images/subaru_forester_exterior_5.webp",
+      "images/subaru_forester_exterior_6.webp"
     ],
     "interior_images": [
-      "https://example.com/images/subaru_forester_interior_1.jpg",
-      "https://example.com/images/subaru_forester_interior_2.jpg",
-      "https://example.com/images/subaru_forester_interior_3.jpg",
-      "https://example.com/images/subaru_forester_interior_4.jpg",
-      "https://example.com/images/subaru_forester_interior_5.jpg",
-      "https://example.com/images/subaru_forester_interior_6.jpg",
-      "https://example.com/images/subaru_forester_interior_7.jpg",
-      "https://example.com/images/subaru_forester_interior_8.jpg"
+      "images/subaru_forester_interior_1.webp",
+      "images/subaru_forester_interior_2.webp",
+      "images/subaru_forester_interior_3.webp",
+      "images/subaru_forester_interior_4.webp",
+      "images/subaru_forester_interior_5.webp",
+      "images/subaru_forester_interior_6.webp",
+      "images/subaru_forester_interior_7.webp",
+      "images/subaru_forester_interior_8.webp"
     ],
     "electric": false,
     "contact_agent": {
@@ -180,24 +178,22 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 50,
-    "car_display_image": "https://example.com/images/nissan_note_epower_display.jpg",
+    "car_display_image": "images/nissan_note_epower_display.webp",
     "images": [
-      "https://example.com/images/nissan_note_epower_exterior_1.jpg",
-      "https://example.com/images/nissan_note_epower_exterior_2.jpg",
-      "https://example.com/images/nissan_note_epower_exterior_3.jpg",
-      "https://example.com/images/nissan_note_epower_exterior_4.jpg",
-      "https://example.com/images/nissan_note_epower_exterior_5.jpg",
-      "https://example.com/images/nissan_note_epower_exterior_6.jpg"
+      "images/nissan_note_epower_exterior_1.webp",
+      "images/nissan_note_epower_exterior_2.webp",
+      "images/nissan_note_epower_exterior_3.webp",
+      "images/nissan_note_epower_exterior_4.webp",
+      "images/nissan_note_epower_exterior_5.webp",
+      "images/nissan_note_epower_exterior_6.webp"
     ],
     "interior_images": [
-      "https://example.com/images/nissan_note_epower_interior_1.jpg",
-      "https://example.com/images/nissan_note_epower_interior_2.jpg",
-      "https://example.com/images/nissan_note_epower_interior_3.jpg",
-      "https://example.com/images/nissan_note_epower_interior_4.jpg",
-      "https://example.com/images/nissan_note_epower_interior_5.jpg",
-      "https://example.com/images/nissan_note_epower_interior_6.jpg",
-      "https://example.com/images/nissan_note_epower_interior_7.jpg",
-      "https://example.com/images/nissan_note_epower_interior_8.jpg"
+      "images/nissan_note_epower_interior_1.webp",
+      "images/nissan_note_epower_interior_2.webp",
+      "images/nissan_note_epower_interior_3.webp",
+      "images/nissan_note_epower_interior_4.webp",
+      "images/nissan_note_epower_interior_5.webp"
+
     ],
     "electric": true,
     "contact_agent": {
@@ -232,24 +228,23 @@
     "imported": false,
     "vat_included": true,
     "waiting_period_days": 14,
-    "car_display_image": "https://example.com/images/isuzu_dmax_display.jpg",
+    "car_display_image": "images/isuzu_dmax_display.webp",
     "images": [
-      "https://example.com/images/isuzu_dmax_exterior_1.jpg",
-      "https://example.com/images/isuzu_dmax_exterior_2.jpg",
-      "https://example.com/images/isuzu_dmax_exterior_3.jpg",
-      "https://example.com/images/isuzu_dmax_exterior_4.jpg",
-      "https://example.com/images/isuzu_dmax_exterior_5.jpg",
-      "https://example.com/images/isuzu_dmax_exterior_6.jpg"
+      "images/isuzu_dmax_exterior_1.webp",
+      "images/isuzu_dmax_exterior_2.webp",
+      "images/isuzu_dmax_exterior_3.webp",
+      "images/isuzu_dmax_exterior_4.webp",
+      "images/isuzu_dmax_exterior_5.webp",
+      "images/isuzu_dmax_exterior_6.webp"
     ],
     "interior_images": [
-      "https://example.com/images/isuzu_dmax_interior_1.jpg",
-      "https://example.com/images/isuzu_dmax_interior_2.jpg",
-      "https://example.com/images/isuzu_dmax_interior_3.jpg",
-      "https://example.com/images/isuzu_dmax_interior_4.jpg",
-      "https://example.com/images/isuzu_dmax_interior_5.jpg",
-      "https://example.com/images/isuzu_dmax_interior_6.jpg",
-      "https://example.com/images/isuzu_dmax_interior_7.jpg",
-      "https://example.com/images/isuzu_dmax_interior_8.jpg"
+      "images/isuzu_dmax_interior_1.webp",
+      "images/isuzu_dmax_interior_2.webp",
+      "images/isuzu_dmax_interior_3.webp",
+      "images/isuzu_dmax_interior_4.webp",
+      "images/isuzu_dmax_interior_5.webp",
+      "images/isuzu_dmax_interior_6.webp"
+
     ],
     "electric": false,
     "contact_agent": {
@@ -540,24 +535,23 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 365,
-    "car_display_image": "https://example.com/images/bugatti_chiron_supersport_display.jpg",
+    "car_display_image": "images/download (34).jpg",
     "images": [
-      "https://example.com/images/bugatti_chiron_supersport_exterior_1.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_exterior_2.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_exterior_3.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_exterior_4.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_exterior_5.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_exterior_6.jpg"
+      "images/download (36).jpg",
+      "images/download (37).jpg",
+      "images/ꜱɪɴ.jpg",
+      "images/download (41).jpg",
+      "images/download (40).jpg",
+      "images/download (39).jpg"
     ],
     "interior_images": [
-      "https://example.com/images/bugatti_chiron_supersport_interior_1.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_interior_2.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_interior_3.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_interior_4.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_interior_5.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_interior_6.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_interior_7.jpg",
-      "https://example.com/images/bugatti_chiron_supersport_interior_8.jpg"
+      "images/2022 Bugatti Chiron Super Sport - Full Image Gallery.jpg",
+      "images/bugatti interior.jpg",
+      "images/Bugatti.jpg",
+      "images/Bugatti-Chrion-Super-Sport-2.jpg",
+      "images/download (34).jpg",
+      "images/Luxury Cars.jpg"
+      
     ],
     "electric": false,
     "contact_agent": {
@@ -590,23 +584,22 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 40,
-    "car_display_image": "https://example.com/images/toyota_probox_display.jpg",
+    "car_display_image": "images/toyota_probox_display.webp",
     "images": [
-      "https://example.com/images/toyota_probox_exterior_1.jpg",
-      "https://example.com/images/toyota_probox_exterior_2.jpg",
-      "https://example.com/images/toyota_probox_exterior_3.jpg",
-      "https://example.com/images/toyota_probox_exterior_4.jpg",
+      "images/toyota_probox_exterior_1.webp",
+      "images/toyota_probox_exterior_2.jpg",
+      "images/toyota_probox_exterior_3.jpg",
+      "images/toyota_probox_exterior_4.jpg",
       "https://example.com/images/toyota_probox_exterior_5.jpg",
       "https://example.com/images/toyota_probox_exterior_6.jpg"
     ],
     "interior_images": [
-      "https://example.com/images/toyota_probox_interior_1.jpg",
-      "https://example.com/images/toyota_probox_interior_2.jpg",
-      "https://example.com/images/toyota_probox_interior_3.jpg",
-      "https://example.com/images/toyota_probox_interior_4.jpg",
-      "https://example.com/images/toyota_probox_interior_5.jpg",
-      "https://example.com/images/toyota_probox_interior_6.jpg",
-      "https://example.com/images/toyota_probox_interior_7.jpg",
+      "images/toyota_probox_interior_1.jpg",
+      "images/toyota_probox_interior_2.jpg",
+      "images/toyota_probox_interior_3.jpg",
+      "images/toyota_probox_interior_4.jpg",
+      "images/toyota_probox_interior_5.jpg",
+      "images/toyota_probox_interior_6.jpg",
       "https://example.com/images/toyota_probox_interior_8.jpg"
     ],
     "electric": false,
@@ -641,22 +634,22 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 35,
-    "car_display_image": "https://example.com/images/honda_fit_display.jpg",
+    "car_display_image": "images/honda_fit_display.jpg",
     "images": [
-      "https://example.com/images/honda_fit_exterior_1.jpg",
-      "https://example.com/images/honda_fit_exterior_2.jpg",
-      "https://example.com/images/honda_fit_exterior_3.jpg",
-      "https://example.com/images/honda_fit_exterior_4.jpg",
-      "https://example.com/images/honda_fit_exterior_5.jpg",
+      "images/honda_fit_exterior_1.jpg",
+      "images/honda_fit_exterior_2.jpg",
+      "images/honda_fit_exterior_3.jpg",
+      "images/honda_fit_exterior_4.jpg",
+      "images/honda_fit_exterior_5.jpg",
       "https://example.com/images/honda_fit_exterior_6.jpg"
     ],
     "interior_images": [
-      "https://example.com/images/honda_fit_interior_1.jpg",
-      "https://example.com/images/honda_fit_interior_2.jpg",
-      "https://example.com/images/honda_fit_interior_3.jpg",
-      "https://example.com/images/honda_fit_interior_4.jpg",
-      "https://example.com/images/honda_fit_interior_5.jpg",
-      "https://example.com/images/honda_fit_interior_6.jpg",
+      "images/honda_fit_interior_1.jpg",
+      "images/honda_fit_interior_2.jpg",
+      "images/honda_fit_interior_3.jpg",
+      "images/honda_fit_interior_4.jpg",
+      "images/honda_fit_interior_5.jpg",
+      "images/honda_fit_interior_6.jpg",
       "https://example.com/images/honda_fit_interior_7.jpg",
       "https://example.com/images/honda_fit_interior_8.jpg"
     ],
@@ -692,21 +685,20 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 50,
-    "car_display_image": "https://example.com/images/toyota_prado_tx_display.jpg",
+    "car_display_image": "images/toyota_prado_tx_display.jpg",
     "images": [
-      "https://example.com/images/toyota_prado_tx_exterior_1.jpg",
-      "https://example.com/images/toyota_prado_tx_exterior_2.jpg",
-      "https://example.com/images/toyota_prado_tx_exterior_3.jpg",
-      "https://example.com/images/toyota_prado_tx_exterior_4.jpg",
-      "https://example.com/images/toyota_prado_tx_exterior_5.jpg",
-      "https://example.com/images/toyota_prado_tx_exterior_6.jpg"
+      "images/toyota_prado_tx_exterior_1.jpg",
+      "images/toyota_prado_tx_exterior_2.jpg",
+      "images/toyota_prado_tx_exterior_3.jpg",
+      "https://example.com/images/toyota_prado_tx_exterior_4.jpg"
+      
     ],
     "interior_images": [
-      "https://example.com/images/toyota_prado_tx_interior_1.jpg",
-      "https://example.com/images/toyota_prado_tx_interior_2.jpg",
-      "https://example.com/images/toyota_prado_tx_interior_3.jpg",
-      "https://example.com/images/toyota_prado_tx_interior_4.jpg",
-      "https://example.com/images/toyota_prado_tx_interior_5.jpg",
+      "images/toyota_prado_tx_interior_1.jpg",
+      "images/toyota_prado_tx_interior_2.jpg",
+      "images/toyota_prado_tx_interior_3.jpg",
+      "images/toyota_prado_tx_interior_4.jpg",
+      "images/toyota_prado_tx_interior_5.jpg",
       "https://example.com/images/toyota_prado_tx_interior_6.jpg",
       "https://example.com/images/toyota_prado_tx_interior_7.jpg",
       "https://example.com/images/toyota_prado_tx_interior_8.jpg"
@@ -742,21 +734,19 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 30,
-    "car_display_image": "https://example.com/images/toyota_vitz_display.jpg",
+    "car_display_image": "images/toyota_vitz_display.jpg",
     "images": [
-      "https://example.com/images/toyota_vitz_exterior_1.jpg",
-      "https://example.com/images/toyota_vitz_exterior_2.jpg",
-      "https://example.com/images/toyota_vitz_exterior_3.jpg",
-      "https://example.com/images/toyota_vitz_exterior_4.jpg",
-      "https://example.com/images/toyota_vitz_exterior_5.jpg",
-      "https://example.com/images/toyota_vitz_exterior_6.jpg"
+      "images/toyota_vitz_exterior_1.jpg",
+      "images/toyota_vitz_exterior_2.jpg",
+      "images/toyota_vitz_exterior_3.jpg",
+      "images/toyota_vitz_exterior_4.jpg"
     ],
     "interior_images": [
-      "https://example.com/images/toyota_vitz_interior_1.jpg",
-      "https://example.com/images/toyota_vitz_interior_2.jpg",
-      "https://example.com/images/toyota_vitz_interior_3.jpg",
-      "https://example.com/images/toyota_vitz_interior_4.jpg",
-      "https://example.com/images/toyota_vitz_interior_5.jpg",
+      "images/toyota_vitz_interior_1.jpg",
+      "images/toyota_vitz_interior_2.jpg",
+      "images/toyota_vitz_interior_3.jpg",
+      "images/toyota_vitz_interior_4.jpg",
+      "images/toyota_vitz_interior_5.jpg",
       "https://example.com/images/toyota_vitz_interior_6.jpg",
       "https://example.com/images/toyota_vitz_interior_7.jpg",
       "https://example.com/images/toyota_vitz_interior_8.jpg"
@@ -793,25 +783,22 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 45,
-    "car_display_image": "https://example.com/images/honda_vezel_display.jpg",
+    "car_display_image": "images/honda_vezel_display.jpg",
     "images": [
-      "https://example.com/images/honda_vezel_exterior_1.jpg",
-      "https://example.com/images/honda_vezel_exterior_2.jpg",
-      "https://example.com/images/honda_vezel_exterior_3.jpg",
-      "https://example.com/images/honda_vezel_exterior_4.jpg",
-      "https://example.com/images/honda_vezel_exterior_5.jpg",
+      "images/honda_vezel_exterior_1.jpg",
+      "images/honda_vezel_exterior_2.jpg",
+      "images/honda_vezel_exterior_3.jpg",
+      "images/honda_vezel_exterior_4.jpg",
+      "images/honda_vezel_exterior_5.jpg",
       "https://example.com/images/honda_vezel_exterior_6.jpg"
     ],
     "interior_images": [
-      "https://example.com/images/honda_vezel_interior_1.jpg",
-      "https://example.com/images/honda_vezel_interior_2.jpg",
-      "https://example.com/images/honda_vezel_interior_3.jpg",
-      "https://example.com/images/honda_vezel_interior_4.jpg",
-      "https://example.com/images/honda_vezel_interior_5.jpg",
-      "https://example.com/images/honda_vezel_interior_6.jpg",
-      "https://example.com/images/honda_vezel_interior_7.jpg",
-      "https://example.com/images/honda_vezel_interior_8.jpg"
-    ],
+      "images/honda_vezel_interior_1.jpg",
+      "images/honda_vezel_interior_2.jpg",
+      "images/honda_vezel_interior_3.jpg",
+      "images/honda_vezel_interior_4.jpg",
+      "https://example.com/images/honda_vezel_interior_5.jpg"
+          ],
     "electric": true,
     "contact_agent": {
       "name": "Fatuma Ali",
@@ -844,21 +831,20 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 55,
-    "car_display_image": "https://example.com/images/vw_golf_gti_display.jpg",
+    "car_display_image": "images/vw_golf_gti_display.jpg",
     "images": [
-      "https://example.com/images/vw_golf_gti_exterior_1.jpg",
-      "https://example.com/images/vw_golf_gti_exterior_2.jpg",
-      "https://example.com/images/vw_golf_gti_exterior_3.jpg",
-      "https://example.com/images/vw_golf_gti_exterior_4.jpg",
-      "https://example.com/images/vw_golf_gti_exterior_5.jpg",
-      "https://example.com/images/vw_golf_gti_exterior_6.jpg"
+      "images/vw_golf_gti_exterior_1.jpg",
+      "images/vw_golf_gti_exterior_2.jpg",
+      "images/vw_golf_gti_exterior_3.jpg",
+      "https://example.com/images/vw_golf_gti_exterior_4.jpg"
+     
     ],
     "interior_images": [
-      "https://example.com/images/vw_golf_gti_interior_1.jpg",
-      "https://example.com/images/vw_golf_gti_interior_2.jpg",
-      "https://example.com/images/vw_golf_gti_interior_3.jpg",
-      "https://example.com/images/vw_golf_gti_interior_4.jpg",
-      "https://example.com/images/vw_golf_gti_interior_5.jpg",
+      "images/vw_golf_gti_interior_1.jpg",
+      "images/vw_golf_gti_interior_2.jpg",
+      "images/vw_golf_gti_interior_3.jpg",
+      "images/vw_golf_gti_interior_4.jpg",
+      "images/vw_golf_gti_interior_5.jpg",
       "https://example.com/images/vw_golf_gti_interior_6.jpg",
       "https://example.com/images/vw_golf_gti_interior_7.jpg",
       "https://example.com/images/vw_golf_gti_interior_8.jpg"
@@ -895,24 +881,22 @@
     "imported": false,
     "vat_included": true,
     "waiting_period_days": 20,
-    "car_display_image": "https://example.com/images/toyota_hilux_display.jpg",
+    "car_display_image": "images/toyota_hilux_display.jpg",
     "images": [
-      "https://example.com/images/toyota_hilux_exterior_1.jpg",
-      "https://example.com/images/toyota_hilux_exterior_2.jpg",
-      "https://example.com/images/toyota_hilux_exterior_3.jpg",
-      "https://example.com/images/toyota_hilux_exterior_4.jpg",
-      "https://example.com/images/toyota_hilux_exterior_5.jpg",
-      "https://example.com/images/toyota_hilux_exterior_6.jpg"
+      "images/toyota_hilux_exterior_1.jpg",
+      "images/toyota_hilux_exterior_2.jpg",
+      "images/toyota_hilux_exterior_3.jpg",
+      "images/toyota_hilux_exterior_4.jpg",
+      "images/toyota_hilux_exterior_5.jpg"
+     
     ],
     "interior_images": [
-      "https://example.com/images/toyota_hilux_interior_1.jpg",
-      "https://example.com/images/toyota_hilux_interior_2.jpg",
-      "https://example.com/images/toyota_hilux_interior_3.jpg",
-      "https://example.com/images/toyota_hilux_interior_4.jpg",
-      "https://example.com/images/toyota_hilux_interior_5.jpg",
-      "https://example.com/images/toyota_hilux_interior_6.jpg",
-      "https://example.com/images/toyota_hilux_interior_7.jpg",
-      "https://example.com/images/toyota_hilux_interior_8.jpg"
+      "toyota_hilux_interior_1.jpg",
+      "images/toyota_hilux_interior_2.jpg",
+      "images/toyota_hilux_interior_3.jpg",
+      "images/toyota_hilux_interior_4.jpg",
+      "https://example.com/images/toyota_hilux_interior_5.jpg"
+     
     ],
     "electric": false,
     "contact_agent": {
@@ -922,7 +906,7 @@
     }
   },
   {
-    "make": "Lexus",
+    "make": "Ac Schnitzer",
     "model": "RX 450h",
     "year": 2019,
     "color": "Atomic Silver",
@@ -936,7 +920,7 @@
       "Power Liftgate",
       "Leather Interior"
     ],
-    "number_of_doors": 5,
+    "number_of_doors": 4,
     "seating_capacity": 5,
     "fuel_efficiency": {
       "city_km_per_liter": 15.0,
@@ -946,24 +930,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 60,
-    "car_display_image": "https://example.com/images/lexus_rx450h_display.jpg",
+    "car_display_image": "images/AC-Schnitzer-BMW-X3-New-7-2048x1367.webp",
     "images": [
-      "https://example.com/images/lexus_rx450h_exterior_1.jpg",
-      "https://example.com/images/lexus_rx450h_exterior_2.jpg",
-      "https://example.com/images/lexus_rx450h_exterior_3.jpg",
-      "https://example.com/images/lexus_rx450h_exterior_4.jpg",
-      "https://example.com/images/lexus_rx450h_exterior_5.jpg",
-      "https://example.com/images/lexus_rx450h_exterior_6.jpg"
+      "images/AC-Schnitzer-BMW-X3-New-8-2048x1367.webp",
+      "images/AC-Schnitzer-BMW-X3-New-6-2048x1367.webp",
+      "images/ac_schnitzer5.webp",
+      "images/AC-Schnitzer-BMW-X3-New-13-2048x1367.webp",
+      "images/ac_schnitzer2.webp",
+      "images/ac_schnitzer1.webp"
     ],
     "interior_images": [
-      "https://example.com/images/lexus_rx450h_interior_1.jpg",
-      "https://example.com/images/lexus_rx450h_interior_2.jpg",
-      "https://example.com/images/lexus_rx450h_interior_3.jpg",
-      "https://example.com/images/lexus_rx450h_interior_4.jpg",
-      "https://example.com/images/lexus_rx450h_interior_5.jpg",
-      "https://example.com/images/lexus_rx450h_interior_6.jpg",
-      "https://example.com/images/lexus_rx450h_interior_7.jpg",
-      "https://example.com/images/lexus_rx450h_interior_8.jpg"
+      "images/This 1995 BMW M3 GT can be purchased for $118,000.jpg",
+      "images/DRIVERS_ Nick Sisombath and His 1997 BMW M3 E36.jpg",
+      "images/download (36).jpg",
+      "images/ac_schnitzer_interior4.jpg",
+      "images/ac_schnitzer_interior3.jpg",
+      "images/ac_schnitzer_interior2.jpg",
+      "images/ac_schnitzer_interior1.jpg"
+      
     ],
     "electric": true,
     "contact_agent": {
@@ -973,10 +957,10 @@
     }
   },
   {
-    "make": "Toyota",
-    "model": "Harrier",
+    "make": "Bentley",
+    "model": "Mulsanne Grand Limousine",
     "year": 2020,
-    "color": "Black",
+    "color": "Gold",
     "price": 4000000,
     "engine_type": "2.0L Petrol",
     "features": [
@@ -987,7 +971,7 @@
       "Lane Departure Alert",
       "JBL Audio System"
     ],
-    "number_of_doors": 5,
+    "number_of_doors": 4,
     "seating_capacity": 5,
     "fuel_efficiency": {
       "city_km_per_liter": 13.0,
@@ -997,24 +981,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 45,
-    "car_display_image": "https://example.com/images/toyota_harrier_display.jpg",
+    "car_display_image": "images/Bentley-Mulsanne-Grand-Limousine-7_result22.webp",
     "images": [
-      "https://example.com/images/toyota_harrier_exterior_1.jpg",
-      "https://example.com/images/toyota_harrier_exterior_2.jpg",
-      "https://example.com/images/toyota_harrier_exterior_3.jpg",
-      "https://example.com/images/toyota_harrier_exterior_4.jpg",
-      "https://example.com/images/toyota_harrier_exterior_5.jpg",
-      "https://example.com/images/toyota_harrier_exterior_6.jpg"
+      "images/Bentley-Mulsanne-Grand-Limousine-13_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-12_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-9_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-8_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-4_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-1_result22.webp"
     ],
     "interior_images": [
-      "https://example.com/images/toyota_harrier_interior_1.jpg",
-      "https://example.com/images/toyota_harrier_interior_2.jpg",
-      "https://example.com/images/toyota_harrier_interior_3.jpg",
-      "https://example.com/images/toyota_harrier_interior_4.jpg",
-      "https://example.com/images/toyota_harrier_interior_5.jpg",
-      "https://example.com/images/toyota_harrier_interior_6.jpg",
-      "https://example.com/images/toyota_harrier_interior_7.jpg",
-      "https://example.com/images/toyota_harrier_interior_8.jpg"
+      "images/Bentley-Mulsanne-Grand-Limousine-26_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-27_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-25_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-23_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-23_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-15_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-16_result22.webp",
+      "images/Bentley-Mulsanne-Grand-Limousine-25_result22.webp"
     ],
     "electric": false,
     "contact_agent": {

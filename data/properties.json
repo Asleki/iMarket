@@ -40,15 +40,15 @@
       "Borehole"
     ],
     "images": [
-      "https://example.com/images/prop001_exterior_1.jpg",
-      "https://example.com/images/prop001_exterior_2.jpg",
-      "https://example.com/images/prop001_exterior_3.jpg"
+      "images/prop001_exterior_1.webp",
+      "images/prop001_exterior_2.webp",
+      "images/prop001_exterior_3.webp"
     ],
     "interiorImages": [
-      "https://example.com/images/prop001_living_room.jpg",
-      "https://example.com/images/prop001_kitchen.jpg",
-      "https://example.com/images/prop001_bedroom_master.jpg",
-      "https://example.com/images/prop001_bathroom.jpg"
+      "images/prop001_living_room.webp",
+      "images/prop001_kitchen.webp",
+      "images/prop001_bedroom_master.webp",
+      "images/prop001_bathroom.webp"
     ],
     "allowedPaymentModes": [
       "Bank Transfer",
@@ -119,13 +119,13 @@
       "Fitted Kitchen"
     ],
     "images": [
-      "https://example.com/images/prop002_exterior_1.jpg",
-      "https://example.com/images/prop002_exterior_2.jpg"
+      "images/prop002_exterior_1.webp",
+      "images/prop002_exterior_2.webp"
     ],
     "interiorImages": [
-      "https://example.com/images/prop002_living_area.jpg",
-      "https://example.com/images/prop002_kitchenette.jpg",
-      "https://example.com/images/prop002_balcony_view.jpg"
+      "images/prop002_living_area.webp",
+      "images/prop002_kitchenette.webp",
+      "images/prop002_balcony_view.webp"
     ],
     "allowedPaymentModes": [
       "Bank Transfer",
@@ -179,8 +179,8 @@
       "High Growth Area"
     ],
     "images": [
-      "https://example.com/images/prop003_plot_aerial.jpg",
-      "https://example.com/images/prop003_street_view.jpg"
+      "images/prop003_plot_aerial.webp",
+      "images/prop003_street_view.jpg"
     ],
     "interiorImages": [],
     "allowedPaymentModes": [
@@ -237,12 +237,12 @@
       "Staff Quarters"
     ],
     "images": [
-      "https://example.com/images/prop004_ext_1.jpg",
-      "https://example.com/images/prop004_ext_2.jpg"
+      "images/prop004_ext_1.webp",
+      "images/prop004_ext_2.webp"
     ],
     "interiorImages": [
-      "https://example.com/images/prop004_living.jpg",
-      "https://example.com/images/prop004_bed.jpg"
+      "images/prop004_living.webp",
+      "images/prop004_bed.webp"
     ],
     "allowedPaymentModes": [
       "Bank Transfer",
@@ -303,12 +303,12 @@
       "High-Speed Internet"
     ],
     "images": [
-      "https://example.com/images/prop005_ext_1.jpg",
-      "https://example.com/images/prop005_view.jpg"
+      "images/prop005_ext_1.webp",
+      "images/prop005_view.webp"
     ],
     "interiorImages": [
-      "https://example.com/images/prop005_living.jpg",
-      "https://example.com/images/prop005_kitchen.jpg"
+      "images/prop005_living.webp",
+      "images/prop005_kitchen.webp"
     ],
     "allowedPaymentModes": [
       "Bank Transfer"
@@ -353,8 +353,8 @@
       "Good Road Network"
     ],
     "images": [
-      "https://example.com/images/prop006_land_1.jpg",
-      "https://example.com/images/prop006_land_2.jpg"
+      "images/prop006_land_1.webp",
+      "images/prop006_land_2.webp"
     ],
     "interiorImages": [],
     "allowedPaymentModes": [
@@ -405,12 +405,12 @@
       "Solar Water Heating"
     ],
     "images": [
-      "https://example.com/images/prop007_ext_1.jpg",
-      "https://example.com/images/prop007_int_1.jpg"
+      "images/prop007_ext_1.webp",
+      "images/prop007_int_1.webp"
     ],
     "interiorImages": [
-      "https://example.com/images/prop007_living.jpg",
-      "https://example.com/images/prop007_kitchen.jpg"
+      "images/prop007_living.webp",
+      "images/prop007_kitchen.webp"
     ],
     "allowedPaymentModes": [
       "Bank Transfer",
@@ -461,11 +461,11 @@
       "Shared Laundry"
     ],
     "images": [
-      "https://example.com/images/prop008_studio_1.jpg",
-      "https://example.com/images/prop008_studio_2.jpg"
+      "images/prop008_studio_1.webp",
+      "images/prop008_studio_2.webp"
     ],
     "interiorImages": [
-      "https://example.com/images/prop008_interior.jpg"
+      "images/prop008_interior.webp"
     ],
     "allowedPaymentModes": [
       "Bank Transfer"
@@ -520,8 +520,8 @@
       "High Traffic Area"
     ],
     "images": [
-      "https://example.com/images/prop009_bld_1.jpg",
-      "https://example.com/images/prop009_bld_2.jpg"
+      "images/prop009_bld_1.webp",
+      "images/prop009_bld_2.webp"
     ],
     "interiorImages": [],
     "allowedPaymentModes": [
@@ -577,12 +577,12 @@
       "Ample Parking"
     ],
     "images": [
-      "https://example.com/images/prop010_ext_1.jpg",
-      "https://example.com/images/prop010_pool.jpg"
+      "images/prop010_ext_1.webp",
+      "images/prop010_pool.webp"
     ],
     "interiorImages": [
-      "https://example.com/images/prop010_living.jpg",
-      "https://example.com/images/prop010_master.jpg"
+      "images/prop010_living.webp",
+      "images/prop010_master.webp"
     ],
     "allowedPaymentModes": [
       "Bank Transfer",
@@ -640,10 +640,10 @@
       "Fitted Kitchen"
     ],
     "images": [
-      "https://example.com/images/prop011_ext_1.jpg"
+      "images/prop011_ext_1.webp"
     ],
     "interiorImages": [
-      "https://example.com/images/prop011_living.jpg"
+      "images/prop011_living.webp"
     ],
     "allowedPaymentModes": [
       "Bank Transfer",
@@ -689,8 +689,8 @@
       "Proximity to Limuru Town"
     ],
     "images": [
-      "https://example.com/images/prop012_plot_1.jpg",
-      "https://example.com/images/prop012_view.jpg"
+      "images/prop012_plot_1.webp",
+      "images/prop012_view.webp"
     ],
     "interiorImages": [],
     "allowedPaymentModes": [
